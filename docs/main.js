@@ -5,7 +5,7 @@ var height = +svg.attr('height');
 var colorScale = d3.scaleOrdinal(d3.schemeTableau10);
 var linkScale = d3.scaleSqrt().range([1,5]);
 
-d3.json('fights.json').then(function(dataset) {
+d3.json('hw_fights.json').then(function(dataset) {
     network = dataset;
 
     linkScale.domain(d3.extent(network.links, function(d){ return d.value;}));
@@ -86,6 +86,17 @@ d3.json('fights.json').then(function(dataset) {
     }
 
     
-        
+    var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([ -15, 0 ])
+    .html(function(d) { 
+        return d.id; 
+    });
+
+    svg.call(tip);
+
+    nodeEnter
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
 });
 

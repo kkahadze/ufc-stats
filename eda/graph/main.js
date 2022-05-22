@@ -5,7 +5,7 @@ var height = +svg.attr('height');
 var colorScale = d3.scaleOrdinal(d3.schemeTableau10);
 var linkScale = d3.scaleSqrt().range([1,5]);
 
-d3.json('fights.json').then(function(dataset) {
+d3.json('heavyweights.json').then(function(dataset) {
     network = dataset;
 
     linkScale.domain(d3.extent(network.links, function(d){ return d.value;}));
@@ -39,7 +39,16 @@ d3.json('fights.json').then(function(dataset) {
         .attr('r', 6)
         .style('fill', function(d) {
             return colorScale(d.group);
-        });
+        })
+        ;
+        
+    var tooltip = nodeG.selectAll('.node')
+        .data(network.nodes)
+        .append("text")
+        .text(function(d, i){return d.name;})
+        .style('opacity', 0)
+        .on("mouseover", function(d){d3.select(this).style("opacity", 1)})
+        .on("mouseout", function(d){d3.select(this).style("opacity", 0)});
     
     simulation
         .nodes(dataset.nodes)
@@ -85,6 +94,10 @@ d3.json('fights.json').then(function(dataset) {
         d.fy = null;
     }
 
+
+    d3.select(".labels")
+        .on("mouseover", function(){return tooltip.style("visibility", "visible");})
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
     
         
 });
