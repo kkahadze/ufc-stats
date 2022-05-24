@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>UFC Stats</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="main">
-        <svg width="1200" height="1200" style="border: 1px solid #777;">
+        <svg width="600" height="600" style="border: 1px solid #777;">
         </svg>
     </div>
+    <div style="position: absolute; top: 300px; left:20px">
+        <div>
+            <label for="categorySelect">Y Scale:</label>
+        </div>
+        <select class="custom-select small" id="yScaleSelect" onchange="onYScaleChanged()">
+            <option value="FLW">Flyweight</option>
+            <option value="BW">Bantamweight</option>
+            <option value="FTW">Featherweight</option>
+            <option value="LW">Lightweight</option>
+            <option value="WW">Welterweight</option>
+            <option value="MW">Middleweight</option>
+            <option value="LHW">Light Heavyweight</option>
+            <option value="HW">Heavyweight</option>
+        </select>
+    </div>
 </body>
-<!-- <script src="./d3.min.js"></script> -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
 <script src="./d3-tip.js"></script>
 <script src="./main.js"></script>
