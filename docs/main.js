@@ -108,7 +108,7 @@ function draw(filename){
 	});
 }
 
-draw("hw_fights.json")
+draw("data/hw_fights.json")
 
 function onWeightChanged() {
     let graph = document.getElementById("graph")
@@ -116,29 +116,35 @@ function onWeightChanged() {
 	switch(d3.select('#weightSelect').node().selectedIndex) {
 		case 0:
 			console.log("Flyweight");
+			draw("data/flw_fights.json")
 			break;
 		case 1:
 			console.log("Bantamweight");
+			draw("data/bw_fights.json")
 			break;
 		case 2:
 			console.log("Featherweight");
+			draw("data/fw_fights.json")
 			break;
 		case 3:
 			console.log("Lightweight");
+			draw("data/lw_fights.json")
 			break;
 		case 4:
 			console.log("Welterweight");
+			draw("data/ww_fights.json")
 			break;
 		case 5:
 			console.log("Middleweight");
+			draw("data/mw_fights.json")
 			break;
 		case 6:
 			console.log("Light Heavyweight");
-			draw("lhw_fights.json")
+			draw("data/lhw_fights.json")
 			break;
 		case 7:
 			console.log("Heavyweight");
-			draw("hw_fights.json")
+			draw("data/hw_fights.json")
 			break;															
 			
 	}   
