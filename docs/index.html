@@ -8,14 +8,14 @@
 </head>
 <body>
     <div id="main">
-        <svg width="600" height="600" style="border: 1px solid #777;">
+        <svg id="graph" width="1000" height="800" style="border: 1px solid #777;">
         </svg>
     </div>
     <div style="position: absolute; top: 300px; left:20px">
         <div>
             <label for="categorySelect">Y Scale:</label>
         </div>
-        <select class="custom-select small" id="yScaleSelect" onchange="onYScaleChanged()">
+        <select class="custom-select small" id="weightSelect" onchange="onWeightChanged()">
             <option value="FLW">Flyweight</option>
             <option value="BW">Bantamweight</option>
             <option value="FTW">Featherweight</option>
@@ -23,7 +23,7 @@
             <option value="WW">Welterweight</option>
             <option value="MW">Middleweight</option>
             <option value="LHW">Light Heavyweight</option>
-            <option value="HW">Heavyweight</option>
+            <option selected value="HW">Heavyweight</option>
         </select>
     </div>
 </body>

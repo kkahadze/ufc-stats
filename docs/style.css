@@ -17,7 +17,8 @@ body {
 }
 
 #main {
-    margin-left:160px
+    margin: 20px;
+    margin-left: 160px;
 }
 
 .d3-tip {
