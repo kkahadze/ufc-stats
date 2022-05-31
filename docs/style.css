@@ -16,9 +16,13 @@ body {
     margin: 0;
 }
 
-#main {
+#fightGraph {
     margin: 20px;
     margin-left: 160px;
+}
+
+#fightsFDL{
+	width: 100px
 }
 
 .d3-tip {
