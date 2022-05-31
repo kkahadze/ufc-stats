@@ -18,11 +18,21 @@ body {
 
 #fightGraph {
     margin: 20px;
-    margin-left: 160px;
 }
 
-#fightsFDL{
-	width: 100px
+#fightsFDL {
+	-webkit-transform:scale(0.9);
+	-moz-transform:scale(0.9);
+	-ms-transform:scale(0.9);
+	transform:scale(0.9);
+}
+
+#weightDD{
+	-webkit-transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-ms-transform:scale(1.5);
+	transform:scale(1.5);
+	margin: 200px;
 }
 
 .d3-tip {
