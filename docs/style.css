@@ -12,8 +12,19 @@
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Tahoma";
     margin: 0;
+	background-color:#fff	;
+}
+
+#header {
+	position: absolute;
+	top: 2%;
+	left: 40%;
+}
+
+#heading {
+	font-size: 50px;
 }
 
 #fightGraph {
@@ -21,6 +32,8 @@ body {
 }
 
 #fightsFDL {
+	position: absolute;
+	top: 4%;
 	-webkit-transform:scale(0.9);
 	-moz-transform:scale(0.9);
 	-ms-transform:scale(0.9);
@@ -28,11 +41,22 @@ body {
 }
 
 #weightDD{
-	-webkit-transform:scale(1.5);
-	-moz-transform:scale(1.5);
-	-ms-transform:scale(1.5);
-	transform:scale(1.5);
-	margin: 200px;
+	position: absolute;
+	right: 19%;
+	top: 14%;
+	-webkit-transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-ms-transform:scale(1.3);
+	transform:scale(1.3);
+}
+
+#caption{
+	color: grey;
+	font-size: 12px;
+	width: 200px;
+	position: absolute;
+	right:17%;
+	top: 70%
 }
 
 .d3-tip {

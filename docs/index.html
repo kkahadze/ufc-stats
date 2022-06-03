@@ -7,26 +7,39 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id="header">
+        <p >
+            <text id="heading">UFC Fight Map</text>
+        </p>
+    </div>
     <div id="fightsFDL">
         <div id="fightGraph">
             <svg id="graph" width="1000" height="800" style="border: 1px solid #777;">
             </svg>
         </div>
-        <div id="weightDD">
-            <div>
-                <label for="categorySelect">Weight Class:</label>
-            </div>
-            <select class="custom-select small" id="weightSelect" onchange="onWeightChanged()">
-                <option value="FLW">Flyweight</option>
-                <option value="BW">Bantamweight</option>
-                <option value="FTW">Featherweight</option>
-                <option value="LW">Lightweight</option>
-                <option value="WW">Welterweight</option>
-                <option value="MW">Middleweight</option>
-                <option value="LHW">Light Heavyweight</option>
-                <option selected value="HW">Heavyweight</option>
-            </select>
+    </div>
+    <div id="weightDD">
+        <div>
+            <label for="categorySelect">Weight Class:</label>
         </div>
+        <select class="custom-select small" id="weightSelect" onchange="onWeightChanged()">
+            <option value="FLW">Flyweight</option>
+            <option value="BW">Bantamweight</option>
+            <option value="FTW">Featherweight</option>
+            <option value="LW">Lightweight</option>
+            <option value="WW">Welterweight</option>
+            <option value="MW">Middleweight</option>
+            <option value="LHW">Light Heavyweight</option>
+            <option selected value="HW">Heavyweight</option>
+        </select>
+    </div>
+
+    <div id="caption">
+        <text>
+            This graph can be used in order to analyze different weight classes in the UFC and visualize which fighters have
+            fought the most other fighters in their division, which ones have fought the least, and which fighters have fought 
+            one another multiple times. Try hovering over the nodes and dragging them around in order to get a better view of each.
+        </text>
     </div>
 </body>
 
