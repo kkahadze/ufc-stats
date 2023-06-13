@@ -1,2 +1,2 @@
 # UFC Fight Map
-Can be viewed [here](https://kkahadze.github.io/ufc-stats)
+A 3D Visualization of UFC fight history. Can be viewed [here](https://kkahadze.github.io/ufc-stats)
