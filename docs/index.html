@@ -2,51 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UFC Stats</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Fight Map</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="header">
-        <p >
-            <text id="heading">UFC Fight Map</text>
-        </p>
-    </div>
-    <div id="fightsFDL">
-        <div id="fightGraph">
-            <svg id="graph" width="1000" height="800" style="border: 1px solid #777;">
-            </svg>
-        </div>
-    </div>
-    <div id="weightDD">
-        <div>
-            <label for="categorySelect">Weight Class:</label>
-        </div>
-        <select class="custom-select small" id="weightSelect" onchange="onWeightChanged()">
-            <option value="FLW">Flyweight</option>
-            <option value="BW">Bantamweight</option>
-            <option value="FTW">Featherweight</option>
-            <option value="LW">Lightweight</option>
-            <option value="WW">Welterweight</option>
-            <option value="MW">Middleweight</option>
-            <option value="LHW">Light Heavyweight</option>
-            <option selected value="HW">Heavyweight</option>
-        </select>
-    </div>
+    <div class="pageShell">
+        <header id="header" class="hero">
+            <div class="heroPanel">
+                <div class="heroCopy">
+                    <div class="heroTitleBlock">
+                        <p class="eyebrow">Official UFC Network Explorer</p>
+                        <h1 id="heading">UFC Fight Map</h1>
+                    </div>
+                    <div class="heroDetail">
+                        <p class="heroText">
+                            A cleaner view of how every division connects through shared opponents, titleholders, and current contenders.
+                        </p>
+                    </div>
+                </div>
 
-    <div id="caption">
-        <text>
-            This graph can be used in order to analyze different weight classes in the UFC and visualize which fighters have
-            fought the most other fighters in their division, which ones have fought the least, and which fighters have fought 
-            one another multiple times. Try hovering over the nodes and dragging them around in order to get a better view of each.
-        </text>
+                <div class="heroStats" aria-label="Site highlights">
+                    <div class="heroStat">
+                        <span class="heroStatValue">12</span>
+                        <span class="heroStatLabel">Tracked divisions</span>
+                    </div>
+                    <div class="heroStat">
+                        <span class="heroStatValue">Top 15</span>
+                        <span class="heroStatLabel">Default roster view</span>
+                    </div>
+                    <div class="heroStat">
+                        <span class="heroStatValue">3</span>
+                        <span class="heroStatLabel">Roster filters</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="contentGrid">
+            <section class="graphCard">
+                <div class="graphCardHeader">
+                    <div>
+                        <p class="sectionEyebrow">Network View</p>
+                        <h2 class="sectionTitle">Opponent web by division</h2>
+                    </div>
+                    <div class="graphHint">Drag nodes, hover fighters or matchups for detail, hold Command and scroll to zoom.</div>
+                </div>
+
+                <div id="fightGraph" class="graphStage">
+                    <svg id="graph" width="1000" height="800" viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid meet"></svg>
+                </div>
+
+                <div id="fightsFDL" class="graphMeta">
+                    <div class="metaCard">
+                        <span class="metaLabel">Active filter</span>
+                        <p id="filterSummary" class="controlNote"></p>
+                    </div>
+                    <div class="metaCard">
+                        <span class="metaLabel">Source snapshot</span>
+                        <p id="sourceNote" class="controlNote"></p>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <section id="controlsPanel" class="panel">
+                    <div class="panelHeader">
+                        <p class="sectionEyebrow">Controls</p>
+                        <h2 class="sectionTitle sectionTitle-small">Shape the graph</h2>
+                    </div>
+
+                    <div class="controlGroup">
+                        <label for="weightSelect">Weight Class</label>
+                        <select id="weightSelect" onchange="onWeightChanged()">
+                            <option value="flw_fights.json">Flyweight</option>
+                            <option value="bw_fights.json">Bantamweight</option>
+                            <option value="fw_fights.json">Featherweight</option>
+                            <option selected value="lw_fights.json">Lightweight</option>
+                            <option value="ww_fights.json">Welterweight</option>
+                            <option value="mw_fights.json">Middleweight</option>
+                            <option value="lhw_fights.json">Light Heavyweight</option>
+                            <option value="hw_fights.json">Heavyweight</option>
+                            <option value="wsw_fights.json">Women's Strawweight</option>
+                            <option value="wflw_fights.json">Women's Flyweight</option>
+                            <option value="wbw_fights.json">Women's Bantamweight</option>
+                            <option value="wfw_fights.json">Women's Featherweight</option>
+                        </select>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="rosterFilter">Roster Filter</label>
+                        <select id="rosterFilter" onchange="onFilterChanged()">
+                            <option value="all">All fighters</option>
+                            <option selected value="ranked">Current Top 15</option>
+                            <option value="legacy">Former champs + title challengers</option>
+                        </select>
+                    </div>
+                    <div class="controlGroup">
+                        <label for="minFightCount">Minimum UFC Fights In Division</label>
+                        <select id="minFightCount" onchange="onFilterChanged()">
+                            <option value="0">Any</option>
+                            <option value="5">5+ fights</option>
+                            <option value="10">10+ fights</option>
+                            <option value="15">15+ fights</option>
+                            <option value="20">20+ fights</option>
+                        </select>
+                    </div>
+                    <div class="controlGroup controlGroup-search">
+                        <label for="fighterSearch">Spotlight Fighter</label>
+                        <div class="searchField">
+                            <input
+                                id="fighterSearch"
+                                class="searchInput"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Search visible fighters"
+                                aria-describedby="fighterSearchNote"
+                            >
+                            <button id="fighterSearchClear" class="searchClear" type="button">Clear</button>
+                        </div>
+                        <div id="fighterSearchResults" class="searchResults" role="listbox" aria-label="Visible fighter search results"></div>
+                        <p id="fighterSearchNote" class="controlNote searchNote">Searches the fighters currently visible in this division view.</p>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <div class="panelHeader">
+                        <p class="sectionEyebrow">Legend</p>
+                        <h2 class="sectionTitle sectionTitle-small">Status markers</h2>
+                    </div>
+                    <div id="statusLegend">
+                        <div class="legendItem">
+                            <span class="legendSwatch legendSwatch-champion"></span>
+                            <span>Champion: gold double ring</span>
+                        </div>
+                        <div class="legendItem">
+                            <span class="legendSwatch legendSwatch-ranked"></span>
+                            <span>Top 15: silver ring</span>
+                        </div>
+                        <div class="legendItem">
+                            <span class="legendSwatch legendSwatch-former"></span>
+                            <span>Former champion: bronze dashed ring</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="caption" class="panel panel-muted">
+                    <div class="panelHeader">
+                        <p class="sectionEyebrow">About</p>
+                        <h2 class="sectionTitle sectionTitle-small">How to read it</h2>
+                    </div>
+                    <p id="captionText">
+                        Each node is a fighter. Each link is a matchup history inside the selected weight class. Flags come from UFC athlete data, while the ring treatment highlights current champions, ranked contenders, and former divisional champions.
+                    </p>
+                </section>
+            </aside>
+        </main>
     </div>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
 <script src="./d3-tip.js"></script>

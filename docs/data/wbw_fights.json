@@ -1,0 +1,5433 @@
+{
+  "meta": {
+    "division": "Women's Bantamweight",
+    "filename": "wbw_fights.json",
+    "source_name": "UFC Stats",
+    "source_url": "http://ufcstats.com/statistics/events/completed?page=all",
+    "ranking_source_name": "UFC.com Rankings",
+    "ranking_source_url": "https://www.ufc.com/rankings",
+    "rankings_updated_text": null,
+    "latest_resolved_event_date": "2026-03-07",
+    "fighter_count": 101,
+    "matchup_count": 234,
+    "bout_count": 240
+  },
+  "nodes": [
+    {
+      "id": "06e4245d16fc5315",
+      "label": "Ailin Perez",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "6",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "flagEmoji": "\ud83c\udde6\ud83c\uddf7"
+    },
+    {
+      "id": "4c2d90e335e6df19",
+      "label": "Alexis Davis",
+      "group": "Women's Bantamweight",
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "4ae4049426e0161d",
+      "label": "Alexis Dufresne",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "81d2c551886bd5a1",
+      "label": "Alice Pereira",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "3df5493bb279226f",
+      "label": "Amanda Lemos",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "80fa8218c99f9c58",
+      "label": "Amanda Nunes",
+      "group": "Women's Bantamweight",
+      "fightCount": 15,
+      "uniqueOpponentCount": 12,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "1536a25e16fc299b",
+      "label": "Anna Elmose",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "DK",
+      "countryName": "Denmark",
+      "flagEmoji": "\ud83c\udde9\ud83c\uddf0"
+    },
+    {
+      "id": "6551c64fbcd1a467",
+      "label": "Ariane da Silva",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "fc6e681bf6658faf",
+      "label": "Ashlee Evans-Smith",
+      "group": "Women's Bantamweight",
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "d4691518d012b9e7",
+      "label": "Aspen Ladd",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "b60c980f79b87ce8",
+      "label": "Bea Malecki",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "flagEmoji": "\ud83c\uddf8\ud83c\uddea"
+    },
+    {
+      "id": "673ea7dcc786b1b3",
+      "label": "Bethe Correia",
+      "group": "Women's Bantamweight",
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "eff9074bc066f0f2",
+      "label": "Bia Mesquita",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "3ecd936bd8814108",
+      "label": "Cat Zingano",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "af9efbfd63d39734",
+      "label": "Chelsea Chandler",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "9eef6584fab21fbb",
+      "label": "Cindy Dandois",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddea"
+    },
+    {
+      "id": "07047eb7d17fb0a2",
+      "label": "Daria Zhelezniakova",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+    },
+    {
+      "id": "d6ead04919a894b1",
+      "label": "Duda Santana",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "dcbf01d605681ad1",
+      "label": "Elizabeth Phillips",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "1d239d571e342453",
+      "label": "Germaine de Randamie",
+      "group": "Women's Bantamweight",
+      "fightCount": 9,
+      "uniqueOpponentCount": 8,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "NL",
+      "countryName": "Netherlands",
+      "flagEmoji": "\ud83c\uddf3\ud83c\uddf1"
+    },
+    {
+      "id": "016a8d958883167c",
+      "label": "Gina Mazany",
+      "group": "Women's Bantamweight",
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "3c26c420584d912d",
+      "label": "Hailey Cowan",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "634e2fb70bde3fd5",
+      "label": "Holly Holm",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 12,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "578ef12674df1e6a",
+      "label": "Irene Aldana",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "6",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+    },
+    {
+      "id": "103e2e33a60683e1",
+      "label": "Irina Alekseeva",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+    },
+    {
+      "id": "e3964ece586e0635",
+      "label": "Jacqueline Cavalcanti",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "10",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "flagEmoji": "\ud83c\uddf5\ud83c\uddf9"
+    },
+    {
+      "id": "5c637af9472ae7cc",
+      "label": "Jamey-Lyn Horth",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "a9e260472d321361",
+      "label": "Jasmine Jasudavicius",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "a7ddae0be8b78147",
+      "label": "Jessamyn Duke",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "6a1901c62ab3870f",
+      "label": "Jessica Andrade",
+      "group": "Women's Bantamweight",
+      "fightCount": 7,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "f72465a784c1b084",
+      "label": "Jessica Eye",
+      "group": "Women's Bantamweight",
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "ffdeb4fbea09ce75",
+      "label": "Jessica Rakoczy",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "6c8072b61c276e67",
+      "label": "Jessica-Rose Clark",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+    },
+    {
+      "id": "a20f234df70f2182",
+      "label": "Ji Yeon Kim",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "KR",
+      "countryName": "South Korea",
+      "flagEmoji": "\ud83c\uddf0\ud83c\uddf7"
+    },
+    {
+      "id": "f9ab66e67240db7b",
+      "label": "Joselyne Edwards",
+      "group": "Women's Bantamweight",
+      "fightCount": 11,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "11",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "PA",
+      "countryName": "Panama",
+      "flagEmoji": "\ud83c\uddf5\ud83c\udde6"
+    },
+    {
+      "id": "68d35296f566792b",
+      "label": "Josiane Nunes",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "86d9dbe1bfcbade7",
+      "label": "Julia Avila",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "3253b16d38ae087d",
+      "label": "Julianna Pena",
+      "group": "Women's Bantamweight",
+      "fightCount": 12,
+      "uniqueOpponentCount": 11,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "1",
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "981ab7a0576f76a0",
+      "label": "Julie Kedzie",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "a78a87d8c2bbb1cb",
+      "label": "Julija Stoliarenko",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "LT",
+      "countryName": "Lithuania",
+      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9"
+    },
+    {
+      "id": "351c4ec637380ad5",
+      "label": "Karol Rosa",
+      "group": "Women's Bantamweight",
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "8",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "e872e9a9a902c045",
+      "label": "Katlyn Cerminara",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "1af1170ed937cba7",
+      "label": "Kayla Harrison",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": true,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "9c42a0de8e012870",
+      "label": "Kelly Faszholz",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "b9706f80d005036c",
+      "label": "Ketlen Vieira",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "4",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "9f5e3c20ce40b344",
+      "label": "Klaudia Sygula",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "PL",
+      "countryName": "Poland",
+      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1"
+    },
+    {
+      "id": "e99821959a840bb8",
+      "label": "Lara Procopio",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "16b89be2f5c16fba",
+      "label": "Larissa Pacheco",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "729d4bd5a6cd0a97",
+      "label": "Lauren Murphy",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "76984112f697631f",
+      "label": "Leslie Smith",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "eebc23626e38f5dc",
+      "label": "Liana Jojua",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "GE",
+      "countryName": "Georgia",
+      "flagEmoji": "\ud83c\uddec\ud83c\uddea"
+    },
+    {
+      "id": "2eeaefbfc7f9fcff",
+      "label": "Lina Lansberg",
+      "group": "Women's Bantamweight",
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "flagEmoji": "\ud83c\uddf8\ud83c\uddea"
+    },
+    {
+      "id": "51a0c09cbe9b8472",
+      "label": "Liz Carmouche",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "528b071cf3da7c56",
+      "label": "Luana Carolina",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "5078e1dacf9d25f4",
+      "label": "Luana Santos",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "15",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "3cf66c62d9069f43",
+      "label": "Lucie Pudilova",
+      "group": "Women's Bantamweight",
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CZ",
+      "countryName": "Czechia",
+      "flagEmoji": "\ud83c\udde8\ud83c\uddff"
+    },
+    {
+      "id": "9cdd2da1a9104a0b",
+      "label": "Macy Chiasson",
+      "group": "Women's Bantamweight",
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "9",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "c7d297714d9ab1a4",
+      "label": "Marion Reneau",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "cc8c623cca88f54f",
+      "label": "Mayra Bueno Silva",
+      "group": "Women's Bantamweight",
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "12",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "51e2f44a8dbf6984",
+      "label": "Melissa Croden",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "a4a80dd7336ffd59",
+      "label": "Melissa Gatto",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "bd532e9a2b93870c",
+      "label": "Melissa Mullins",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "GB",
+      "countryName": "England",
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+    },
+    {
+      "id": "ca80d72da81d7224",
+      "label": "Michelle Montague",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "NZ",
+      "countryName": "New Zealand",
+      "flagEmoji": "\ud83c\uddf3\ud83c\uddff"
+    },
+    {
+      "id": "b96619b3acd7d9da",
+      "label": "Miesha Tate",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "14",
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "072a10e85f7d4bff",
+      "label": "Milana Dudieva",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+    },
+    {
+      "id": "60193e707634e560",
+      "label": "Montse Rendon",
+      "group": "Women's Bantamweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+    },
+    {
+      "id": "1de9ad94de18eeaf",
+      "label": "Nicco Montano",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "f2b3f4ef3f780168",
+      "label": "Nora Cornolle",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 5,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "13",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "FR",
+      "countryName": "France",
+      "flagEmoji": "\ud83c\uddeb\ud83c\uddf7"
+    },
+    {
+      "id": "d3f5d33d61cd00c9",
+      "label": "Norma Dumont",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "3",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "91dac5e69e28d5b5",
+      "label": "Pannie Kianzad",
+      "group": "Women's Bantamweight",
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "flagEmoji": "\ud83c\uddf8\ud83c\uddea"
+    },
+    {
+      "id": "92b36014314b028b",
+      "label": "Peggy Morgan",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "b1e5bcaad32a3cac",
+      "label": "Priscila Cachoeira",
+      "group": "Women's Bantamweight",
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "3eb4dc9a7d4ac906",
+      "label": "Ramona Pascual",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "HK",
+      "countryName": "Hong Kong",
+      "flagEmoji": "\ud83c\udded\ud83c\uddf0"
+    },
+    {
+      "id": "fc169c387b4b465d",
+      "label": "Raquel Pennington",
+      "group": "Women's Bantamweight",
+      "fightCount": 18,
+      "uniqueOpponentCount": 16,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "2",
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "4948e412fa6ab67d",
+      "label": "Ravena Oliveira",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "f9ae6914f604aa9f",
+      "label": "Rin Nakai",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "flagEmoji": "\ud83c\uddef\ud83c\uddf5"
+    },
+    {
+      "id": "8bdac25ce0bb874d",
+      "label": "Ronda Rousey",
+      "group": "Women's Bantamweight",
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": true,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "5dfe71ade71f3a4b",
+      "label": "Rosi Sexton",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+    },
+    {
+      "id": "4498b382c65a7faa",
+      "label": "Roxanne Modafferi",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "70d2329a92864fdb",
+      "label": "Sabina Mazo",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf4"
+    },
+    {
+      "id": "7be74a12d7352df2",
+      "label": "Sara McMann",
+      "group": "Women's Bantamweight",
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "49b130de1da2e1bf",
+      "label": "Sarah Alpar",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "36df8e119aec6175",
+      "label": "Sarah Kaufman",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "539ed332b3078821",
+      "label": "Sarah Moras",
+      "group": "Women's Bantamweight",
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "568bbad0eaced57c",
+      "label": "Shanna Young",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "8ef4a91ac694b7ce",
+      "label": "Shayna Baszler",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "837d30395faca41e",
+      "label": "Sheila Gaff",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "flagEmoji": "\ud83c\udde9\ud83c\uddea"
+    },
+    {
+      "id": "4234f0097c83fa62",
+      "label": "Sijara Eubanks",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "5e6294b37bbef029",
+      "label": "Stephanie Egger",
+      "group": "Women's Bantamweight",
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CH",
+      "countryName": "Switzerland",
+      "flagEmoji": "\ud83c\udde8\ud83c\udded"
+    },
+    {
+      "id": "2c5f5749569eef66",
+      "label": "Tainara Lisboa",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "5b2325cd70dbe2ea",
+      "label": "Talita Bernardo",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "4f3064faf17aa711",
+      "label": "Tamires Vidal",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "b12a1d19ee383b7c",
+      "label": "Tonya Evinger",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "68d4a891e5cf2029",
+      "label": "Tracy Cortez",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "132deb59abae64b1",
+      "label": "Valentina Shevchenko",
+      "group": "Women's Bantamweight",
+      "fightCount": 5,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
+      "countryCode": "KG",
+      "countryName": "Kyrgyzstan",
+      "flagEmoji": "\ud83c\uddf0\ud83c\uddec"
+    },
+    {
+      "id": "46a2f24feb258ae0",
+      "label": "Valerie Letourneau",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "9b7dfb3b7d99926a",
+      "label": "Vanessa Melo",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "4798e823ada58fe9",
+      "label": "Veronica Hardy",
+      "group": "Women's Bantamweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "VE",
+      "countryName": "Venezuela",
+      "flagEmoji": "\ud83c\uddfb\ud83c\uddea"
+    },
+    {
+      "id": "36541f1e6c5d4955",
+      "label": "Viviane Araujo",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "fdbefee0827e1567",
+      "label": "Wu Yanan",
+      "group": "Women's Bantamweight",
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CN",
+      "countryName": "China",
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf3"
+    },
+    {
+      "id": "3143bf892608139a",
+      "label": "Yana Santos",
+      "group": "Women's Bantamweight",
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "5",
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+    }
+  ],
+  "links": [
+    {
+      "source": "06e4245d16fc5315",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Bueno Silva",
+          "eventDate": "2023-07-15",
+          "resultSummary": "Ailin Perez def. Ashlee Evans-Smith",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "06e4245d16fc5315",
+      "target": "07047eb7d17fb0a2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Saint Denis",
+          "eventDate": "2024-09-28",
+          "resultSummary": "Ailin Perez def. Daria Zhelezniakova",
+          "method": "SUB Arm Triangle",
+          "round": "1",
+          "time": "3:52",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "06e4245d16fc5315",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 302: Makhachev vs. Poirier",
+          "eventDate": "2024-06-01",
+          "resultSummary": "Ailin Perez def. Joselyne Edwards",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "06e4245d16fc5315",
+      "target": "351c4ec637380ad5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 311: Makhachev vs. Moicano",
+          "eventDate": "2025-01-18",
+          "resultSummary": "Ailin Perez def. Karol Rosa",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "06e4245d16fc5315",
+      "target": "3cf66c62d9069f43",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Craig",
+          "eventDate": "2023-11-18",
+          "resultSummary": "Ailin Perez def. Lucie Pudilova",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "06e4245d16fc5315",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moreno vs. Kavanagh",
+          "eventDate": "2026-02-28",
+          "resultSummary": "Ailin Perez def. Macy Chiasson",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "9eef6584fab21fbb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Swanson vs. Lobov",
+          "eventDate": "2017-04-22",
+          "resultSummary": "Alexis Davis def. Cindy Dandois",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 170: Rousey vs McMann",
+          "eventDate": "2014-02-22",
+          "resultSummary": "Alexis Davis def. Jessica Eye",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "a78a87d8c2bbb1cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hermansson vs. Strickland",
+          "eventDate": "2022-02-05",
+          "resultSummary": "Alexis Davis def. Julija Stoliarenko",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "51a0c09cbe9b8472",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fight for the Troops 3",
+          "eventDate": "2013-11-06",
+          "resultSummary": "Alexis Davis def. Liz Carmouche",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 263: Adesanya vs. Vettori 2",
+          "eventDate": "2021-06-12",
+          "resultSummary": "Pannie Kianzad def. Alexis Davis",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 175: Weidman vs Machida",
+          "eventDate": "2014-07-05",
+          "resultSummary": "Ronda Rousey def. Alexis Davis",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "0:16",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "5dfe71ade71f3a4b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 161: Evans vs Henderson",
+          "eventDate": "2013-06-15",
+          "resultSummary": "Alexis Davis def. Rosi Sexton",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "70d2329a92864fdb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rozenstruik vs. Gane",
+          "eventDate": "2021-02-27",
+          "resultSummary": "Alexis Davis def. Sabina Mazo",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4c2d90e335e6df19",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "The Ultimate Fighter: Tournament of Champions Finale",
+          "eventDate": "2016-12-03",
+          "resultSummary": "Sara McMann def. Alexis Davis",
+          "method": "SUB Arm Triangle",
+          "round": "2",
+          "time": "2:52",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4ae4049426e0161d",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 182: Jones vs Cormier",
+          "eventDate": "2015-01-03",
+          "resultSummary": "Marion Reneau def. Alexis Dufresne",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3df5493bb279226f",
+      "target": "76984112f697631f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Nelson vs. Ponzinibbio",
+          "eventDate": "2017-07-16",
+          "resultSummary": "Leslie Smith def. Amanda Lemos",
+          "method": "KO/TKO Elbows",
+          "round": "2",
+          "time": "2:53",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "80fa8218c99f9c58",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 200: Tate vs Nunes",
+          "eventDate": "2016-07-09",
+          "resultSummary": "Amanda Nunes def. Miesha Tate",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "3:16",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "80fa8218c99f9c58",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 224: Nunes vs. Pennington",
+          "eventDate": "2018-05-12",
+          "resultSummary": "Amanda Nunes def. Raquel Pennington",
+          "method": "KO/TKO Punches",
+          "round": "5",
+          "time": "2:36",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "80fa8218c99f9c58",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 207: Nunes vs. Rousey",
+          "eventDate": "2016-12-30",
+          "resultSummary": "Amanda Nunes def. Ronda Rousey",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "0:48",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "80fa8218c99f9c58",
+      "target": "8ef4a91ac694b7ce",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Maia vs LaFlare",
+          "eventDate": "2015-03-21",
+          "resultSummary": "Amanda Nunes def. Shayna Baszler",
+          "method": "KO/TKO Kick",
+          "round": "1",
+          "time": "1:56",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "80fa8218c99f9c58",
+      "target": "837d30395faca41e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 163: Aldo vs Jung",
+          "eventDate": "2013-08-03",
+          "resultSummary": "Amanda Nunes def. Sheila Gaff",
+          "method": "KO/TKO Elbows",
+          "round": "1",
+          "time": "2:08",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1536a25e16fc299b",
+      "target": "1d239d571e342453",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Overeem vs Arlovski",
+          "eventDate": "2016-05-08",
+          "resultSummary": "Germaine de Randamie def. Anna Elmose",
+          "method": "KO/TKO Knee",
+          "round": "1",
+          "time": "3:46",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6551c64fbcd1a467",
+      "target": "b1e5bcaad32a3cac",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Vera vs. Cruz",
+          "eventDate": "2022-08-13",
+          "resultSummary": "Priscila Cachoeira def. Ariane da Silva",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "1:05",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d4691518d012b9e7",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 273: Volkanovski vs. The Korean Zombie",
+          "eventDate": "2022-04-09",
+          "resultSummary": "Raquel Pennington def. Aspen Ladd",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b60c980f79b87ce8",
+      "target": "d6ead04919a894b1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gustafsson vs. Smith",
+          "eventDate": "2019-06-01",
+          "resultSummary": "Bea Malecki def. Duda Santana",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "1:59",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "a7ddae0be8b78147",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 172: Jones vs Teixeira",
+          "eventDate": "2014-04-26",
+          "resultSummary": "Bethe Correia def. Jessamyn Duke",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 203: Miocic vs. Overeem",
+          "eventDate": "2016-09-10",
+          "resultSummary": "Bethe Correia def. Jessica Eye",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "981ab7a0576f76a0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hunt vs Bigfoot",
+          "eventDate": "2013-12-06",
+          "resultSummary": "Bethe Correia def. Julie Kedzie",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Belfort vs. Gastelum",
+          "eventDate": "2017-03-11",
+          "resultSummary": "Draw",
+          "method": "M-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Whittaker vs. Till",
+          "eventDate": "2020-07-25",
+          "resultSummary": "Pannie Kianzad def. Bethe Correia",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Teixeira vs Evans",
+          "eventDate": "2016-04-16",
+          "resultSummary": "Raquel Pennington def. Bethe Correia",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 190: Rousey vs Correia",
+          "eventDate": "2015-08-01",
+          "resultSummary": "Ronda Rousey def. Bethe Correia",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "0:34",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "673ea7dcc786b1b3",
+      "target": "8ef4a91ac694b7ce",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 177: Dillashaw vs Soto",
+          "eventDate": "2014-08-30",
+          "resultSummary": "Bethe Correia def. Shayna Baszler",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "1:56",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3ecd936bd8814108",
+      "target": "80fa8218c99f9c58",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 178: Johnson vs Cariaso",
+          "eventDate": "2014-09-27",
+          "resultSummary": "Cat Zingano def. Amanda Nunes",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "1:21",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3ecd936bd8814108",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 222: Cyborg vs. Kunitskaya",
+          "eventDate": "2018-03-03",
+          "resultSummary": "Ketlen Vieira def. Cat Zingano",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3ecd936bd8814108",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Dos Santos vs. Ivanov",
+          "eventDate": "2018-07-14",
+          "resultSummary": "Cat Zingano def. Marion Reneau",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3ecd936bd8814108",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "The Ultimate Fighter: Team Jones vs. Team Sonnen Finale",
+          "eventDate": "2013-04-13",
+          "resultSummary": "Cat Zingano def. Miesha Tate",
+          "method": "KO/TKO Knees",
+          "round": "3",
+          "time": "2:55",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3ecd936bd8814108",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 184: Rousey vs Zingano",
+          "eventDate": "2015-02-28",
+          "resultSummary": "Ronda Rousey def. Cat Zingano",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "0:14",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "af9efbfd63d39734",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Machado Garry vs. Prates",
+          "eventDate": "2025-04-26",
+          "resultSummary": "Joselyne Edwards def. Chelsea Chandler",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "2:31",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "07047eb7d17fb0a2",
+      "target": "bd532e9a2b93870c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hill vs. Rountree Jr.",
+          "eventDate": "2025-06-21",
+          "resultSummary": "Daria Zhelezniakova def. Melissa Mullins",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "07047eb7d17fb0a2",
+      "target": "60193e707634e560",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Ribas vs. Namajunas",
+          "eventDate": "2024-03-23",
+          "resultSummary": "Daria Zhelezniakova def. Montse Rendon",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "dcbf01d605681ad1",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 202: Diaz vs. McGregor 2",
+          "eventDate": "2016-08-20",
+          "resultSummary": "Raquel Pennington def. Elizabeth Phillips",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "80fa8218c99f9c58",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC 245: Usman vs. Covington",
+          "eventDate": "2019-12-14",
+          "resultSummary": "Amanda Nunes def. Germaine de Randamie",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        },
+        {
+          "eventName": "UFC Fight Night: Fight for the Troops 3",
+          "eventDate": "2013-11-06",
+          "resultSummary": "Amanda Nunes def. Germaine de Randamie",
+          "method": "KO/TKO Elbows",
+          "round": "1",
+          "time": "3:56",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "d4691518d012b9e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: De Randamie vs. Ladd",
+          "eventDate": "2019-07-13",
+          "resultSummary": "Germaine de Randamie def. Aspen Ladd",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "0:16",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "3253b16d38ae087d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Aldana",
+          "eventDate": "2020-10-03",
+          "resultSummary": "Germaine de Randamie def. Julianna Pena",
+          "method": "SUB Guillotine Choke",
+          "round": "3",
+          "time": "3:25",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "981ab7a0576f76a0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Johnson vs Moraga",
+          "eventDate": "2013-07-27",
+          "resultSummary": "Germaine de Randamie def. Julie Kedzie",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "d3f5d33d61cd00c9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Curtis 2",
+          "eventDate": "2024-04-06",
+          "resultSummary": "Norma Dumont def. Germaine de Randamie",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1d239d571e342453",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Korean Zombie vs. Rodriguez",
+          "eventDate": "2018-11-10",
+          "resultSummary": "Germaine de Randamie def. Raquel Pennington",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "016a8d958883167c",
+      "target": "86d9dbe1bfcbade7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Eye vs. Calvillo",
+          "eventDate": "2020-06-13",
+          "resultSummary": "Julia Avila def. Gina Mazany",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "0:22",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "016a8d958883167c",
+      "target": "2eeaefbfc7f9fcff",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Thompson vs. Till",
+          "eventDate": "2018-05-27",
+          "resultSummary": "Lina Lansberg def. Gina Mazany",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "016a8d958883167c",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 235: Jones vs. Smith",
+          "eventDate": "2019-03-02",
+          "resultSummary": "Macy Chiasson def. Gina Mazany",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "1:49",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "016a8d958883167c",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lewis vs. Browne",
+          "eventDate": "2017-02-19",
+          "resultSummary": "Sara McMann def. Gina Mazany",
+          "method": "SUB Arm Triangle",
+          "round": "1",
+          "time": "1:14",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "016a8d958883167c",
+      "target": "fdbefee0827e1567",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bisping vs. Gastelum",
+          "eventDate": "2017-11-25",
+          "resultSummary": "Gina Mazany def. Wu Yanan",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3c26c420584d912d",
+      "target": "5c637af9472ae7cc",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Simon",
+          "eventDate": "2023-04-29",
+          "resultSummary": "Jamey-Lyn Horth def. Hailey Cowan",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3c26c420584d912d",
+      "target": "f2b3f4ef3f780168",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 314: Volkanovski vs. Lopes",
+          "eventDate": "2025-04-12",
+          "resultSummary": "Nora Cornolle def. Hailey Cowan",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "1:52",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "80fa8218c99f9c58",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 239: Jones vs. Santos",
+          "eventDate": "2019-07-06",
+          "resultSummary": "Amanda Nunes def. Holly Holm",
+          "method": "KO/TKO Kick",
+          "round": "1",
+          "time": "4:10",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "673ea7dcc786b1b3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Correia",
+          "eventDate": "2017-06-17",
+          "resultSummary": "Holly Holm def. Bethe Correia",
+          "method": "KO/TKO Kick",
+          "round": "3",
+          "time": "1:09",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Vieira",
+          "eventDate": "2022-05-21",
+          "resultSummary": "Ketlen Vieira def. Holly Holm",
+          "method": "S-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Mir vs Duffee",
+          "eventDate": "2015-07-15",
+          "resultSummary": "Holly Holm def. Marion Reneau",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "cc8c623cca88f54f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Bueno Silva",
+          "eventDate": "2023-07-15",
+          "resultSummary": "No contest",
+          "method": "Overturned Guillotine Choke",
+          "round": "2",
+          "time": "0:38",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 196: McGregor vs Diaz",
+          "eventDate": "2016-03-05",
+          "resultSummary": "Miesha Tate def. Holly Holm",
+          "method": "SUB Rear Naked Choke",
+          "round": "5",
+          "time": "3:30",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "fc169c387b4b465d",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC 246: McGregor vs. Cowboy",
+          "eventDate": "2020-01-18",
+          "resultSummary": "Holly Holm def. Raquel Pennington",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        },
+        {
+          "eventName": "UFC 184: Rousey vs Zingano",
+          "eventDate": "2015-02-28",
+          "resultSummary": "Holly Holm def. Raquel Pennington",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "634e2fb70bde3fd5",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 193: Rousey vs Holm",
+          "eventDate": "2015-11-14",
+          "resultSummary": "Holly Holm def. Ronda Rousey",
+          "method": "KO/TKO Kick",
+          "round": "2",
+          "time": "0:59",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "80fa8218c99f9c58",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 289: Nunes vs. Aldana",
+          "eventDate": "2023-06-10",
+          "resultSummary": "Amanda Nunes def. Irene Aldana",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "673ea7dcc786b1b3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 237: Namajunas vs. Andrade",
+          "eventDate": "2019-05-11",
+          "resultSummary": "Irene Aldana def. Bethe Correia",
+          "method": "SUB Armbar",
+          "round": "3",
+          "time": "3:24",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "634e2fb70bde3fd5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Aldana",
+          "eventDate": "2020-10-03",
+          "resultSummary": "Holly Holm def. Irene Aldana",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "e872e9a9a902c045",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 210: Cormier vs. Johnson 2",
+          "eventDate": "2017-04-08",
+          "resultSummary": "Katlyn Cerminara def. Irene Aldana",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 245: Usman vs. Covington",
+          "eventDate": "2019-12-14",
+          "resultSummary": "Irene Aldana def. Ketlen Vieira",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "4:51",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "76984112f697631f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: VanZant vs. Waterson",
+          "eventDate": "2016-12-17",
+          "resultSummary": "Leslie Smith def. Irene Aldana",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "d3f5d33d61cd00c9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 306: Riyadh Season Noche UFC",
+          "eventDate": "2024-09-14",
+          "resultSummary": "Norma Dumont def. Irene Aldana",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Dos Anjos vs. Edwards",
+          "eventDate": "2019-07-20",
+          "resultSummary": "Raquel Pennington def. Irene Aldana",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "5b2325cd70dbe2ea",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Stephens vs. Choi",
+          "eventDate": "2018-01-14",
+          "resultSummary": "Irene Aldana def. Talita Bernardo",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "578ef12674df1e6a",
+      "target": "9b7dfb3b7d99926a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rodriguez vs. Stephens",
+          "eventDate": "2019-09-21",
+          "resultSummary": "Irene Aldana def. Vanessa Melo",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "103e2e33a60683e1",
+      "target": "eff9074bc066f0f2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Oliveira vs. Gamrot",
+          "eventDate": "2025-10-11",
+          "resultSummary": "Bia Mesquita def. Irina Alekseeva",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "2:14",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "103e2e33a60683e1",
+      "target": "9f5e3c20ce40b344",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hill vs. Rountree Jr.",
+          "eventDate": "2025-06-21",
+          "resultSummary": "Klaudia Sygula def. Irina Alekseeva",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "103e2e33a60683e1",
+      "target": "bd532e9a2b93870c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Yusuff vs. Barboza",
+          "eventDate": "2023-10-14",
+          "resultSummary": "Melissa Mullins def. Irina Alekseeva",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "103e2e33a60683e1",
+      "target": "5e6294b37bbef029",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Simon",
+          "eventDate": "2023-04-29",
+          "resultSummary": "Irina Alekseeva def. Stephanie Egger",
+          "method": "SUB Kneebar",
+          "round": "1",
+          "time": "2:11",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "e3964ece586e0635",
+      "target": "f2b3f4ef3f780168",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Saint Denis",
+          "eventDate": "2024-09-28",
+          "resultSummary": "Jacqueline Cavalcanti def. Nora Cornolle",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a9e260472d321361",
+      "target": "b1e5bcaad32a3cac",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 297: Strickland vs. Du Plessis",
+          "eventDate": "2024-01-20",
+          "resultSummary": "Jasmine Jasudavicius def. Priscila Cachoeira",
+          "method": "SUB Anaconda Choke",
+          "round": "3",
+          "time": "4:21",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a7ddae0be8b78147",
+      "target": "dcbf01d605681ad1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Dillashaw vs. Barao II",
+          "eventDate": "2015-07-25",
+          "resultSummary": "Elizabeth Phillips def. Jessamyn Duke",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6a1901c62ab3870f",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bigfoot vs Mir",
+          "eventDate": "2015-02-22",
+          "resultSummary": "Marion Reneau def. Jessica Andrade",
+          "method": "SUB Triangle Choke",
+          "round": "1",
+          "time": "1:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6a1901c62ab3870f",
+      "target": "fc169c387b4b465d",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC 191: Johnson vs Dodson 2",
+          "eventDate": "2015-09-05",
+          "resultSummary": "Raquel Pennington def. Jessica Andrade",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "4:58",
+          "isTitleBout": false
+        },
+        {
+          "eventName": "UFC 171: Hendricks vs Lawler",
+          "eventDate": "2014-03-15",
+          "resultSummary": "Jessica Andrade def. Raquel Pennington",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6c8072b61c276e67",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Costa vs. Vettori",
+          "eventDate": "2021-10-23",
+          "resultSummary": "Jessica-Rose Clark def. Joselyne Edwards",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6c8072b61c276e67",
+      "target": "a78a87d8c2bbb1cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 276: Adesanya vs. Cannonier",
+          "eventDate": "2022-07-02",
+          "resultSummary": "Julija Stoliarenko def. Jessica-Rose Clark",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "0:42",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6c8072b61c276e67",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Zabit vs. Kattar",
+          "eventDate": "2019-11-09",
+          "resultSummary": "Pannie Kianzad def. Jessica-Rose Clark",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a20f234df70f2182",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 277: Pena vs. Nunes 2",
+          "eventDate": "2022-07-30",
+          "resultSummary": "Joselyne Edwards def. Ji Yeon Kim",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "f9ab66e67240db7b",
+      "target": "fdbefee0827e1567",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holloway vs. Kattar",
+          "eventDate": "2021-01-16",
+          "resultSummary": "Joselyne Edwards def. Wu Yanan",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "68d35296f566792b",
+      "target": "b60c980f79b87ce8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cannonier vs. Gastelum",
+          "eventDate": "2021-08-21",
+          "resultSummary": "Josiane Nunes def. Bea Malecki",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "4:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "68d35296f566792b",
+      "target": "af9efbfd63d39734",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Tuivasa vs. Tybura",
+          "eventDate": "2024-03-16",
+          "resultSummary": "Chelsea Chandler def. Josiane Nunes",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "68d35296f566792b",
+      "target": "e3964ece586e0635",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cannonier vs. Borralho",
+          "eventDate": "2024-08-24",
+          "resultSummary": "Jacqueline Cavalcanti def. Josiane Nunes",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "68d35296f566792b",
+      "target": "b1e5bcaad32a3cac",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Vettori vs. Dolidze 2",
+          "eventDate": "2025-03-15",
+          "resultSummary": "Priscila Cachoeira def. Josiane Nunes",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "2:46",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "86d9dbe1bfcbade7",
+      "target": "e3964ece586e0635",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cannonier vs. Rodrigues",
+          "eventDate": "2025-02-15",
+          "resultSummary": "Jacqueline Cavalcanti def. Julia Avila",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "86d9dbe1bfcbade7",
+      "target": "a78a87d8c2bbb1cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gane vs. Volkov",
+          "eventDate": "2021-06-26",
+          "resultSummary": "Julia Avila def. Julija Stoliarenko",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "4:19",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "86d9dbe1bfcbade7",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Dariush vs. Tsarukyan",
+          "eventDate": "2023-12-02",
+          "resultSummary": "Miesha Tate def. Julia Avila",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "1:15",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "86d9dbe1bfcbade7",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 239: Jones vs. Santos",
+          "eventDate": "2019-07-06",
+          "resultSummary": "Julia Avila def. Pannie Kianzad",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "80fa8218c99f9c58",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC 277: Pena vs. Nunes 2",
+          "eventDate": "2022-07-30",
+          "resultSummary": "Amanda Nunes def. Julianna Pena",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        },
+        {
+          "eventName": "UFC 269: Oliveira vs. Poirier",
+          "eventDate": "2021-12-11",
+          "resultSummary": "Julianna Pena def. Amanda Nunes",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "3:26",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "3ecd936bd8814108",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 200: Tate vs Nunes",
+          "eventDate": "2016-07-09",
+          "resultSummary": "Julianna Pena def. Cat Zingano",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 192: Cormier vs Gustafsson",
+          "eventDate": "2015-10-03",
+          "resultSummary": "Julianna Pena def. Jessica Eye",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "ffdeb4fbea09ce75",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "The Ultimate Fighter: Team Rousey vs. Team Tate Finale",
+          "eventDate": "2013-11-30",
+          "resultSummary": "Julianna Pena def. Jessica Rakoczy",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "4:59",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 307: Pereira vs. Rountree Jr.",
+          "eventDate": "2024-10-05",
+          "resultSummary": "Julianna Pena def. Raquel Pennington",
+          "method": "S-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "3253b16d38ae087d",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 257: Poirier vs. McGregor",
+          "eventDate": "2021-01-23",
+          "resultSummary": "Julianna Pena def. Sara McMann",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "3:39",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "673ea7dcc786b1b3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Santos vs. Walker",
+          "eventDate": "2021-10-02",
+          "resultSummary": "Karol Rosa def. Bethe Correia",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "578ef12674df1e6a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 296: Edwards vs. Covington",
+          "eventDate": "2023-12-16",
+          "resultSummary": "Irene Aldana def. Karol Rosa",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Overeem vs. Volkov",
+          "eventDate": "2021-02-06",
+          "resultSummary": "Karol Rosa def. Joselyne Edwards",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "e99821959a840bb8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Andrade vs. Zhang",
+          "eventDate": "2019-08-31",
+          "resultSummary": "Karol Rosa def. Lara Procopio",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "f2b3f4ef3f780168",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Taira vs. Park",
+          "eventDate": "2025-08-02",
+          "resultSummary": "Karol Rosa def. Nora Cornolle",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Tybura vs. Spivac 2",
+          "eventDate": "2024-08-10",
+          "resultSummary": "Karol Rosa def. Pannie Kianzad",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Blaydes vs. Daukaus",
+          "eventDate": "2022-03-26",
+          "resultSummary": "Sara McMann def. Karol Rosa",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
+      "target": "9b7dfb3b7d99926a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 251: Usman vs. Masvidal",
+          "eventDate": "2020-07-11",
+          "resultSummary": "Karol Rosa def. Vanessa Melo",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1af1170ed937cba7",
+      "target": "634e2fb70bde3fd5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 300: Pereira vs. Hill",
+          "eventDate": "2024-04-13",
+          "resultSummary": "Kayla Harrison def. Holly Holm",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "1:47",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1af1170ed937cba7",
+      "target": "3253b16d38ae087d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 316: Dvalishvili vs. O'Malley 2",
+          "eventDate": "2025-06-07",
+          "resultSummary": "Kayla Harrison def. Julianna Pena",
+          "method": "SUB Kimura",
+          "round": "2",
+          "time": "4:55",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "1af1170ed937cba7",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 307: Pereira vs. Rountree Jr.",
+          "eventDate": "2024-10-05",
+          "resultSummary": "Kayla Harrison def. Ketlen Vieira",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9c42a0de8e012870",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lineker vs. Dodson",
+          "eventDate": "2016-10-01",
+          "resultSummary": "Ketlen Vieira def. Kelly Faszholz",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9706f80d005036c",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Johnson vs. Reis",
+          "eventDate": "2017-04-15",
+          "resultSummary": "Ketlen Vieira def. Ashlee Evans-Smith",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9706f80d005036c",
+      "target": "d3f5d33d61cd00c9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Garcia vs. Onama",
+          "eventDate": "2025-11-01",
+          "resultSummary": "Norma Dumont def. Ketlen Vieira",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9706f80d005036c",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Strickland vs. Imavov",
+          "eventDate": "2023-01-14",
+          "resultSummary": "Raquel Pennington def. Ketlen Vieira",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9f5e3c20ce40b344",
+      "target": "bd532e9a2b93870c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Magny vs. Prates",
+          "eventDate": "2024-11-09",
+          "resultSummary": "Melissa Mullins def. Klaudia Sygula",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "1:20",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9f5e3c20ce40b344",
+      "target": "b1e5bcaad32a3cac",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bautista vs. Oliveira",
+          "eventDate": "2026-02-07",
+          "resultSummary": "Klaudia Sygula def. Priscila Cachoeira",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "16b89be2f5c16fba",
+      "target": "1d239d571e342453",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 185: Pettis vs Dos Anjos",
+          "eventDate": "2015-03-14",
+          "resultSummary": "Germaine de Randamie def. Larissa Pacheco",
+          "method": "KO/TKO Punch",
+          "round": "2",
+          "time": "2:02",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "16b89be2f5c16fba",
+      "target": "6a1901c62ab3870f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bigfoot vs Arlovski",
+          "eventDate": "2014-09-13",
+          "resultSummary": "Jessica Andrade def. Larissa Pacheco",
+          "method": "SUB Guillotine Choke",
+          "round": "1",
+          "time": "4:33",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "729d4bd5a6cd0a97",
+      "target": "e872e9a9a902c045",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: McDonald vs. Lineker",
+          "eventDate": "2016-07-13",
+          "resultSummary": "Katlyn Cerminara def. Lauren Murphy",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "729d4bd5a6cd0a97",
+      "target": "9c42a0de8e012870",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cowboy vs Cowboy",
+          "eventDate": "2016-02-21",
+          "resultSummary": "Lauren Murphy def. Kelly Faszholz",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "4:55",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "729d4bd5a6cd0a97",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bader vs Saint Preux",
+          "eventDate": "2014-08-16",
+          "resultSummary": "Sara McMann def. Lauren Murphy",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "76984112f697631f",
+      "target": "a7ddae0be8b78147",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cowboy vs Miller",
+          "eventDate": "2014-07-16",
+          "resultSummary": "Leslie Smith def. Jessamyn Duke",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "2:24",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "76984112f697631f",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 180: Werdum vs Hunt",
+          "eventDate": "2014-11-15",
+          "resultSummary": "Jessica Eye def. Leslie Smith",
+          "method": "KO/TKO",
+          "round": "2",
+          "time": "1:30",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "76984112f697631f",
+      "target": "f9ae6914f604aa9f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hunt vs Mir",
+          "eventDate": "2016-03-19",
+          "resultSummary": "Leslie Smith def. Rin Nakai",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "d4691518d012b9e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cerrone vs. Till",
+          "eventDate": "2017-10-21",
+          "resultSummary": "Aspen Ladd def. Lina Lansberg",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "2:33",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "351c4ec637380ad5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 280: Oliveira vs. Makhachev",
+          "eventDate": "2022-10-22",
+          "resultSummary": "Karol Rosa def. Lina Lansberg",
+          "method": "M-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "3cf66c62d9069f43",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Manuwa vs. Anderson",
+          "eventDate": "2017-03-18",
+          "resultSummary": "Lina Lansberg def. Lucie Pudilova",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hermansson vs. Cannonier",
+          "eventDate": "2019-09-28",
+          "resultSummary": "Lina Lansberg def. Macy Chiasson",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "cc8c623cca88f54f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Andrade vs. Blanchfield",
+          "eventDate": "2023-02-18",
+          "resultSummary": "Mayra Bueno Silva def. Lina Lansberg",
+          "method": "SUB Kneebar",
+          "round": "2",
+          "time": "4:45",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Luque vs. Muhammad",
+          "eventDate": "2022-04-16",
+          "resultSummary": "Pannie Kianzad def. Lina Lansberg",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "7be74a12d7352df2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Blaydes vs. Dos Santos",
+          "eventDate": "2020-01-25",
+          "resultSummary": "Sara McMann def. Lina Lansberg",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "b12a1d19ee383b7c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gustafsson vs. Smith",
+          "eventDate": "2019-06-01",
+          "resultSummary": "Lina Lansberg def. Tonya Evinger",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2eeaefbfc7f9fcff",
+      "target": "3143bf892608139a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 229: Khabib vs. McGregor",
+          "eventDate": "2018-10-06",
+          "resultSummary": "Yana Santos def. Lina Lansberg",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51a0c09cbe9b8472",
+      "target": "6a1901c62ab3870f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Johnson vs Moraga",
+          "eventDate": "2013-07-27",
+          "resultSummary": "Liz Carmouche def. Jessica Andrade",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "3:57",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51a0c09cbe9b8472",
+      "target": "e872e9a9a902c045",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 205: Alvarez vs McGregor",
+          "eventDate": "2016-11-12",
+          "resultSummary": "Liz Carmouche def. Katlyn Cerminara",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51a0c09cbe9b8472",
+      "target": "729d4bd5a6cd0a97",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Mendes vs Lamas",
+          "eventDate": "2015-04-04",
+          "resultSummary": "Liz Carmouche def. Lauren Murphy",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51a0c09cbe9b8472",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Werdum vs Browne",
+          "eventDate": "2014-04-19",
+          "resultSummary": "Miesha Tate def. Liz Carmouche",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51a0c09cbe9b8472",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 157: Rousey vs Carmouche",
+          "eventDate": "2013-02-23",
+          "resultSummary": "Ronda Rousey def. Liz Carmouche",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "4:49",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "528b071cf3da7c56",
+      "target": "ca80d72da81d7224",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Ulberg vs. Reyes",
+          "eventDate": "2025-09-27",
+          "resultSummary": "Michelle Montague def. Luana Carolina",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5078e1dacf9d25f4",
+      "target": "51e2f44a8dbf6984",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Royval vs. Kape",
+          "eventDate": "2025-12-13",
+          "resultSummary": "Luana Santos def. Melissa Croden",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5078e1dacf9d25f4",
+      "target": "5e6294b37bbef029",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Gutierrez",
+          "eventDate": "2023-12-09",
+          "resultSummary": "Luana Santos def. Stephanie Egger",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cf66c62d9069f43",
+      "target": "578ef12674df1e6a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 228: Woodley vs. Till",
+          "eventDate": "2018-09-08",
+          "resultSummary": "Irene Aldana def. Lucie Pudilova",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cf66c62d9069f43",
+      "target": "a20f234df70f2182",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holm vs. Correia",
+          "eventDate": "2017-06-17",
+          "resultSummary": "Lucie Pudilova def. Ji Yeon Kim",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cf66c62d9069f43",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holloway vs. Allen",
+          "eventDate": "2023-04-15",
+          "resultSummary": "Joselyne Edwards def. Lucie Pudilova",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cf66c62d9069f43",
+      "target": "539ed332b3078821",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cerrone vs. Medeiros",
+          "eventDate": "2018-02-18",
+          "resultSummary": "Lucie Pudilova def. Sarah Moras",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cf66c62d9069f43",
+      "target": "fdbefee0827e1567",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 278: Usman vs. Edwards",
+          "eventDate": "2022-08-20",
+          "resultSummary": "Lucie Pudilova def. Wu Yanan",
+          "method": "KO/TKO Elbows",
+          "round": "2",
+          "time": "4:04",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9cdd2da1a9104a0b",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Brunson vs. Holland",
+          "eventDate": "2021-03-20",
+          "resultSummary": "Macy Chiasson def. Marion Reneau",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9cdd2da1a9104a0b",
+      "target": "cc8c623cca88f54f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 303: Pereira vs. Prochazka 2",
+          "eventDate": "2024-06-29",
+          "resultSummary": "Macy Chiasson def. Mayra Bueno Silva",
+          "method": "KO/TKO",
+          "round": "2",
+          "time": "1:58",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "c7d297714d9ab1a4",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cowboy vs Cowboy",
+          "eventDate": "2016-02-21",
+          "resultSummary": "Ashlee Evans-Smith def. Marion Reneau",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "c7d297714d9ab1a4",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Blaydes vs. Volkov",
+          "eventDate": "2020-06-20",
+          "resultSummary": "Raquel Pennington def. Marion Reneau",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "cc8c623cca88f54f",
+      "target": "e3964ece586e0635",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bonfim vs. Brown",
+          "eventDate": "2025-11-08",
+          "resultSummary": "Jacqueline Cavalcanti def. Mayra Bueno Silva",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "cc8c623cca88f54f",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 297: Strickland vs. Du Plessis",
+          "eventDate": "2024-01-20",
+          "resultSummary": "Raquel Pennington def. Mayra Bueno Silva",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "cc8c623cca88f54f",
+      "target": "fdbefee0827e1567",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Luque vs. Muhammad",
+          "eventDate": "2022-04-16",
+          "resultSummary": "Mayra Bueno Silva def. Wu Yanan",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "bd532e9a2b93870c",
+      "target": "f2b3f4ef3f780168",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Curtis 2",
+          "eventDate": "2024-04-06",
+          "resultSummary": "Nora Cornolle def. Melissa Mullins",
+          "method": "KO/TKO Knee",
+          "round": "2",
+          "time": "3:06",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b96619b3acd7d9da",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Dillashaw vs. Barao II",
+          "eventDate": "2015-07-25",
+          "resultSummary": "Miesha Tate def. Jessica Eye",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b96619b3acd7d9da",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Vieira vs. Tate",
+          "eventDate": "2021-11-20",
+          "resultSummary": "Ketlen Vieira def. Miesha Tate",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b96619b3acd7d9da",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Makhachev vs. Moises",
+          "eventDate": "2021-07-17",
+          "resultSummary": "Miesha Tate def. Marion Reneau",
+          "method": "KO/TKO Elbows",
+          "round": "3",
+          "time": "1:53",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b96619b3acd7d9da",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 205: Alvarez vs McGregor",
+          "eventDate": "2016-11-12",
+          "resultSummary": "Raquel Pennington def. Miesha Tate",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b96619b3acd7d9da",
+      "target": "f9ae6914f604aa9f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hunt vs Nelson",
+          "eventDate": "2014-09-20",
+          "resultSummary": "Miesha Tate def. Rin Nakai",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "072a10e85f7d4bff",
+      "target": "dcbf01d605681ad1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bisping vs Le",
+          "eventDate": "2014-08-23",
+          "resultSummary": "Milana Dudieva def. Elizabeth Phillips",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "072a10e85f7d4bff",
+      "target": "3253b16d38ae087d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Mendes vs Lamas",
+          "eventDate": "2015-04-04",
+          "resultSummary": "Julianna Pena def. Milana Dudieva",
+          "method": "KO/TKO Elbows",
+          "round": "1",
+          "time": "3:59",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "072a10e85f7d4bff",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Mousasi vs. Hall 2",
+          "eventDate": "2016-11-19",
+          "resultSummary": "Marion Reneau def. Milana Dudieva",
+          "method": "KO/TKO Elbows",
+          "round": "3",
+          "time": "3:03",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "60193e707634e560",
+      "target": "81d2c551886bd5a1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lopes vs. Silva",
+          "eventDate": "2025-09-13",
+          "resultSummary": "Montse Rendon def. Alice Pereira",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1de9ad94de18eeaf",
+      "target": "3253b16d38ae087d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: De Randamie vs. Ladd",
+          "eventDate": "2019-07-13",
+          "resultSummary": "Julianna Pena def. Nicco Montano",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "f2b3f4ef3f780168",
+      "target": "f9ab66e67240db7b",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Strickland vs. Hernandez",
+          "eventDate": "2026-02-21",
+          "resultSummary": "Joselyne Edwards def. Nora Cornolle",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "2:44",
+          "isTitleBout": false
+        },
+        {
+          "eventName": "UFC Fight Night: Gane vs. Spivac",
+          "eventDate": "2023-09-02",
+          "resultSummary": "Nora Cornolle def. Joselyne Edwards",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d3f5d33d61cd00c9",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Smith vs. Clark",
+          "eventDate": "2020-11-28",
+          "resultSummary": "Norma Dumont def. Ashlee Evans-Smith",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "91dac5e69e28d5b5",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Aspinall vs. Tybura",
+          "eventDate": "2023-07-22",
+          "resultSummary": "Ketlen Vieira def. Pannie Kianzad",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "91dac5e69e28d5b5",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Tuivasa vs. Tybura",
+          "eventDate": "2024-03-16",
+          "resultSummary": "Macy Chiasson def. Pannie Kianzad",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "3:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "91dac5e69e28d5b5",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Smith vs. Spann",
+          "eventDate": "2021-09-18",
+          "resultSummary": "Raquel Pennington def. Pannie Kianzad",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "92b36014314b028b",
+      "target": "a7ddae0be8b78147",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "The Ultimate Fighter: Team Rousey vs. Team Tate Finale",
+          "eventDate": "2013-11-30",
+          "resultSummary": "Jessamyn Duke def. Peggy Morgan",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b1e5bcaad32a3cac",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Dolidze vs. Hernandez",
+          "eventDate": "2025-08-09",
+          "resultSummary": "Joselyne Edwards def. Priscila Cachoeira",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "2:24",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3eb4dc9a7d4ac906",
+      "target": "4f3064faf17aa711",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rodriguez vs. Lemos",
+          "eventDate": "2022-11-05",
+          "resultSummary": "Tamires Vidal def. Ramona Pascual",
+          "method": "KO/TKO Flying Knee",
+          "round": "1",
+          "time": "3:06",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "fc169c387b4b465d",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 181: Hendricks vs Lawler II",
+          "eventDate": "2014-12-06",
+          "resultSummary": "Raquel Pennington def. Ashlee Evans-Smith",
+          "method": "SUB Bulldog Choke",
+          "round": "1",
+          "time": "4:59",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8bdac25ce0bb874d",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 168: Weidman vs Silva 2",
+          "eventDate": "2013-12-28",
+          "resultSummary": "Ronda Rousey def. Miesha Tate",
+          "method": "SUB Armbar",
+          "round": "3",
+          "time": "0:58",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "5dfe71ade71f3a4b",
+      "target": "6a1901c62ab3870f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Machida vs Munoz",
+          "eventDate": "2013-10-26",
+          "resultSummary": "Jessica Andrade def. Rosi Sexton",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4498b382c65a7faa",
+      "target": "fc169c387b4b465d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "The Ultimate Fighter: Team Rousey vs. Team Tate Finale",
+          "eventDate": "2013-11-30",
+          "resultSummary": "Raquel Pennington def. Roxanne Modafferi",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "80fa8218c99f9c58",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Teixeira vs Saint Preux",
+          "eventDate": "2015-08-08",
+          "resultSummary": "Amanda Nunes def. Sara McMann",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "2:53",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Almeida vs Garbrandt",
+          "eventDate": "2016-05-29",
+          "resultSummary": "Sara McMann def. Jessica Eye",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 215: Nunes vs Shevchenko 2",
+          "eventDate": "2017-09-09",
+          "resultSummary": "Ketlen Vieira def. Sara McMann",
+          "method": "SUB Arm Triangle",
+          "round": "2",
+          "time": "4:16",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Stephens",
+          "eventDate": "2018-02-24",
+          "resultSummary": "Marion Reneau def. Sara McMann",
+          "method": "SUB Triangle Choke",
+          "round": "2",
+          "time": "3:40",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 183: Silva vs Diaz",
+          "eventDate": "2015-01-31",
+          "resultSummary": "Miesha Tate def. Sara McMann",
+          "method": "M-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "8bdac25ce0bb874d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 170: Rousey vs McMann",
+          "eventDate": "2014-02-22",
+          "resultSummary": "Ronda Rousey def. Sara McMann",
+          "method": "KO/TKO Knee",
+          "round": "1",
+          "time": "1:06",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "7be74a12d7352df2",
+      "target": "837d30395faca41e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 159: Jones vs Sonnen",
+          "eventDate": "2013-04-27",
+          "resultSummary": "Sara McMann def. Sheila Gaff",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "4:06",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "49b130de1da2e1bf",
+      "target": "6c8072b61c276e67",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Covington vs. Woodley",
+          "eventDate": "2020-09-19",
+          "resultSummary": "Jessica-Rose Clark def. Sarah Alpar",
+          "method": "KO/TKO Knee",
+          "round": "3",
+          "time": "4:21",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "36df8e119aec6175",
+      "target": "4c2d90e335e6df19",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 186: Johnson vs Horiguchi",
+          "eventDate": "2015-04-25",
+          "resultSummary": "Alexis Davis def. Sarah Kaufman",
+          "method": "SUB Armbar",
+          "round": "2",
+          "time": "3:07",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "36df8e119aec6175",
+      "target": "f72465a784c1b084",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 166: Velasquez vs Dos Santos 3",
+          "eventDate": "2013-10-19",
+          "resultSummary": "No contest",
+          "method": "Overturned",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "36df8e119aec6175",
+      "target": "76984112f697631f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Bisping vs Kennedy",
+          "eventDate": "2014-04-16",
+          "resultSummary": "Sarah Kaufman def. Leslie Smith",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 215: Nunes vs Shevchenko 2",
+          "eventDate": "2017-09-09",
+          "resultSummary": "Sarah Moras def. Ashlee Evans-Smith",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "2:51",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "6a1901c62ab3870f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Mir vs Duffee",
+          "eventDate": "2015-07-15",
+          "resultSummary": "Jessica Andrade def. Sarah Moras",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "eebc23626e38f5dc",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 242: Khabib vs. Poirier",
+          "eventDate": "2019-09-07",
+          "resultSummary": "Sarah Moras def. Liana Jojua",
+          "method": "KO/TKO Elbows",
+          "round": "3",
+          "time": "2:26",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Iaquinta vs. Cowboy",
+          "eventDate": "2019-05-04",
+          "resultSummary": "Macy Chiasson def. Sarah Moras",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "2:22",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "5b2325cd70dbe2ea",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Oezdemir vs. Smith",
+          "eventDate": "2018-10-27",
+          "resultSummary": "Talita Bernardo def. Sarah Moras",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "539ed332b3078821",
+      "target": "9b7dfb3b7d99926a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Holloway vs. Kattar",
+          "eventDate": "2021-01-16",
+          "resultSummary": "Vanessa Melo def. Sarah Moras",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "568bbad0eaced57c",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Anderson vs. Blachowicz",
+          "eventDate": "2020-02-15",
+          "resultSummary": "Macy Chiasson def. Shanna Young",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "568bbad0eaced57c",
+      "target": "5e6294b37bbef029",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Santos vs. Walker",
+          "eventDate": "2021-10-02",
+          "resultSummary": "Stephanie Egger def. Shanna Young",
+          "method": "KO/TKO Elbow",
+          "round": "2",
+          "time": "2:22",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "d4691518d012b9e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Dos Anjos vs. Lee",
+          "eventDate": "2019-05-18",
+          "resultSummary": "Aspen Ladd def. Sijara Eubanks",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "673ea7dcc786b1b3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rodriguez vs. Stephens",
+          "eventDate": "2019-09-21",
+          "resultSummary": "Bethe Correia def. Sijara Eubanks",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "86d9dbe1bfcbade7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Waterson vs. Hill",
+          "eventDate": "2020-09-12",
+          "resultSummary": "Sijara Eubanks def. Julia Avila",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 253: Adesanya vs. Costa",
+          "eventDate": "2020-09-26",
+          "resultSummary": "Ketlen Vieira def. Sijara Eubanks",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "91dac5e69e28d5b5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Thompson vs. Neal",
+          "eventDate": "2020-12-19",
+          "resultSummary": "Pannie Kianzad def. Sijara Eubanks",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4234f0097c83fa62",
+      "target": "539ed332b3078821",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Smith vs. Teixeira",
+          "eventDate": "2020-05-13",
+          "resultSummary": "Sijara Eubanks def. Sarah Moras",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5e6294b37bbef029",
+      "target": "6c8072b61c276e67",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Walker vs. Hill",
+          "eventDate": "2022-02-19",
+          "resultSummary": "Stephanie Egger def. Jessica-Rose Clark",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "3:44",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5e6294b37bbef029",
+      "target": "cc8c623cca88f54f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Santos vs. Hill",
+          "eventDate": "2022-08-06",
+          "resultSummary": "Mayra Bueno Silva def. Stephanie Egger",
+          "method": "SUB Armbar",
+          "round": "1",
+          "time": "1:17",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5e6294b37bbef029",
+      "target": "68d4a891e5cf2029",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moraes vs. Sandhagen",
+          "eventDate": "2020-10-10",
+          "resultSummary": "Tracy Cortez def. Stephanie Egger",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c5f5749569eef66",
+      "target": "6c8072b61c276e67",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rozenstruik vs. Almeida",
+          "eventDate": "2023-05-13",
+          "resultSummary": "Tainara Lisboa def. Jessica-Rose Clark",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "4:20",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c5f5749569eef66",
+      "target": "5078e1dacf9d25f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Morales",
+          "eventDate": "2025-05-17",
+          "resultSummary": "Luana Santos def. Tainara Lisboa",
+          "method": "SUB Keylock",
+          "round": "2",
+          "time": "4:59",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c5f5749569eef66",
+      "target": "51e2f44a8dbf6984",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: De Ridder vs. Allen",
+          "eventDate": "2025-10-18",
+          "resultSummary": "Melissa Croden def. Tainara Lisboa",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "4:32",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c5f5749569eef66",
+      "target": "4948e412fa6ab67d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Yusuff vs. Barboza",
+          "eventDate": "2023-10-14",
+          "resultSummary": "Tainara Lisboa def. Ravena Oliveira",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5b2325cd70dbe2ea",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Volkov vs. Struve",
+          "eventDate": "2017-09-02",
+          "resultSummary": "Marion Reneau def. Talita Bernardo",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "4:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4f3064faf17aa711",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hernandez vs. Pereira",
+          "eventDate": "2024-10-19",
+          "resultSummary": "Joselyne Edwards def. Tamires Vidal",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "4:33",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4f3064faf17aa711",
+      "target": "a4a80dd7336ffd59",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Barboza vs. Murphy",
+          "eventDate": "2024-05-18",
+          "resultSummary": "Melissa Gatto def. Tamires Vidal",
+          "method": "KO/TKO Punch",
+          "round": "3",
+          "time": "0:37",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4f3064faf17aa711",
+      "target": "60193e707634e560",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fiziev vs. Gamrot",
+          "eventDate": "2023-09-23",
+          "resultSummary": "Montse Rendon def. Tamires Vidal",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b12a1d19ee383b7c",
+      "target": "d4691518d012b9e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 229: Khabib vs. McGregor",
+          "eventDate": "2018-10-06",
+          "resultSummary": "Aspen Ladd def. Tonya Evinger",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "3:26",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "68d4a891e5cf2029",
+      "target": "9b7dfb3b7d99926a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Blachowicz vs. Jacare",
+          "eventDate": "2019-11-16",
+          "resultSummary": "Tracy Cortez def. Vanessa Melo",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "132deb59abae64b1",
+      "target": "80fa8218c99f9c58",
+      "value": 2,
+      "bouts": [
+        {
+          "eventName": "UFC 215: Nunes vs Shevchenko 2",
+          "eventDate": "2017-09-09",
+          "resultSummary": "Amanda Nunes def. Valentina Shevchenko",
+          "method": "S-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
+        },
+        {
+          "eventName": "UFC 196: McGregor vs Diaz",
+          "eventDate": "2016-03-05",
+          "resultSummary": "Amanda Nunes def. Valentina Shevchenko",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "132deb59abae64b1",
+      "target": "634e2fb70bde3fd5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Holm vs. Shevchenko",
+          "eventDate": "2016-07-23",
+          "resultSummary": "Valentina Shevchenko def. Holly Holm",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "132deb59abae64b1",
+      "target": "3253b16d38ae087d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Shevchenko vs. Pena",
+          "eventDate": "2017-01-28",
+          "resultSummary": "Valentina Shevchenko def. Julianna Pena",
+          "method": "SUB Armbar",
+          "round": "2",
+          "time": "4:29",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "132deb59abae64b1",
+      "target": "36df8e119aec6175",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC on FOX: Dos Anjos vs. Cowboy 2",
+          "eventDate": "2015-12-19",
+          "resultSummary": "Valentina Shevchenko def. Sarah Kaufman",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "46a2f24feb258ae0",
+      "target": "dcbf01d605681ad1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 174: Johnson vs Bagautinov",
+          "eventDate": "2014-06-14",
+          "resultSummary": "Valerie Letourneau def. Elizabeth Phillips",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4798e823ada58fe9",
+      "target": "fc6e681bf6658faf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Arlovski vs. Barnett",
+          "eventDate": "2016-09-03",
+          "resultSummary": "Ashlee Evans-Smith def. Veronica Hardy",
+          "method": "KO/TKO Elbows",
+          "round": "3",
+          "time": "2:46",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4798e823ada58fe9",
+      "target": "b60c980f79b87ce8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lee vs. Oliveira",
+          "eventDate": "2020-03-14",
+          "resultSummary": "Bea Malecki def. Veronica Hardy",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "36541f1e6c5d4955",
+      "target": "5b2325cd70dbe2ea",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 237: Namajunas vs. Andrade",
+          "eventDate": "2019-05-11",
+          "resultSummary": "Viviane Araujo def. Talita Bernardo",
+          "method": "KO/TKO Punch",
+          "round": "3",
+          "time": "0:48",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "d4691518d012b9e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Overeem vs. Rozenstruik",
+          "eventDate": "2019-12-07",
+          "resultSummary": "Aspen Ladd def. Yana Santos",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "0:33",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "af9efbfd63d39734",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Tybura vs. Spivac 2",
+          "eventDate": "2024-08-10",
+          "resultSummary": "Yana Santos def. Chelsea Chandler",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "634e2fb70bde3fd5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Vera vs. Sandhagen",
+          "eventDate": "2023-03-25",
+          "resultSummary": "Holly Holm def. Yana Santos",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "578ef12674df1e6a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 264: Poirier vs. McGregor 3",
+          "eventDate": "2021-07-10",
+          "resultSummary": "Irene Aldana def. Yana Santos",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "4:35",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "a78a87d8c2bbb1cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lewis vs. Oleinik",
+          "eventDate": "2020-08-08",
+          "resultSummary": "Yana Santos def. Julija Stoliarenko",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "b9706f80d005036c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Blaydes vs. Lewis",
+          "eventDate": "2021-02-20",
+          "resultSummary": "Yana Santos def. Ketlen Vieira",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "9cdd2da1a9104a0b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 320: Ankalaev vs. Pereira 2",
+          "eventDate": "2025-10-04",
+          "resultSummary": "Yana Santos def. Macy Chiasson",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "c7d297714d9ab1a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Lewis vs. Dos Santos",
+          "eventDate": "2019-03-09",
+          "resultSummary": "Yana Santos def. Marion Reneau",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "b96619b3acd7d9da",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sandhagen vs. Figueiredo",
+          "eventDate": "2025-05-03",
+          "resultSummary": "Yana Santos def. Miesha Tate",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    }
+  ]
+}

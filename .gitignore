@@ -2,6 +2,9 @@ eda/.DS_Store
 .DS_Store
 eda
 data/
+!docs/data/
+!docs/data/*.json
+.cache/
 data/cleaning.ipynb
 test
 ideas.txt
