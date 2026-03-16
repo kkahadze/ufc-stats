@@ -67,6 +67,10 @@ function getSelectedRosterFilter() {
 	return d3.select('#rosterFilter').property('value');
 }
 
+function shouldShowRankedLabels() {
+	return getSelectedRosterFilter() === 'ranked';
+}
+
 function getSelectedMinFightCount() {
 	return Number(d3.select('#minFightCount').property('value'));
 }
@@ -1195,6 +1199,45 @@ function drawCurrentDataset() {
 		.text(function(d) {
 			return getNodeFallbackLabel(d);
 		});
+
+	if (shouldShowRankedLabels()) {
+		var labelEnter = nodeEnter
+			.append('g')
+			.attr('class', 'node-label')
+			.attr('transform', function(d) {
+				return 'translate(0,' + (-(getNodeRadius(d) + 18)) + ')';
+			});
+
+		labelEnter
+			.append('rect')
+			.attr('class', 'node-label-chip');
+
+		labelEnter
+			.append('text')
+			.attr('class', 'node-label-text')
+			.attr('text-anchor', 'middle')
+			.attr('dy', '0.34em')
+			.text(function(d) {
+				return getNodeLabel(d);
+			});
+
+		labelEnter.each(function() {
+			var labelGroup = d3.select(this);
+			var labelText = labelGroup.select('.node-label-text').node();
+			var textBounds = labelText.getBBox();
+			var horizontalPadding = 10;
+			var verticalPadding = 5;
+
+			labelGroup
+				.select('.node-label-chip')
+				.attr('x', textBounds.x - horizontalPadding)
+				.attr('y', textBounds.y - verticalPadding)
+				.attr('width', textBounds.width + horizontalPadding * 2)
+				.attr('height', textBounds.height + verticalPadding * 2)
+				.attr('rx', 10)
+				.attr('ry', 10);
+		});
+	}
 
 	applySpotlightClasses(nodeEnter, linkEnter, linkHitboxEnter, spotlightState);
 

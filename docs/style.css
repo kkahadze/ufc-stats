@@ -604,6 +604,28 @@ body::before {
   user-select: none;
 }
 
+.node-label {
+  pointer-events: none;
+}
+
+.node-label-chip {
+  fill: rgba(255, 252, 247, 0.92);
+  stroke: rgba(84, 73, 62, 0.12);
+  stroke-width: 1;
+}
+
+.node-label-text {
+  fill: rgba(31, 26, 22, 0.92);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.node-dimmed .node-label {
+  opacity: 0.32;
+}
+
 .d3-tip {
   max-width: 240px;
   padding: 12px 14px;
