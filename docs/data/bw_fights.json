@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
-    "fighter_count": 328,
-    "matchup_count": 756,
-    "bout_count": 769
+    "latest_resolved_event_date": "2026-05-16",
+    "fighter_count": 335,
+    "matchup_count": 767,
+    "bout_count": 780
   },
   "nodes": [
     {
@@ -30,11 +30,27 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "e3b30b573e7f0d19",
+      "label": "Adrian Luna Martinetti",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "EC",
+      "countryName": "Ecuador",
+      "flagEmoji": "\ud83c\uddea\ud83c\udde8"
+    },
+    {
       "id": "0232cabbc30a2372",
       "label": "Adrian Yanez",
       "group": "Bantamweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -433,8 +449,8 @@
       "id": "b6c37948cb226e8c",
       "label": "Benardo Sopaj",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -849,8 +865,8 @@
       "id": "f1d64ae34e088832",
       "label": "Charles Jourdain",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -977,8 +993,8 @@
       "id": "7f6ed67d3ed3c036",
       "label": "Cody Durden",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1057,8 +1073,8 @@
       "id": "ed7d329d7c29428d",
       "label": "Colby Thicknesse",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1313,8 +1329,8 @@
       "id": "113df4fde64735c6",
       "label": "Davey Grant",
       "group": "Bantamweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 14,
+      "fightCount": 16,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1553,8 +1569,8 @@
       "id": "7478b7f959ba61f5",
       "label": "Elijah Smith",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1596,6 +1612,22 @@
       "countryCode": "MX",
       "countryName": "Mexico",
       "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+    },
+    {
+      "id": "d776b5814f2400b4",
+      "label": "Ethyn Ewing",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
       "id": "a09ed60aa67a3f67",
@@ -1918,6 +1950,22 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "ec3bd30378d63dd1",
+      "label": "Hecher Sosa",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "flagEmoji": "\ud83c\uddea\ud83c\uddf8"
+    },
+    {
       "id": "01fcef7e3d051722",
       "label": "Henry Briones",
       "group": "Bantamweight",
@@ -2110,6 +2158,22 @@
       "flagEmoji": "\ud83c\uddec\ud83c\udde7"
     },
     {
+      "id": "65adf3856c4d9256",
+      "label": "Jafel Filho",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
       "id": "60a42bf82447c919",
       "label": "Jake Hadley",
       "group": "Bantamweight",
@@ -2156,6 +2220,22 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "e6679e38e7fab7a8",
+      "label": "Jamie Siraj",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
     },
     {
       "id": "edad57b3dddf2168",
@@ -2476,6 +2556,22 @@
       "countryCode": "BR",
       "countryName": "Brazil",
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "450bcab0968562c4",
+      "label": "John Yannis",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
       "id": "ffc3e6daaa6da0b7",
@@ -2897,8 +2993,8 @@
       "id": "60425d07ef4b91a7",
       "label": "Kyler Phillips",
       "group": "Bantamweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3041,8 +3137,8 @@
       "id": "6fc506e1099afe20",
       "label": "Luan Lacerda",
       "group": "Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3553,11 +3649,11 @@
       "id": "cc1a8b4b38b92c6d",
       "label": "Montel Jackson",
       "group": "Bantamweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -3918,6 +4014,22 @@
       "flagEmoji": "\ud83c\uddfb\ud83c\uddf3"
     },
     {
+      "id": "83455a9d17f57dae",
+      "label": "Rafael Estevam",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
       "id": "915c8d39d4a0e7d1",
       "label": "Ramiro Hernandez",
       "group": "Bantamweight",
@@ -3985,11 +4097,11 @@
       "id": "b9f28e7045fdfce7",
       "label": "Raoni Barcelos",
       "group": "Bantamweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -4145,8 +4257,8 @@
       "id": "5987b2458f4b5290",
       "label": "Ricky Simon",
       "group": "Bantamweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 15,
+      "fightCount": 16,
+      "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4593,8 +4705,8 @@
       "id": "a474aade8eb3a8f0",
       "label": "SuYoung You",
       "group": "Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4753,8 +4865,8 @@
       "id": "0e46690e55a8df75",
       "label": "Timmy Cuamba",
       "group": "Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5009,8 +5121,8 @@
       "id": "37098a6e6c27fb66",
       "label": "Vince Morales",
       "group": "Bantamweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5387,6 +5499,22 @@
           "method": "KO/TKO Punches",
           "round": "2",
           "time": "2:11",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0232cabbc30a2372",
+      "target": "5987b2458f4b5290",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Draw",
+          "method": "M-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -8090,6 +8218,22 @@
     },
     {
       "source": "113df4fde64735c6",
+      "target": "e3b30b573e7f0d19",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Davey Grant def. Adrian Luna Martinetti",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "113df4fde64735c6",
       "target": "f1d64ae34e088832",
       "value": 1,
       "bouts": [
@@ -8790,6 +8934,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7478b7f959ba61f5",
+      "target": "a474aade8eb3a8f0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Elijah Smith def. SuYoung You",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "1:04",
           "isTitleBout": false
         }
       ]
@@ -10011,6 +10171,22 @@
       ]
     },
     {
+      "source": "65adf3856c4d9256",
+      "target": "7f6ed67d3ed3c036",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Cody Durden def. Jafel Filho",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "6902fcf0610dd303",
       "target": "a54660deb6a8489c",
       "value": 1,
@@ -10630,6 +10806,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "450bcab0968562c4",
+      "target": "e6679e38e7fab7a8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "John Yannis def. Jamie Siraj",
+          "method": "KO/TKO Elbows",
+          "round": "1",
+          "time": "2:43",
           "isTitleBout": false
         }
       ]
@@ -11292,6 +11484,22 @@
     },
     {
       "source": "60425d07ef4b91a7",
+      "target": "f1d64ae34e088832",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "Charles Jourdain def. Kyler Phillips",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "60425d07ef4b91a7",
       "target": "6bd02119599741a4",
       "value": 1,
       "bouts": [
@@ -11494,6 +11702,22 @@
           "method": "KO/TKO Punches",
           "round": "2",
           "time": "3:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6fc506e1099afe20",
+      "target": "ec3bd30378d63dd1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Hecher Sosa def. Luan Lacerda",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -13430,6 +13654,22 @@
       ]
     },
     {
+      "source": "83455a9d17f57dae",
+      "target": "d776b5814f2400b4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Ethyn Ewing def. Rafael Estevam",
+          "method": "KO/TKO Punch",
+          "round": "3",
+          "time": "1:44",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "915c8d39d4a0e7d1",
       "target": "f95381efb3051d81",
       "value": 1,
@@ -13672,6 +13912,22 @@
           "eventDate": "2025-06-14",
           "resultSummary": "Raoni Barcelos def. Cody Garbrandt",
           "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9f28e7045fdfce7",
+      "target": "cc1a8b4b38b92c6d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Raoni Barcelos def. Montel Jackson",
+          "method": "S-DEC",
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
@@ -16221,6 +16477,22 @@
     },
     {
       "source": "0e46690e55a8df75",
+      "target": "b6c37948cb226e8c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Benardo Sopaj def. Timmy Cuamba",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "2:25",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0e46690e55a8df75",
       "target": "117a06469813e4ef",
       "value": 1,
       "bouts": [
@@ -16957,6 +17229,22 @@
           "eventName": "UFC Fight Night: De Randamie vs. Ladd",
           "eventDate": "2019-07-13",
           "resultSummary": "Benito Lopez def. Vince Morales",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "37098a6e6c27fb66",
+      "target": "ed7d329d7c29428d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Colby Thicknesse def. Vince Morales",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",

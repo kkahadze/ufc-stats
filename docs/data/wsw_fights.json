@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
-    "fighter_count": 119,
-    "matchup_count": 348,
-    "bout_count": 359
+    "latest_resolved_event_date": "2026-05-16",
+    "fighter_count": 121,
+    "matchup_count": 356,
+    "bout_count": 368
   },
   "nodes": [
     {
@@ -81,8 +81,8 @@
       "id": "545092d13c67aa49",
       "label": "Alexia Thainara",
       "group": "Women's Strawweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -97,8 +97,8 @@
       "id": "87f8699fdcc2c404",
       "label": "Alice Ardelean",
       "group": "Women's Strawweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -129,11 +129,11 @@
       "id": "3df5493bb279226f",
       "label": "Amanda Lemos",
       "group": "Women's Strawweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "5",
+      "currentRank": "7",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -273,8 +273,8 @@
       "id": "7138a15258dabf20",
       "label": "Bruna Brasil",
       "group": "Women's Strawweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -609,11 +609,11 @@
       "id": "38c7f72747f4f712",
       "label": "Gillian Robertson",
       "group": "Women's Strawweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "8",
+      "currentRank": "5",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -945,8 +945,8 @@
       "id": "abb68e3c7ca128f2",
       "label": "Julia Polastri",
       "group": "Women's Strawweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1137,8 +1137,8 @@
       "id": "8e5d953bdb9ae5e7",
       "label": "Loopy Godinez",
       "group": "Women's Strawweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -1406,6 +1406,22 @@
       "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
     },
     {
+      "id": "fc0a4053eb8a3a59",
+      "label": "Nicolle Caliari",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
       "id": "d343df8ba11f4c4e",
       "label": "Nina Nunes",
       "group": "Women's Strawweight",
@@ -1457,7 +1473,7 @@
       "id": "e375cb5caf4717b6",
       "label": "Piera Rodriguez",
       "group": "Women's Strawweight",
-      "fightCount": 6,
+      "fightCount": 7,
       "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
@@ -1489,8 +1505,8 @@
       "id": "9673a497a9da119a",
       "label": "Polyana Viana",
       "group": "Women's Strawweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1537,8 +1553,8 @@
       "id": "4948e412fa6ab67d",
       "label": "Ravena Oliveira",
       "group": "Women's Strawweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1585,7 +1601,7 @@
       "id": "e94085e821bd81de",
       "label": "Sam Hughes",
       "group": "Women's Strawweight",
-      "fightCount": 11,
+      "fightCount": 12,
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
@@ -1630,11 +1646,27 @@
       "flagEmoji": null
     },
     {
+      "id": "cfbb3edab781dfd2",
+      "label": "Shanelle Dyer",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "GB",
+      "countryName": "England",
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+    },
+    {
       "id": "9c442aaf149ea982",
       "label": "Shauna Bannon",
       "group": "Women's Strawweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1713,11 +1745,11 @@
       "id": "d25240135aee03e5",
       "label": "Tabatha Ricci",
       "group": "Women's Strawweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "8",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1729,8 +1761,8 @@
       "id": "d35298b6df168456",
       "label": "Talita Alencar",
       "group": "Women's Strawweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1745,8 +1777,8 @@
       "id": "b08012bbe542592a",
       "label": "Tatiana Suarez",
       "group": "Women's Strawweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "2",
@@ -1841,8 +1873,8 @@
       "id": "7dda2cf308f24a02",
       "label": "Virna Jandiroba",
       "group": "Women's Strawweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 11,
+      "fightCount": 13,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "3",
@@ -1979,6 +2011,38 @@
           "method": "SUB Armbar",
           "round": "3",
           "time": "1:01",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "545092d13c67aa49",
+      "target": "7138a15258dabf20",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Alexia Thainara def. Bruna Brasil",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "87f8699fdcc2c404",
+      "target": "9673a497a9da119a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Alice Ardelean def. Polyana Viana",
+          "method": "SUB Calf Slicer",
+          "round": "2",
+          "time": "4:36",
           "isTitleBout": false
         }
       ]
@@ -3251,6 +3315,22 @@
     },
     {
       "source": "38c7f72747f4f712",
+      "target": "3df5493bb279226f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Gillian Robertson def. Amanda Lemos",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "38c7f72747f4f712",
       "target": "a3a542074109b347",
       "value": 1,
       "bouts": [
@@ -4276,6 +4356,22 @@
       ]
     },
     {
+      "source": "abb68e3c7ca128f2",
+      "target": "d35298b6df168456",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Talita Alencar def. Julia Polastri",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "75a6a390fd5dca46",
       "target": "d910665038efc639",
       "value": 1,
@@ -4927,6 +5023,22 @@
           "method": "S-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8e5d953bdb9ae5e7",
+      "target": "b08012bbe542592a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Tatiana Suarez def. Loopy Godinez",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "2:29",
           "isTitleBout": false
         }
       ]
@@ -5704,8 +5816,17 @@
     {
       "source": "e375cb5caf4717b6",
       "target": "e94085e821bd81de",
-      "value": 1,
+      "value": 2,
       "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Piera Rodriguez def. Sam Hughes",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        },
         {
           "eventName": "UFC Fight Night: Grasso vs. Araujo",
           "eventDate": "2022-10-15",
@@ -6118,6 +6239,22 @@
       ]
     },
     {
+      "source": "4948e412fa6ab67d",
+      "target": "cfbb3edab781dfd2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Evloev vs. Murphy",
+          "eventDate": "2026-03-21",
+          "resultSummary": "Shanelle Dyer def. Ravena Oliveira",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "1:17",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "02bb48869eb7ac8f",
       "target": "87f8699fdcc2c404",
       "value": 1,
@@ -6355,6 +6492,22 @@
           "method": "S-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9c442aaf149ea982",
+      "target": "fc0a4053eb8a3a59",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Nicolle Caliari def. Shauna Bannon",
+          "method": "SUB Arm Triangle",
+          "round": "3",
+          "time": "3:08",
           "isTitleBout": false
         }
       ]
@@ -7193,6 +7346,22 @@
           "eventName": "UFC 288: Sterling vs. Cejudo",
           "eventDate": "2023-05-06",
           "resultSummary": "Virna Jandiroba def. Marina Rodriguez",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7dda2cf308f24a02",
+      "target": "d25240135aee03e5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Virna Jandiroba def. Tabatha Ricci",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",

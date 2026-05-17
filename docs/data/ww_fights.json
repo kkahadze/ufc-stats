@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
-    "fighter_count": 553,
-    "matchup_count": 1354,
-    "bout_count": 1381
+    "latest_resolved_event_date": "2026-05-16",
+    "fighter_count": 554,
+    "matchup_count": 1366,
+    "bout_count": 1393
   },
   "nodes": [
     {
@@ -725,7 +725,7 @@
       "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "4",
+      "currentRank": "5",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -1393,11 +1393,11 @@
       "id": "7ee0fd831c0fe7c3",
       "label": "Carlos Prates",
       "group": "Welterweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "5",
+      "currentRank": "2",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1521,8 +1521,8 @@
       "id": "feedf3053472fe56",
       "label": "Charles Radtke",
       "group": "Welterweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1649,8 +1649,8 @@
       "id": "5442f1bc4b47eaf3",
       "label": "Chris Curtis",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1860,8 +1860,8 @@
       "fightCount": 17,
       "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -2897,8 +2897,8 @@
       "id": "3920d0cc288f9b0d",
       "label": "Francisco Prado",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2997,7 +2997,7 @@
       "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "10",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -3137,11 +3137,11 @@
       "id": "23024fdfc966410a",
       "label": "Gilbert Burns",
       "group": "Welterweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -3349,7 +3349,7 @@
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "2",
+      "currentRank": "1",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -3473,11 +3473,11 @@
       "id": "6b453bc35a823c3f",
       "label": "Jack Della Maddalena",
       "group": "Welterweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "1",
+      "currentRank": "4",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -4065,8 +4065,8 @@
       "id": "b9437600497350f3",
       "label": "Joaquin Buckley",
       "group": "Welterweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "9",
@@ -4145,8 +4145,8 @@
       "id": "58bbef3770bb2dfc",
       "label": "Joel Alvarez",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4337,8 +4337,8 @@
       "id": "f782f953bfe7b5f2",
       "label": "Jonathan Micallef",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4645,7 +4645,7 @@
       "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "8",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -4785,8 +4785,8 @@
       "id": "3a46b268013afede",
       "label": "Kevin Holland",
       "group": "Welterweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4849,8 +4849,8 @@
       "id": "2558ae2e5671e318",
       "label": "Khaos Williams",
       "group": "Welterweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5125,7 +5125,7 @@
       "uniqueOpponentCount": 17,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "8",
+      "currentRank": "7",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -5649,8 +5649,8 @@
       "id": "b0d6a1d8ac3d563d",
       "label": "Max Griffin",
       "group": "Welterweight",
-      "fightCount": 18,
-      "uniqueOpponentCount": 18,
+      "fightCount": 19,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5681,8 +5681,8 @@
       "id": "c58f51dedb310998",
       "label": "Michael Chiesa",
       "group": "Welterweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5729,11 +5729,11 @@
       "id": "a67d071163962af8",
       "label": "Michael Page",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "13",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -5873,11 +5873,11 @@
       "id": "dd6103dd7127db1d",
       "label": "Mike Malott",
       "group": "Welterweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "12",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -6033,8 +6033,8 @@
       "id": "bf2c8e01b07d3eb1",
       "label": "Myktybek Orolbai",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6257,8 +6257,8 @@
       "id": "d8da10db80131bec",
       "label": "Niko Price",
       "group": "Welterweight",
-      "fightCount": 20,
-      "uniqueOpponentCount": 18,
+      "fightCount": 21,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6273,8 +6273,8 @@
       "id": "0f1efce7d2571d10",
       "label": "Nikolay Veretennikov",
       "group": "Welterweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6849,8 +6849,8 @@
       "id": "c6aee362c7a7d482",
       "label": "Randy Brown",
       "group": "Welterweight",
-      "fightCount": 21,
-      "uniqueOpponentCount": 21,
+      "fightCount": 22,
+      "uniqueOpponentCount": 22,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7505,8 +7505,8 @@
       "id": "8b6e5dc2ba1edbe7",
       "label": "Sam Patterson",
       "group": "Welterweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7601,8 +7601,8 @@
       "id": "45f7cb591c3ab00b",
       "label": "Sean Brady",
       "group": "Welterweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -8097,8 +8097,8 @@
       "id": "40f3cb27fc7305a1",
       "label": "Themba Gorimbo",
       "group": "Welterweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8421,7 +8421,7 @@
       "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "12",
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -8476,6 +8476,22 @@
       "countryCode": "BR",
       "countryName": "Brazil",
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "078695e385ec2f57",
+      "label": "Victor Valenzuela",
+      "group": "Welterweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf1"
     },
     {
       "id": "1e7483dbff40b84b",
@@ -8641,11 +8657,11 @@
       "id": "f139d6836efd43dd",
       "label": "Yaroslav Amosov",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "10",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -12203,6 +12219,22 @@
       ]
     },
     {
+      "source": "5442f1bc4b47eaf3",
+      "target": "bf2c8e01b07d3eb1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Myktybek Orolbai def. Chris Curtis",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "91acd6910b802a9e",
       "target": "ee457ef1e1c326c1",
       "value": 1,
@@ -15429,6 +15461,22 @@
     },
     {
       "source": "3920d0cc288f9b0d",
+      "target": "feedf3053472fe56",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Charles Radtke def. Francisco Prado",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3920d0cc288f9b0d",
       "target": "a845f0735bc67405",
       "value": 1,
       "bouts": [
@@ -16240,6 +16288,22 @@
     },
     {
       "source": "23024fdfc966410a",
+      "target": "dd6103dd7127db1d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "Mike Malott def. Gilbert Burns",
+          "method": "KO/TKO Punches",
+          "round": "3",
+          "time": "2:08",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "23024fdfc966410a",
       "target": "84b3e7d38f2d2ec5",
       "value": 1,
       "bouts": [
@@ -16827,6 +16891,22 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "6b453bc35a823c3f",
+      "target": "7ee0fd831c0fe7c3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Carlos Prates def. Jack Della Maddalena",
+          "method": "KO/TKO Elbows",
+          "round": "3",
+          "time": "3:17",
+          "isTitleBout": false
         }
       ]
     },
@@ -17850,6 +17930,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "58bbef3770bb2dfc",
+      "target": "f139d6836efd43dd",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Yaroslav Amosov def. Joel Alvarez",
+          "method": "SUB Arm Triangle",
+          "round": "2",
+          "time": "1:13",
           "isTitleBout": false
         }
       ]
@@ -19819,6 +19915,22 @@
           "eventName": "UFC Fight Night: De Ridder vs. Allen",
           "eventDate": "2025-10-18",
           "resultSummary": "Mike Malott def. Kevin Holland",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3a46b268013afede",
+      "target": "c6aee362c7a7d482",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Kevin Holland def. Randy Brown",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
@@ -22107,6 +22219,22 @@
       ]
     },
     {
+      "source": "c58f51dedb310998",
+      "target": "d8da10db80131bec",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Michael Chiesa def. Niko Price",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "1:03",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "3f1d23b01c552a13",
       "target": "fcce75a25c14a804",
       "value": 1,
@@ -23855,6 +23983,22 @@
           "method": "S-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0f1efce7d2571d10",
+      "target": "2558ae2e5671e318",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Khaos Williams def. Nikolay Veretennikov",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "3:31",
           "isTitleBout": false
         }
       ]
@@ -26535,6 +26679,22 @@
     },
     {
       "source": "8b6e5dc2ba1edbe7",
+      "target": "a67d071163962af8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Evloev vs. Murphy",
+          "eventDate": "2026-03-21",
+          "resultSummary": "Michael Page def. Sam Patterson",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8b6e5dc2ba1edbe7",
       "target": "f998f5c102250d6e",
       "value": 1,
       "bouts": [
@@ -26833,6 +26993,22 @@
           "method": "SUB Arm Triangle",
           "round": "3",
           "time": "3:28",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "45f7cb591c3ab00b",
+      "target": "b9437600497350f3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Sean Brady def. Joaquin Buckley",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -28512,6 +28688,22 @@
     },
     {
       "source": "40f3cb27fc7305a1",
+      "target": "f782f953bfe7b5f2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Jonathan Micallef def. Themba Gorimbo",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "40f3cb27fc7305a1",
       "target": "d8da10db80131bec",
       "value": 1,
       "bouts": [
@@ -30062,6 +30254,22 @@
           "method": "SUB D'Arce Choke",
           "round": "1",
           "time": "3:56",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "078695e385ec2f57",
+      "target": "b0d6a1d8ac3d563d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Victor Valenzuela def. Max Griffin",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]

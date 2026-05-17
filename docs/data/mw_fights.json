@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
-    "fighter_count": 467,
-    "matchup_count": 1115,
-    "bout_count": 1135
+    "latest_resolved_event_date": "2026-05-16",
+    "fighter_count": 471,
+    "matchup_count": 1133,
+    "bout_count": 1153
   },
   "nodes": [
     {
@@ -449,8 +449,8 @@
       "id": "5f61780fe5e9b6d0",
       "label": "Andre Petroski",
       "group": "Middleweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -565,7 +565,7 @@
       "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "6",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -673,8 +673,8 @@
       "id": "6d48a2df51749d91",
       "label": "Antonio Trocoli",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -705,8 +705,8 @@
       "id": "2f815ed5f8278ba6",
       "label": "Ateba Gautier",
       "group": "Middleweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -721,8 +721,8 @@
       "id": "3bc3f60b21cddc6a",
       "label": "Azamat Bekoev",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -737,8 +737,8 @@
       "id": "d1feea7a4bdcd503",
       "label": "Baisangur Susurkaev",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -764,6 +764,22 @@
       "countryCode": "PL",
       "countryName": "Poland",
       "flagEmoji": "\ud83c\uddf5\ud83c\uddf1"
+    },
+    {
+      "id": "3261aa79bf6caa64",
+      "label": "Ben Johnston",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
     },
     {
       "id": "899923ff6ab13917",
@@ -849,8 +865,8 @@
       "id": "0c6d9ea8306c029e",
       "label": "Brad Tavares",
       "group": "Middleweight",
-      "fightCount": 27,
-      "uniqueOpponentCount": 27,
+      "fightCount": 28,
+      "uniqueOpponentCount": 28,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -869,7 +885,7 @@
       "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "6",
+      "currentRank": "4",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -948,8 +964,8 @@
       "fightCount": 9,
       "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "15",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1061,7 +1077,7 @@
       "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "5",
+      "currentRank": "4",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1105,8 +1121,8 @@
       "id": "8ebc3a8da015d70c",
       "label": "Cam Rowston",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1425,11 +1441,11 @@
       "id": "a93f94c923c3a9cb",
       "label": "Christian Leroy Duncan",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "13",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1521,8 +1537,8 @@
       "id": "f14f644d41ade29f",
       "label": "Cody Brundage",
       "group": "Middleweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2145,8 +2161,8 @@
       "id": "312f7d7b2b2f7de4",
       "label": "Djorden Santos",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2229,7 +2245,7 @@
       "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "1",
+      "currentRank": "2",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -2481,8 +2497,8 @@
       "id": "9508cc6184cb2450",
       "label": "Eric McConico",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2545,8 +2561,8 @@
       "id": "cad24459b28592ca",
       "label": "Eryk Anders",
       "group": "Middleweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2769,8 +2785,8 @@
       "id": "6ac9bc2953c47345",
       "label": "Gerald Meerschaert",
       "group": "Middleweight",
-      "fightCount": 25,
-      "uniqueOpponentCount": 25,
+      "fightCount": 26,
+      "uniqueOpponentCount": 26,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3073,11 +3089,11 @@
       "id": "1338e2c7480bdf9e",
       "label": "Israel Adesanya",
       "group": "Middleweight",
-      "fightCount": 17,
-      "uniqueOpponentCount": 14,
+      "fightCount": 18,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "4",
+      "currentRank": "9",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -3153,8 +3169,8 @@
       "id": "3eeec2f53cebdf12",
       "label": "Jackson McVey",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3169,8 +3185,8 @@
       "id": "d4270315cbcf2569",
       "label": "Jacob Malkoun",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3365,7 +3381,7 @@
       "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "10",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -3681,11 +3697,11 @@
       "id": "c1085e1701b13eca",
       "label": "Joe Pyfer",
       "group": "Middleweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "currentRank": "6",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -4126,6 +4142,22 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "cd0dfd9846bd03b9",
+      "label": "Julien Leblanc",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
       "id": "285ae0b4a68221f4",
       "label": "JunYong Park",
       "group": "Middleweight",
@@ -4305,8 +4337,8 @@
       "id": "8c0580d4fff106c1",
       "label": "Kelvin Gastelum",
       "group": "Middleweight",
-      "fightCount": 17,
-      "uniqueOpponentCount": 17,
+      "fightCount": 18,
+      "uniqueOpponentCount": 18,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4417,12 +4449,12 @@
       "id": "767755fd74662dbf",
       "label": "Khamzat Chimaev",
       "group": "Middleweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
-      "isCurrentChampion": true,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
-      "isFormerChampion": false,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "1",
+      "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
       "countryCode": "AE",
@@ -4817,8 +4849,8 @@
       "id": "841695e02c99a521",
       "label": "Mansur Abdul-Malik",
       "group": "Middleweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4828,6 +4860,22 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "3cc506f115cbb9d5",
+      "label": "Mantas Kondratavicius",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "LT",
+      "countryName": "Lithuania",
+      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9"
     },
     {
       "id": "8e9eb3fc86db0f7d",
@@ -4881,8 +4929,8 @@
       "id": "9384e71bca6c409d",
       "label": "Marco Tulio",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5269,7 +5317,7 @@
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "2",
+      "currentRank": "3",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -5537,8 +5585,8 @@
       "id": "6967153c7edb4d87",
       "label": "Ozzy Diaz",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5669,7 +5717,7 @@
       "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "13",
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -6001,8 +6049,8 @@
       "id": "f96856f9d69fd7e4",
       "label": "Robert Bryczek",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6033,8 +6081,8 @@
       "id": "0cd0456d6029cec2",
       "label": "Robert Valentin",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6053,7 +6101,7 @@
       "uniqueOpponentCount": 17,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "9",
+      "currentRank": "10",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -6065,8 +6113,8 @@
       "id": "260e9e0d4954aea6",
       "label": "Rodolfo Vieira",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6129,11 +6177,11 @@
       "id": "327d5f279895110d",
       "label": "Roman Dolidze",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 9,
+      "fightCount": 11,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "currentRank": "15",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -6145,8 +6193,8 @@
       "id": "9d83f6da776ff7d6",
       "label": "Roman Kopylov",
       "group": "Middleweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6417,12 +6465,12 @@
       "id": "0d8011111be000b2",
       "label": "Sean Strickland",
       "group": "Middleweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 13,
-      "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "3",
-      "isFormerChampion": true,
+      "fightCount": 15,
+      "uniqueOpponentCount": 14,
+      "isCurrentChampion": true,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
       "countryCode": "US",
@@ -6433,8 +6481,8 @@
       "id": "4e6738062d469256",
       "label": "Sedriques Dumas",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7041,8 +7089,8 @@
       "id": "147e70aa6cc48cfc",
       "label": "Tresean Gore",
       "group": "Middleweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7182,6 +7230,22 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "6d4b63c767106d3a",
+      "label": "Vicente Luque",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
       "id": "1e7483dbff40b84b",
       "label": "Vik Grujic",
       "group": "Middleweight",
@@ -7297,8 +7361,8 @@
       "id": "b4443fae47e7eb9d",
       "label": "Wes Schultz",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7393,8 +7457,8 @@
       "id": "7674b836ce0698a0",
       "label": "Yousri Belgaroui",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8629,6 +8693,22 @@
     },
     {
       "source": "5f61780fe5e9b6d0",
+      "target": "f14f644d41ade29f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Cody Brundage def. Andre Petroski",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "0:44",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5f61780fe5e9b6d0",
       "target": "a817e238b2747404",
       "value": 1,
       "bouts": [
@@ -9397,6 +9477,22 @@
     },
     {
       "source": "2f815ed5f8278ba6",
+      "target": "6967153c7edb4d87",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Ateba Gautier def. Ozzy Diaz",
+          "method": "KO/TKO Punch",
+          "round": "2",
+          "time": "1:10",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2f815ed5f8278ba6",
       "target": "563a1d42bb0e3cef",
       "value": 1,
       "bouts": [
@@ -9455,6 +9551,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3261aa79bf6caa64",
+      "target": "b4443fae47e7eb9d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Wes Schultz def. Ben Johnston",
+          "method": "SUB Guillotine Choke",
+          "round": "3",
+          "time": "1:50",
           "isTitleBout": false
         }
       ]
@@ -9740,6 +9852,22 @@
           "eventName": "The Ultimate Fighter: Redemption Finale",
           "eventDate": "2017-07-07",
           "resultSummary": "Brad Tavares def. Elias Theodorou",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0c6d9ea8306c029e",
+      "target": "cad24459b28592ca",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Eryk Anders def. Brad Tavares",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
@@ -10881,6 +11009,22 @@
           "method": "KO/TKO Punches",
           "round": "2",
           "time": "4:08",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8ebc3a8da015d70c",
+      "target": "f96856f9d69fd7e4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Cam Rowston def. Robert Bryczek",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -13513,6 +13657,22 @@
     },
     {
       "source": "312f7d7b2b2f7de4",
+      "target": "d1feea7a4bdcd503",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Baisangur Susurkaev def. Djorden Santos",
+          "method": "SUB Rear Naked Choke",
+          "round": "3",
+          "time": "4:12",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "312f7d7b2b2f7de4",
       "target": "b7c5eb7cdbac6a63",
       "value": 1,
       "bouts": [
@@ -15307,6 +15467,22 @@
     },
     {
       "source": "6ac9bc2953c47345",
+      "target": "d4270315cbcf2569",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Jacob Malkoun def. Gerald Meerschaert",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6ac9bc2953c47345",
       "target": "c1085e1701b13eca",
       "value": 1,
       "bouts": [
@@ -15871,6 +16047,22 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "1338e2c7480bdf9e",
+      "target": "c1085e1701b13eca",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Joe Pyfer def. Israel Adesanya",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "4:18",
+          "isTitleBout": false
         }
       ]
     },
@@ -16592,6 +16784,22 @@
           "method": "KO/TKO Kick",
           "round": "2",
           "time": "2:21",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3eeec2f53cebdf12",
+      "target": "4e6738062d469256",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Jackson McVey def. Sedriques Dumas",
+          "method": "SUB D'Arce Choke",
+          "round": "1",
+          "time": "2:14",
           "isTitleBout": false
         }
       ]
@@ -19422,6 +19630,22 @@
       ]
     },
     {
+      "source": "3cc506f115cbb9d5",
+      "target": "6d48a2df51749d91",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Evloev vs. Murphy",
+          "eventDate": "2026-03-21",
+          "resultSummary": "Mantas Kondratavicius def. Antonio Trocoli",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "8e9eb3fc86db0f7d",
       "target": "fccf811c1e8b01c7",
       "value": 1,
@@ -19561,6 +19785,22 @@
           "method": "KO/TKO Punch",
           "round": "2",
           "time": "3:20",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9384e71bca6c409d",
+      "target": "9d83f6da776ff7d6",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Roman Kopylov def. Marco Tulio",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -22595,6 +22835,22 @@
     },
     {
       "source": "0cd0456d6029cec2",
+      "target": "cd0dfd9846bd03b9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "Robert Valentin def. Julien Leblanc",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "2:22",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0cd0456d6029cec2",
       "target": "d5bab53a1a603aac",
       "value": 1,
       "bouts": [
@@ -22748,6 +23004,22 @@
     },
     {
       "source": "260e9e0d4954aea6",
+      "target": "9508cc6184cb2450",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Eric McConico def. Rodolfo Vieira",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "260e9e0d4954aea6",
       "target": "88d7b6d8230e1f3f",
       "value": 1,
       "bouts": [
@@ -22758,6 +23030,22 @@
           "method": "SUB Arm Triangle",
           "round": "1",
           "time": "2:58",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "327d5f279895110d",
+      "target": "a93f94c923c3a9cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Evloev vs. Murphy",
+          "eventDate": "2026-03-21",
+          "resultSummary": "Christian Leroy Duncan def. Roman Dolidze",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -23424,6 +23712,22 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0d8011111be000b2",
+      "target": "767755fd74662dbf",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Sean Strickland def. Khamzat Chimaev",
+          "method": "S-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": true
         }
       ]
     },
@@ -24501,6 +24805,22 @@
     },
     {
       "source": "147e70aa6cc48cfc",
+      "target": "3bc3f60b21cddc6a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Tresean Gore def. Azamat Bekoev",
+          "method": "SUB Guillotine Choke",
+          "round": "3",
+          "time": "3:27",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "147e70aa6cc48cfc",
       "target": "f626118b6da0e020",
       "value": 1,
       "bouts": [
@@ -24767,6 +25087,22 @@
           "method": "KO/TKO Elbows",
           "round": "1",
           "time": "2:58",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6d4b63c767106d3a",
+      "target": "8c0580d4fff106c1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Vicente Luque def. Kelvin Gastelum",
+          "method": "SUB Anaconda Choke",
+          "round": "1",
+          "time": "4:08",
           "isTitleBout": false
         }
       ]
@@ -25215,6 +25551,22 @@
           "method": "SUB Triangle Choke",
           "round": "3",
           "time": "4:40",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7674b836ce0698a0",
+      "target": "841695e02c99a521",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Yousri Belgaroui def. Mansur Abdul-Malik",
+          "method": "KO/TKO Knee",
+          "round": "3",
+          "time": "3:39",
           "isTitleBout": false
         }
       ]

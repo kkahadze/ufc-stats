@@ -7,17 +7,17 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
+    "latest_resolved_event_date": "2026-05-16",
     "fighter_count": 114,
-    "matchup_count": 264,
-    "bout_count": 268
+    "matchup_count": 268,
+    "bout_count": 273
   },
   "nodes": [
     {
       "id": "e8b731feff72294b",
       "label": "Alexa Grasso",
       "group": "Women's Flyweight",
-      "fightCount": 8,
+      "fightCount": 9,
       "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
@@ -225,11 +225,11 @@
       "id": "04835018f90b118c",
       "label": "Casey O'Neill",
       "group": "Women's Flyweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "12",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -321,8 +321,8 @@
       "id": "27b388f0aab49780",
       "label": "Dione Barbosa",
       "group": "Women's Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -389,7 +389,7 @@
       "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "3",
+      "currentRank": "4",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -433,11 +433,11 @@
       "id": "a6eb54ae17a551be",
       "label": "Gabriella Fernandes",
       "group": "Women's Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "currentRank": "15",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -561,8 +561,8 @@
       "id": "5c637af9472ae7cc",
       "label": "Jamey-Lyn Horth",
       "group": "Women's Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -577,11 +577,11 @@
       "id": "a9e260472d321361",
       "label": "Jasmine Jasudavicius",
       "group": "Women's Flyweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "6",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -673,11 +673,11 @@
       "id": "6fd953151d981979",
       "label": "JJ Aldrich",
       "group": "Women's Flyweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "15",
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -801,8 +801,8 @@
       "id": "9d62c2d8ee151f08",
       "label": "Karine Silva",
       "group": "Women's Flyweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "10",
@@ -1081,9 +1081,9 @@
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
-      "countryCode": "IT",
-      "countryName": "Italy",
-      "flagEmoji": "\ud83c\uddee\ud83c\uddf9"
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
       "id": "cd2c4d30c6e13b47",
@@ -1137,11 +1137,11 @@
       "id": "6a740daf1b279661",
       "label": "Maycee Barber",
       "group": "Women's Flyweight",
-      "fightCount": 11,
+      "fightCount": 12,
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "5",
+      "currentRank": "6",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1185,8 +1185,8 @@
       "id": "a4a80dd7336ffd59",
       "label": "Melissa Gatto",
       "group": "Women's Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1477,7 +1477,7 @@
       "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "6",
+      "currentRank": "5",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1781,7 +1781,7 @@
       "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "currentRank": "12",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -2378,6 +2378,22 @@
     },
     {
       "source": "04835018f90b118c",
+      "target": "a6eb54ae17a551be",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Casey O'Neill def. Gabriella Fernandes",
+          "method": "KO/TKO Punches",
+          "round": "1",
+          "time": "3:11",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "04835018f90b118c",
       "target": "8e1f36476ef02a6a",
       "value": 1,
       "bouts": [
@@ -2642,6 +2658,22 @@
           "eventDate": "2025-08-16",
           "resultSummary": "Karine Silva def. Dione Barbosa",
           "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "27b388f0aab49780",
+      "target": "a4a80dd7336ffd59",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Dione Barbosa def. Melissa Gatto",
+          "method": "M-DEC",
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
@@ -3185,6 +3217,22 @@
           "eventName": "UFC Fight Night: Strickland vs. Magomedov",
           "eventDate": "2023-07-01",
           "resultSummary": "Luana Carolina def. Ivana Petrovic",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "5c637af9472ae7cc",
+      "target": "6fd953151d981979",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "JJ Aldrich def. Jamey-Lyn Horth",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
@@ -3741,6 +3789,22 @@
           "method": "SUB Rear Naked Choke",
           "round": "1",
           "time": "2:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9d62c2d8ee151f08",
+      "target": "a9e260472d321361",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "Jasmine Jasudavicius def. Karine Silva",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -4372,8 +4436,17 @@
     {
       "source": "6a740daf1b279661",
       "target": "e8b731feff72294b",
-      "value": 1,
+      "value": 2,
       "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Alexa Grasso def. Maycee Barber",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "2:42",
+          "isTitleBout": false
+        },
         {
           "eventName": "UFC 258: Usman vs. Burns",
           "eventDate": "2021-02-13",

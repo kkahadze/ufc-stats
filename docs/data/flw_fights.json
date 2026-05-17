@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
+    "latest_resolved_event_date": "2026-05-16",
     "fighter_count": 160,
-    "matchup_count": 394,
-    "bout_count": 409
+    "matchup_count": 400,
+    "bout_count": 415
   },
   "nodes": [
     {
@@ -33,8 +33,8 @@
       "id": "3fa97913cfd205d3",
       "label": "Alessandro Costa",
       "group": "Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -53,7 +53,7 @@
       "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "10",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -229,7 +229,7 @@
       "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "8",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -302,22 +302,6 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
-      "id": "87f19d19f4cb73f8",
-      "label": "Bibulatov Magomed",
-      "group": "Flyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
-      "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
-      "isFormerChampion": false,
-      "isFormerTitleChallenger": false,
-      "hasTitleFightInDivision": false,
-      "countryCode": null,
-      "countryName": null,
-      "flagEmoji": null
-    },
-    {
       "id": "c945adc22c2bfe8f",
       "label": "Brad Pickett",
       "group": "Flyweight",
@@ -369,8 +353,8 @@
       "id": "294aa73dbf37d281",
       "label": "Bruno Silva",
       "group": "Flyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "15",
@@ -449,8 +433,8 @@
       "id": "814e5233e2acf2ee",
       "label": "Charles Johnson",
       "group": "Flyweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -545,8 +529,8 @@
       "id": "b62d5280966b2460",
       "label": "Clayton Carpenter",
       "group": "Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -593,8 +577,8 @@
       "id": "e8fe9c15d348e778",
       "label": "Daniel Barez",
       "group": "Flyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1281,8 +1265,8 @@
       "id": "88be62d6c1e6dadb",
       "label": "Jose Ochoa",
       "group": "Flyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1377,8 +1361,8 @@
       "id": "17e97649403ba428",
       "label": "Joshua Van",
       "group": "Flyweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": true,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1617,8 +1601,8 @@
       "id": "29162be25ebef5f0",
       "label": "Luis Gurule",
       "group": "Flyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1628,6 +1612,22 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "87f19d19f4cb73f8",
+      "label": "Magomed Bibulatov",
+      "group": "Flyweight",
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "RU",
+      "countryName": "Russia",
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
     },
     {
       "id": "dee294e9717012c2",
@@ -2193,11 +2193,11 @@
       "id": "32ab52e5de93092d",
       "label": "Steve Erceg",
       "group": "Flyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "12",
+      "currentRank": "10",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -2209,8 +2209,8 @@
       "id": "2bd98ab77a8daa75",
       "label": "Stewart Nicoll",
       "group": "Flyweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2273,14 +2273,14 @@
       "id": "4461d7e47375a895",
       "label": "Tatsuro Taira",
       "group": "Flyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "3",
       "isFormerChampion": false,
-      "isFormerTitleChallenger": false,
-      "hasTitleFightInDivision": false,
+      "isFormerTitleChallenger": true,
+      "hasTitleFightInDivision": true,
       "countryCode": "JP",
       "countryName": "Japan",
       "flagEmoji": "\ud83c\uddef\ud83c\uddf5"
@@ -2305,11 +2305,11 @@
       "id": "c96d9178c9ed9e62",
       "label": "Tim Elliott",
       "group": "Flyweight",
-      "fightCount": 19,
-      "uniqueOpponentCount": 19,
+      "fightCount": 20,
+      "uniqueOpponentCount": 20,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "currentRank": "12",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -2839,8 +2839,8 @@
         {
           "eventName": "UFC Fight Night: Strickland vs. Hernandez",
           "eventDate": "2026-02-21",
-          "resultSummary": "Alibi Idiris def. Ode Osbourne",
-          "method": "U-DEC",
+          "resultSummary": "No contest",
+          "method": "Overturned",
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
@@ -3168,38 +3168,6 @@
       ]
     },
     {
-      "source": "87f19d19f4cb73f8",
-      "target": "ec664422b22d9787",
-      "value": 1,
-      "bouts": [
-        {
-          "eventName": "UFC 210: Cormier vs. Johnson 2",
-          "eventDate": "2017-04-08",
-          "resultSummary": "Bibulatov Magomed def. Jenel Lausa",
-          "method": "U-DEC",
-          "round": "3",
-          "time": "5:00",
-          "isTitleBout": false
-        }
-      ]
-    },
-    {
-      "source": "87f19d19f4cb73f8",
-      "target": "92437c6775b3f7d1",
-      "value": 1,
-      "bouts": [
-        {
-          "eventName": "UFC 216: Ferguson vs. Lee",
-          "eventDate": "2017-10-07",
-          "resultSummary": "John Moraga def. Bibulatov Magomed",
-          "method": "KO/TKO Punch",
-          "round": "1",
-          "time": "1:38",
-          "isTitleBout": false
-        }
-      ]
-    },
-    {
       "source": "792be9a24df82ed6",
       "target": "a0f0004aadf10b71",
       "value": 2,
@@ -3466,6 +3434,22 @@
           "method": "SUB Arm Triangle",
           "round": "2",
           "time": "3:18",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "294aa73dbf37d281",
+      "target": "814e5233e2acf2ee",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Charles Johnson def. Bruno Silva",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -5652,6 +5636,22 @@
     },
     {
       "source": "88be62d6c1e6dadb",
+      "target": "b62d5280966b2460",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Jose Ochoa def. Clayton Carpenter",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "88be62d6c1e6dadb",
       "target": "bb2c3c3a466224af",
       "value": 1,
       "bouts": [
@@ -6099,6 +6099,22 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "17e97649403ba428",
+      "target": "4461d7e47375a895",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 328: Chimaev vs. Strickland",
+          "eventDate": "2026-05-09",
+          "resultSummary": "Joshua Van def. Tatsuro Taira",
+          "method": "KO/TKO Punches",
+          "round": "5",
+          "time": "1:32",
+          "isTitleBout": true
         }
       ]
     },
@@ -6584,6 +6600,22 @@
     },
     {
       "source": "29162be25ebef5f0",
+      "target": "e8fe9c15d348e778",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Luis Gurule def. Daniel Barez",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "29162be25ebef5f0",
       "target": "c051c2e12d692b8a",
       "value": 1,
       "bouts": [
@@ -6610,6 +6642,38 @@
           "method": "KO/TKO Punch",
           "round": "2",
           "time": "1:54",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "87f19d19f4cb73f8",
+      "target": "ec664422b22d9787",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 210: Cormier vs. Johnson 2",
+          "eventDate": "2017-04-08",
+          "resultSummary": "Magomed Bibulatov def. Jenel Lausa",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "87f19d19f4cb73f8",
+      "target": "92437c6775b3f7d1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 216: Ferguson vs. Lee",
+          "eventDate": "2017-10-07",
+          "resultSummary": "John Moraga def. Magomed Bibulatov",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "1:38",
           "isTitleBout": false
         }
       ]
@@ -7688,22 +7752,6 @@
     },
     {
       "source": "07a2bdaa0afdd831",
-      "target": "87f19d19f4cb73f8",
-      "value": 1,
-      "bouts": [
-        {
-          "eventName": "UFC Fight Night: Assuncao vs. Moraes 2",
-          "eventDate": "2019-02-02",
-          "resultSummary": "Rogerio Bontorin def. Bibulatov Magomed",
-          "method": "S-DEC",
-          "round": "3",
-          "time": "5:00",
-          "isTitleBout": false
-        }
-      ]
-    },
-    {
-      "source": "07a2bdaa0afdd831",
       "target": "6e15f63b6c2e2c15",
       "value": 1,
       "bouts": [
@@ -7730,6 +7778,22 @@
           "method": "KO/TKO Punch",
           "round": "1",
           "time": "4:55",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "07a2bdaa0afdd831",
+      "target": "87f19d19f4cb73f8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Assuncao vs. Moraes 2",
+          "eventDate": "2019-02-02",
+          "resultSummary": "Rogerio Bontorin def. Magomed Bibulatov",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -8098,6 +8162,38 @@
           "method": "KO/TKO Punch",
           "round": "2",
           "time": "0:26",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "32ab52e5de93092d",
+      "target": "c96d9178c9ed9e62",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Steve Erceg def. Tim Elliott",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2bd98ab77a8daa75",
+      "target": "3fa97913cfd205d3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Alessandro Costa def. Stewart Nicoll",
+          "method": "KO/TKO Punch",
+          "round": "2",
+          "time": "4:56",
           "isTitleBout": false
         }
       ]

@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
+    "latest_resolved_event_date": "2026-05-16",
     "fighter_count": 101,
-    "matchup_count": 234,
-    "bout_count": 240
+    "matchup_count": 240,
+    "bout_count": 246
   },
   "nodes": [
     {
@@ -65,8 +65,8 @@
       "id": "81d2c551886bd5a1",
       "label": "Alice Pereira",
       "group": "Women's Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -209,11 +209,11 @@
       "id": "eff9074bc066f0f2",
       "label": "Bia Mesquita",
       "group": "Women's Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "15",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -273,8 +273,8 @@
       "id": "07047eb7d17fb0a2",
       "label": "Daria Zhelezniakova",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -353,8 +353,8 @@
       "id": "3c26c420584d912d",
       "label": "Hailey Cowan",
       "group": "Women's Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -389,7 +389,7 @@
       "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "6",
+      "currentRank": "7",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -417,11 +417,11 @@
       "id": "e3964ece586e0635",
       "label": "Jacqueline Cavalcanti",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "10",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -561,11 +561,11 @@
       "id": "f9ab66e67240db7b",
       "label": "Joselyne Edwards",
       "group": "Women's Bantamweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 10,
+      "fightCount": 12,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "currentRank": "3",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -661,7 +661,7 @@
       "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "8",
+      "currentRank": "10",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -721,11 +721,11 @@
       "id": "b9706f80d005036c",
       "label": "Ketlen Vieira",
       "group": "Women's Bantamweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "4",
+      "currentRank": "5",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -885,7 +885,7 @@
       "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "15",
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -945,11 +945,11 @@
       "id": "cc8c623cca88f54f",
       "label": "Mayra Bueno Silva",
       "group": "Women's Bantamweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "12",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -961,8 +961,8 @@
       "id": "51e2f44a8dbf6984",
       "label": "Melissa Croden",
       "group": "Women's Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1009,11 +1009,11 @@
       "id": "ca80d72da81d7224",
       "label": "Michelle Montague",
       "group": "Women's Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "12",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1028,8 +1028,8 @@
       "fightCount": 13,
       "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -1057,8 +1057,8 @@
       "id": "60193e707634e560",
       "label": "Montse Rendon",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1105,11 +1105,11 @@
       "id": "d3f5d33d61cd00c9",
       "label": "Norma Dumont",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "3",
+      "currentRank": "4",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1621,7 +1621,7 @@
       "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "5",
+      "currentRank": "7",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -2273,6 +2273,22 @@
     },
     {
       "source": "07047eb7d17fb0a2",
+      "target": "51e2f44a8dbf6984",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Burns vs. Malott",
+          "eventDate": "2026-04-18",
+          "resultSummary": "Melissa Croden def. Daria Zhelezniakova",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "07047eb7d17fb0a2",
       "target": "bd532e9a2b93870c",
       "value": 1,
       "bouts": [
@@ -2500,6 +2516,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3c26c420584d912d",
+      "target": "81d2c551886bd5a1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Alice Pereira def. Hailey Cowan",
+          "method": "KO/TKO Knee",
+          "round": "2",
+          "time": "4:24",
           "isTitleBout": false
         }
       ]
@@ -3509,6 +3541,22 @@
     },
     {
       "source": "b9706f80d005036c",
+      "target": "e3964ece586e0635",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Ketlen Vieira def. Jacqueline Cavalcanti",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9706f80d005036c",
       "target": "d3f5d33d61cd00c9",
       "value": 1,
       "bouts": [
@@ -4180,6 +4228,22 @@
       ]
     },
     {
+      "source": "ca80d72da81d7224",
+      "target": "cc8c623cca88f54f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Michelle Montague def. Mayra Bueno Silva",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "b96619b3acd7d9da",
       "target": "f72465a784c1b084",
       "value": 1,
@@ -4324,6 +4388,22 @@
       ]
     },
     {
+      "source": "60193e707634e560",
+      "target": "eff9074bc066f0f2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Bia Mesquita def. Montse Rendon",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "2:07",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "1de9ad94de18eeaf",
       "target": "3253b16d38ae087d",
       "value": 1,
@@ -4373,6 +4453,22 @@
           "eventName": "UFC Fight Night: Smith vs. Clark",
           "eventDate": "2020-11-28",
           "resultSummary": "Norma Dumont def. Ashlee Evans-Smith",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d3f5d33d61cd00c9",
+      "target": "f9ab66e67240db7b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Sterling vs. Zalal",
+          "eventDate": "2026-04-25",
+          "resultSummary": "Joselyne Edwards def. Norma Dumont",
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",

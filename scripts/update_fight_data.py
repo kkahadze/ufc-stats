@@ -209,7 +209,15 @@ def fetch_text(url: str) -> str:
             if attempt == RETRY_ATTEMPTS:
                 break
             time.sleep(attempt)
-    raise RuntimeError(f"Failed to fetch {url}") from error
+
+    detail = ""
+    if isinstance(error, subprocess.CalledProcessError):
+        stderr = clean_text(error.stderr or "")
+        detail = f" (curl exit {error.returncode}"
+        if stderr:
+            detail += f": {stderr}"
+        detail += ")"
+    raise RuntimeError(f"Failed to fetch {url}{detail}") from error
 
 
 def read_cached_text(cache_path: Path) -> str:
@@ -394,9 +402,7 @@ def parse_rankings_updated_text(soup: BeautifulSoup) -> str | None:
 
 
 def parse_rankings_snapshot(soup: BeautifulSoup) -> tuple[dict[str, dict], str | None]:
-    snapshot: dict[str, dict] = {
-        division: {"champion": None, "ranked": {}} for division, _ in DIVISIONS
-    }
+    snapshot = build_empty_rankings_snapshot()
 
     for grouping in soup.select(".view-grouping"):
         header = grouping.select_one(".view-grouping-header")
@@ -426,6 +432,87 @@ def parse_rankings_snapshot(soup: BeautifulSoup) -> tuple[dict[str, dict], str |
             )
 
     return snapshot, parse_rankings_updated_text(soup)
+
+
+def build_empty_rankings_snapshot() -> dict[str, dict]:
+    return {division: {"champion": None, "ranked": {}} for division, _ in DIVISIONS}
+
+
+def load_committed_rankings_snapshot() -> tuple[dict[str, dict], str | None]:
+    snapshot = build_empty_rankings_snapshot()
+    rankings_updated_text: str | None = None
+
+    for division, filename in DIVISIONS:
+        data_path = OUTPUT_DIR / filename
+        if not data_path.exists():
+            continue
+
+        payload = json.loads(data_path.read_text(encoding="utf-8"))
+        if rankings_updated_text is None:
+            rankings_updated_text = payload.get("meta", {}).get("rankings_updated_text")
+
+        for node in payload.get("nodes", []):
+            fighter_name = clean_text(str(node.get("label", "")))
+            if not fighter_name:
+                continue
+
+            if node.get("isCurrentChampion"):
+                snapshot[division]["champion"] = fighter_name
+
+            current_rank = node.get("currentRank")
+            if node.get("isCurrentlyRanked") and current_rank is not None:
+                snapshot[division]["ranked"][normalize_name(fighter_name)] = str(current_rank)
+
+    return snapshot, rankings_updated_text
+
+
+def rankings_snapshot_has_data(snapshot: dict[str, dict]) -> bool:
+    return any(
+        division_snapshot.get("champion") or division_snapshot.get("ranked")
+        for division_snapshot in snapshot.values()
+    )
+
+
+def load_rankings_snapshot(refresh_all: bool) -> tuple[dict[str, dict], str | None]:
+    try:
+        snapshot, rankings_updated_text = parse_rankings_snapshot(
+            load_rankings_soup(refresh_all)
+        )
+    except RuntimeError as exc:
+        if refresh_all:
+            raise
+
+        committed_snapshot, rankings_updated_text = load_committed_rankings_snapshot()
+        if not rankings_snapshot_has_data(committed_snapshot):
+            raise RuntimeError(
+                "Failed to fetch UFC rankings and no committed rankings metadata was available."
+            ) from exc
+
+        print(
+            "Warning: could not fetch live UFC rankings; "
+            "reusing rankings metadata from committed docs/data files."
+        )
+        print(f"Rankings fetch error: {exc}")
+        return committed_snapshot, rankings_updated_text
+
+    if rankings_snapshot_has_data(snapshot):
+        return snapshot, rankings_updated_text
+
+    if refresh_all:
+        raise RuntimeError("Fetched UFC rankings page did not contain ranking metadata.")
+
+    committed_snapshot, committed_rankings_updated_text = load_committed_rankings_snapshot()
+    if not rankings_snapshot_has_data(committed_snapshot):
+        raise RuntimeError(
+            "Fetched UFC rankings page did not contain ranking metadata and no "
+            "committed rankings metadata was available."
+        )
+
+    print(
+        "Warning: fetched UFC rankings page did not contain ranking metadata; "
+        "reusing rankings metadata from committed docs/data files."
+    )
+    return committed_snapshot, committed_rankings_updated_text
 
 
 def load_rankings_soup(refresh_all: bool) -> BeautifulSoup:
@@ -494,11 +581,16 @@ def load_ufc_events_page_soup(page: int, refresh_all: bool) -> tuple[BeautifulSo
 
     should_refresh = refresh_all or cached_soup is None or page < RECENT_UFC_EVENTS_INDEX_REFRESH_COUNT
     if should_refresh:
-        html = fetch_text(build_ufc_events_url(page))
-        write_cached_text(cache_path, html)
-        if cached_soup is None:
-            return fetch_soup_from_text(html), "fetched"
-        return fetch_soup_from_text(html), "refreshed"
+        try:
+            html = fetch_text(build_ufc_events_url(page))
+            write_cached_text(cache_path, html)
+            if cached_soup is None:
+                return fetch_soup_from_text(html), "fetched"
+            return fetch_soup_from_text(html), "refreshed"
+        except RuntimeError:
+            if cached_soup is None:
+                raise
+            return cached_soup, "cached"
 
     return cached_soup, "cached"
 
@@ -569,11 +661,16 @@ def load_ufc_event_card_soup(
         refresh_all or cached_soup is None or index < RECENT_UFC_EVENT_CARD_REFRESH_COUNT
     )
     if should_refresh:
-        html = fetch_text(event_link)
-        write_cached_text(cache_path, html)
-        if cached_soup is None:
-            return fetch_soup_from_text(html), "fetched"
-        return fetch_soup_from_text(html), "refreshed"
+        try:
+            html = fetch_text(event_link)
+            write_cached_text(cache_path, html)
+            if cached_soup is None:
+                return fetch_soup_from_text(html), "fetched"
+            return fetch_soup_from_text(html), "refreshed"
+        except RuntimeError:
+            if cached_soup is None:
+                raise
+            return cached_soup, "cached"
 
     return cached_soup, "cached"
 
@@ -904,13 +1001,76 @@ def collect_fighter_names(all_fights: Iterable[EventFight]) -> dict[str, str]:
     return fighter_names
 
 
+def load_committed_fighter_country_map(required_names: set[str]) -> dict[str, CountryInfo]:
+    fighter_countries: dict[str, CountryInfo] = {}
+
+    for _, filename in DIVISIONS:
+        data_path = OUTPUT_DIR / filename
+        if not data_path.exists():
+            continue
+
+        payload = json.loads(data_path.read_text(encoding="utf-8"))
+        for node in payload.get("nodes", []):
+            fighter_name_key = normalize_name(str(node.get("label", "")))
+            if not fighter_name_key or fighter_name_key not in required_names:
+                continue
+            if fighter_name_key in fighter_countries:
+                continue
+
+            country_code = node.get("countryCode")
+            country_name = node.get("countryName")
+            if not isinstance(country_code, str) or not isinstance(country_name, str):
+                continue
+
+            country_info = build_country_info(country_name=country_name, country_code=country_code)
+            if country_info is not None:
+                fighter_countries[fighter_name_key] = country_info
+
+    return fighter_countries
+
+
 def build_fighter_country_map(
     fighter_names: dict[str, str], refresh_all: bool
 ) -> dict[str, CountryInfo]:
     required_names = {normalize_name(fighter_name) for fighter_name in fighter_names.values()}
-    fighter_event_flags = build_fighter_event_flag_map(required_names, refresh_all)
-    athlete_directory = load_or_build_athlete_directory(refresh_all, required_names)
-    athlete_locations = load_or_build_athlete_location_map(refresh_all)
+    committed_fighter_countries = load_committed_fighter_country_map(required_names)
+
+    try:
+        fighter_event_flags = build_fighter_event_flag_map(required_names, refresh_all)
+    except RuntimeError as exc:
+        if refresh_all:
+            raise
+        print(
+            "Warning: could not fetch UFC event-card flag metadata; "
+            "using committed country metadata where available."
+        )
+        print(f"UFC event-card fetch error: {exc}")
+        fighter_event_flags = {}
+
+    try:
+        athlete_directory = load_or_build_athlete_directory(refresh_all, required_names)
+    except RuntimeError as exc:
+        if refresh_all:
+            raise
+        print(
+            "Warning: could not fetch UFC athlete directory metadata; "
+            "using committed country metadata where available."
+        )
+        print(f"UFC athlete directory fetch error: {exc}")
+        athlete_directory = {}
+
+    try:
+        athlete_locations = load_or_build_athlete_location_map(refresh_all)
+    except RuntimeError as exc:
+        if refresh_all:
+            raise
+        print(
+            "Warning: could not fetch UFC athlete location metadata; "
+            "using committed country metadata where available."
+        )
+        print(f"UFC athlete location fetch error: {exc}")
+        athlete_locations = {}
+
     fighter_countries: dict[str, CountryInfo] = {}
     profile_cache_stats: Counter[str] = Counter()
     unresolved_names: list[str] = []
@@ -941,12 +1101,25 @@ def build_fighter_country_map(
                 fighter_countries[fighter_name_key] = country_info
                 continue
 
+        committed_country = committed_fighter_countries.get(fighter_name_key)
+        if committed_country is not None:
+            fighter_countries[fighter_name_key] = committed_country
+            continue
+
         athlete_entry = athlete_directory.get(fighter_name_key)
         if athlete_entry is None:
             unresolved_names.append(fighter_name_key)
             continue
 
-        athlete_soup, source = load_athlete_profile_soup(athlete_entry["href"], refresh_all)
+        try:
+            athlete_soup, source = load_athlete_profile_soup(athlete_entry["href"], refresh_all)
+        except RuntimeError as exc:
+            if refresh_all:
+                raise
+            print(f"Warning: could not fetch athlete profile for {fighter_name_key}: {exc}")
+            unresolved_names.append(fighter_name_key)
+            continue
+
         profile_cache_stats[source] += 1
         profile_country_name = parse_country_name_from_athlete_profile(athlete_soup)
         if not profile_country_name:
@@ -967,6 +1140,12 @@ def build_fighter_country_map(
         f"Official UFC event-card flags covered "
         f"{sum(1 for name in required_names if name in fighter_event_flags)} of {len(required_names)} fighters."
     )
+    if committed_fighter_countries:
+        print(
+            f"Committed country metadata covered "
+            f"{sum(1 for name in required_names if name in committed_fighter_countries)} "
+            f"of {len(required_names)} fighters."
+        )
     if profile_cache_stats:
         print(
             "Athlete profile cache summary: "
@@ -1000,11 +1179,16 @@ def load_event_soup(event_link: str, index: int, refresh_all: bool) -> tuple[Bea
     )
 
     if should_refresh:
-        html = fetch_text(event_link)
-        write_cached_text(cache_path, html)
-        if cached_soup is None:
-            return fetch_soup_from_text(html), "fetched"
-        return fetch_soup_from_text(html), "refreshed"
+        try:
+            html = fetch_text(event_link)
+            write_cached_text(cache_path, html)
+            if cached_soup is None:
+                return fetch_soup_from_text(html), "fetched"
+            return fetch_soup_from_text(html), "refreshed"
+        except RuntimeError:
+            if cached_soup is None:
+                raise
+            return cached_soup, "cached"
 
     return cached_soup, "cached"
 
@@ -1198,9 +1382,7 @@ def write_payloads(
 
 def main() -> None:
     args = parse_args()
-    rankings_snapshot, rankings_updated_text = parse_rankings_snapshot(
-        load_rankings_soup(args.refresh_all)
-    )
+    rankings_snapshot, rankings_updated_text = load_rankings_snapshot(args.refresh_all)
     fights, latest_event_date, _ = collect_fights(args.refresh_all)
     fighter_countries = build_fighter_country_map(collect_fighter_names(fights), args.refresh_all)
     write_payloads(

@@ -43,3 +43,5 @@ The first run after introducing the flag metadata is slower because it has to fi
 ```bash
 python3 scripts/update_fight_data.py --refresh-all
 ```
+
+If UFC.com temporarily rejects requests from an automated runner, the normal refresh path reuses the already-committed ranking and country metadata from `docs/data/` rather than failing the whole data refresh. `--refresh-all` still requires live source fetches and will fail instead of using committed fallback metadata.

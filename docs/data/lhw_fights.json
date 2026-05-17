@@ -7,10 +7,10 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-03-07",
-    "fighter_count": 292,
-    "matchup_count": 708,
-    "bout_count": 741
+    "latest_resolved_event_date": "2026-05-16",
+    "fighter_count": 293,
+    "matchup_count": 717,
+    "bout_count": 750
   },
   "nodes": [
     {
@@ -33,8 +33,8 @@
       "id": "95aff2fd8d09a5f0",
       "label": "Abdul Rakhman Yakhyaev",
       "group": "Light Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -117,7 +117,7 @@
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "11",
+      "currentRank": "12",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -163,10 +163,10 @@
       "group": "Light Heavyweight",
       "fightCount": 7,
       "uniqueOpponentCount": 5,
-      "isCurrentChampion": true,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
-      "isFormerChampion": false,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": true,
+      "currentRank": "2",
+      "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
@@ -212,8 +212,8 @@
       "fightCount": 17,
       "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "15",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -414,14 +414,30 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\udde6"
     },
     {
+      "id": "be9bdec19b7e9ffe",
+      "label": "Austen Lane",
+      "group": "Light Heavyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
       "id": "e90a2f22417af68e",
       "label": "Azamat Murzakanov",
       "group": "Light Heavyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "6",
+      "currentRank": "8",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -485,7 +501,7 @@
       "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "8",
+      "currentRank": "10",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -577,8 +593,8 @@
       "id": "49edd0d90f60fb7d",
       "label": "Brendson Ribeiro",
       "group": "Light Heavyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -609,8 +625,8 @@
       "id": "0abcf6bc47191219",
       "label": "Bruno Lopes",
       "group": "Light Heavyweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -641,14 +657,14 @@
       "id": "9014c02eff8b3d62",
       "label": "Carlos Ulberg",
       "group": "Light Heavyweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
-      "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "3",
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
+      "isCurrentChampion": true,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
-      "hasTitleFightInDivision": false,
+      "hasTitleFightInDivision": true,
       "countryCode": "NZ",
       "countryName": "New Zealand",
       "flagEmoji": "\ud83c\uddf3\ud83c\uddff"
@@ -1153,11 +1169,11 @@
       "id": "2e19380f34871c6a",
       "label": "Dominick Reyes",
       "group": "Light Heavyweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "10",
+      "currentRank": "11",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -1188,8 +1204,8 @@
       "fightCount": 15,
       "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "14",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -1745,8 +1761,8 @@
       "id": "cd13728ae1151f46",
       "label": "Ion Cutelaba",
       "group": "Light Heavyweight",
-      "fightCount": 19,
-      "uniqueOpponentCount": 18,
+      "fightCount": 20,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1777,8 +1793,8 @@
       "id": "64ad3e3b0efa30bb",
       "label": "Ivan Erslan",
       "group": "Light Heavyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1809,8 +1825,8 @@
       "id": "1c23ec2f1b71be40",
       "label": "Iwo Baraniewski",
       "group": "Light Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1893,7 +1909,7 @@
       "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "7",
+      "currentRank": "6",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -2177,11 +2193,11 @@
       "id": "009341ed974bad72",
       "label": "Jiri Prochazka",
       "group": "Light Heavyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 7,
+      "fightCount": 9,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "2",
+      "currentRank": "3",
       "isFormerChampion": true,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": true,
@@ -2241,11 +2257,11 @@
       "id": "c21f26bbde777573",
       "label": "Johnny Walker",
       "group": "Light Heavyweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 14,
+      "fightCount": 16,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "12",
+      "currentRank": "14",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -2385,8 +2401,8 @@
       "id": "c15fa95b9a12fde4",
       "label": "Junior Tafa",
       "group": "Light Heavyweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2545,8 +2561,8 @@
       "id": "7e9b36a9847db116",
       "label": "Kevin Christian",
       "group": "Light Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2597,7 +2613,7 @@
       "uniqueOpponentCount": 18,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
-      "currentRank": "4",
+      "currentRank": "5",
       "isFormerChampion": false,
       "isFormerTitleChallenger": true,
       "hasTitleFightInDivision": true,
@@ -3201,8 +3217,8 @@
       "id": "b4b496ec2197ee3e",
       "label": "Navajo Stirling",
       "group": "Light Heavyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3281,8 +3297,8 @@
       "id": "46e2011d92463b7e",
       "label": "Oumar Sy",
       "group": "Light Heavyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3393,11 +3409,11 @@
       "id": "2e5c2aa8e4ab9d82",
       "label": "Paulo Costa",
       "group": "Light Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": false,
-      "currentRank": null,
+      "isCurrentlyRanked": true,
+      "currentRank": "7",
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -4353,8 +4369,8 @@
       "id": "3e8118c1ab52f211",
       "label": "Tuco Tokkos",
       "group": "Light Heavyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4676,8 +4692,8 @@
       "fightCount": 4,
       "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
-      "isCurrentlyRanked": true,
-      "currentRank": "15",
+      "isCurrentlyRanked": false,
+      "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
@@ -5674,6 +5690,22 @@
     },
     {
       "source": "49edd0d90f60fb7d",
+      "target": "95aff2fd8d09a5f0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Duncan",
+          "eventDate": "2026-04-04",
+          "resultSummary": "Abdul Rakhman Yakhyaev def. Brendson Ribeiro",
+          "method": "SUB Rear Naked Choke",
+          "round": "1",
+          "time": "2:52",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "49edd0d90f60fb7d",
       "target": "e90a2f22417af68e",
       "value": 1,
       "bouts": [
@@ -5860,6 +5892,22 @@
           "method": "U-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0abcf6bc47191219",
+      "target": "b4b496ec2197ee3e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Adesanya vs. Pyfer",
+          "eventDate": "2026-03-28",
+          "resultSummary": "Navajo Stirling def. Bruno Lopes",
+          "method": "KO/TKO Punches",
+          "round": "2",
+          "time": "4:05",
           "isTitleBout": false
         }
       ]
@@ -7007,6 +7055,22 @@
           "method": "SUB Rear Naked Choke",
           "round": "1",
           "time": "3:39",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2e19380f34871c6a",
+      "target": "c21f26bbde777573",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Dominick Reyes def. Johnny Walker",
+          "method": "S-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
@@ -8510,6 +8574,22 @@
     },
     {
       "source": "1c23ec2f1b71be40",
+      "target": "be9bdec19b7e9ffe",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Evloev vs. Murphy",
+          "eventDate": "2026-03-21",
+          "resultSummary": "Iwo Baraniewski def. Austen Lane",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "0:28",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1c23ec2f1b71be40",
       "target": "6e8f1bcdda94ff45",
       "value": 1,
       "bouts": [
@@ -9539,6 +9619,22 @@
           "method": "KO/TKO Elbows",
           "round": "2",
           "time": "4:08",
+          "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "009341ed974bad72",
+      "target": "9014c02eff8b3d62",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Carlos Ulberg def. Jiri Prochazka",
+          "method": "KO/TKO Punch",
+          "round": "1",
+          "time": "3:45",
           "isTitleBout": true
         }
       ]
@@ -10638,6 +10734,22 @@
           "method": "SUB Triangle Choke",
           "round": "3",
           "time": "4:20",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "7e9b36a9847db116",
+      "target": "c15fa95b9a12fde4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Della Maddalena vs. Prates",
+          "eventDate": "2026-05-02",
+          "resultSummary": "Junior Tafa def. Kevin Christian",
+          "method": "KO/TKO Elbows",
+          "round": "1",
+          "time": "2:42",
           "isTitleBout": false
         }
       ]
@@ -12932,6 +13044,22 @@
       ]
     },
     {
+      "source": "46e2011d92463b7e",
+      "target": "cd13728ae1151f46",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Emmett vs. Vallejos",
+          "eventDate": "2026-03-14",
+          "resultSummary": "Ion Cutelaba def. Oumar Sy",
+          "method": "SUB Guillotine Choke",
+          "round": "1",
+          "time": "4:24",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
       "source": "50db8711c70196cd",
       "target": "a495f599e787614f",
       "value": 1,
@@ -13215,6 +13343,22 @@
           "method": "S-DEC",
           "round": "3",
           "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2e5c2aa8e4ab9d82",
+      "target": "e90a2f22417af68e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 327: Prochazka vs. Ulberg",
+          "eventDate": "2026-04-11",
+          "resultSummary": "Paulo Costa def. Azamat Murzakanov",
+          "method": "KO/TKO Kick",
+          "round": "3",
+          "time": "1:23",
           "isTitleBout": false
         }
       ]
@@ -15371,6 +15515,22 @@
           "method": "SUB Armbar",
           "round": "2",
           "time": "0:24",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3e8118c1ab52f211",
+      "target": "64ad3e3b0efa30bb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Ivan Erslan def. Tuco Tokkos",
+          "method": "U-DEC",
+          "round": "3",
+          "time": "5:00",
           "isTitleBout": false
         }
       ]
