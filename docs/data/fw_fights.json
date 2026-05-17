@@ -9,8 +9,8 @@
     "rankings_updated_text": null,
     "latest_resolved_event_date": "2026-05-16",
     "fighter_count": 390,
-    "matchup_count": 849,
-    "bout_count": 859
+    "matchup_count": 851,
+    "bout_count": 861
   },
   "nodes": [
     {
@@ -353,8 +353,8 @@
       "id": "040a74bb0a465c54",
       "label": "Arnold Allen",
       "group": "Featherweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "7",
@@ -1185,8 +1185,8 @@
       "id": "b67d6bacc68d4c92",
       "label": "Daniel Santos",
       "group": "Featherweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1473,8 +1473,8 @@
       "id": "e93b04e308913c2e",
       "label": "Dooho Choi",
       "group": "Featherweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4177,8 +4177,8 @@
       "id": "20bccc9bb4ceb23e",
       "label": "Melquizael Costa",
       "group": "Featherweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "12",
@@ -7050,6 +7050,22 @@
     },
     {
       "source": "040a74bb0a465c54",
+      "target": "20bccc9bb4ceb23e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Arnold Allen def. Melquizael Costa",
+          "method": "U-DEC",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "040a74bb0a465c54",
       "target": "76e2870ffafbe38f",
       "value": 1,
       "bouts": [
@@ -9622,6 +9638,22 @@
           "method": "SUB Guillotine Choke",
           "round": "2",
           "time": "2:50",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b67d6bacc68d4c92",
+      "target": "e93b04e308913c2e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Dooho Choi def. Daniel Santos",
+          "method": "KO/TKO Punch",
+          "round": "2",
+          "time": "4:29",
           "isTitleBout": false
         }
       ]

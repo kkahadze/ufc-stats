@@ -8,9 +8,9 @@
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
     "latest_resolved_event_date": "2026-05-16",
-    "fighter_count": 335,
-    "matchup_count": 767,
-    "bout_count": 780
+    "fighter_count": 336,
+    "matchup_count": 768,
+    "bout_count": 781
   },
   "nodes": [
     {
@@ -2830,6 +2830,22 @@
       "flagEmoji": "\ud83c\uddff\ud83c\udde6"
     },
     {
+      "id": "74939a16c7b56f33",
+      "label": "Juan Diaz",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null
+    },
+    {
       "id": "1291edf2d566a71a",
       "label": "Julio Arce",
       "group": "Bantamweight",
@@ -3201,8 +3217,8 @@
       "id": "2e45d08b3f2f02c8",
       "label": "Malcolm Wellmaker",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -11782,6 +11798,22 @@
           "method": "KO/TKO Punch",
           "round": "1",
           "time": "1:59",
+          "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2e45d08b3f2f02c8",
+      "target": "74939a16c7b56f33",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Costa",
+          "eventDate": "2026-05-16",
+          "resultSummary": "Juan Diaz def. Malcolm Wellmaker",
+          "method": "SUB Rear Naked Choke",
+          "round": "2",
+          "time": "4:08",
           "isTitleBout": false
         }
       ]
