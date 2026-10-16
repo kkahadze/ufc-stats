@@ -1,187 +1,260 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UFC Fight Map | UFC Division Opponent Network</title>
-    <meta name="description" content="Explore UFC fight history by division with an interactive opponent network showing current champions, ranked contenders, former title challengers, and fighter connections.">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#15110e">
-    <meta name="application-name" content="UFC Fight Map">
-    <link rel="canonical" href="https://kkahadze.github.io/ufc-stats/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="UFC Fight Map">
-    <meta property="og:title" content="UFC Fight Map | UFC Division Opponent Network">
-    <meta property="og:description" content="A cleaner interactive view of how every UFC division connects through shared opponents, titleholders, and current contenders.">
-    <meta property="og:url" content="https://kkahadze.github.io/ufc-stats/">
-    <meta property="og:image" content="https://kkahadze.github.io/ufc-stats/favicon.png">
-    <meta property="og:image:alt" content="UFC Fight Map favicon">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="UFC Fight Map | UFC Division Opponent Network">
-    <meta name="twitter:description" content="Explore UFC fight history by division with an interactive opponent web of champions, ranked fighters, and shared opponents.">
-    <meta name="twitter:image" content="https://kkahadze.github.io/ufc-stats/favicon.png">
-    <link rel="icon" type="image/png" href="./favicon.png">
-    <link rel="apple-touch-icon" href="./favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Explore UFC fight history by division with an interactive opponent network showing current champions, ranked contenders, former title challengers, and fighter connections."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#171a1e" />
+    <meta name="application-name" content="UFC Fight Map" />
+    <link rel="canonical" href="https://kkahadze.github.io/ufc-stats/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UFC Fight Map" />
+    <meta
+      property="og:title"
+      content="UFC Fight Map | UFC Division Opponent Network"
+    />
+    <meta
+      property="og:description"
+      content="A cleaner interactive view of how every UFC division connects through shared opponents, titleholders, and current contenders."
+    />
+    <meta property="og:url" content="https://kkahadze.github.io/ufc-stats/" />
+    <meta
+      property="og:image"
+      content="https://kkahadze.github.io/ufc-stats/favicon.png"
+    />
+    <meta property="og:image:alt" content="UFC Fight Map favicon" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="UFC Fight Map | UFC Division Opponent Network"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore UFC fight history by division with an interactive opponent web of champions, ranked fighters, and shared opponents."
+    />
+    <meta
+      name="twitter:image"
+      content="https://kkahadze.github.io/ufc-stats/favicon.png"
+    />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="UFC Fight Map home"
+        ><svg viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M10 2h12l8 8v12l-8 8H10l-8-8V10Z" />
+          <path d="m10 21 6-12 6 12M12 17h8" /></svg
+        ><span>FIGHT<span class="brandLight">MAP</span></span
+        ><span class="brandTag">UFC</span></a
+      >
+      <a
+        class="sourceLink"
+        href="https://github.com/kkahadze/ufc-stats"
+        target="_blank"
+        rel="noopener"
+        >About the project <span aria-hidden="true">↗</span></a
+      >
+    </header>
     <div class="pageShell">
-        <header id="header" class="hero">
-            <div class="heroPanel">
-                <div class="heroCopy">
-                    <div class="heroTitleBlock">
-                        <p class="eyebrow">Official UFC Network Explorer</p>
-                        <h1 id="heading">UFC Fight Map</h1>
-                    </div>
-                    <div class="heroDetail">
-                        <p class="heroText">
-                            A cleaner view of how every division connects through shared opponents, titleholders, and current contenders.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="heroStats" aria-label="Site highlights">
-                    <div class="heroStat">
-                        <span class="heroStatValue">12</span>
-                        <span class="heroStatLabel">Tracked divisions</span>
-                    </div>
-                    <div class="heroStat">
-                        <span class="heroStatValue">Top 15</span>
-                        <span class="heroStatLabel">Default roster view</span>
-                    </div>
-                    <div class="heroStat">
-                        <span class="heroStatValue">3</span>
-                        <span class="heroStatLabel">Roster filters</span>
-                    </div>
-                </div>
+      <header class="intro">
+        <div>
+          <p class="eyebrow">THE OPPONENT NETWORK</p>
+          <h1>Every fight. A connection.</h1>
+          <p class="introText">
+            Explore the fighters, rivalries, and paths through each UFC
+            division.
+          </p>
+        </div>
+        <div class="snapshotBadge">
+          <span class="snapshotDot" aria-hidden="true"></span
+          ><span id="snapshotDate">Loading data snapshot…</span>
+        </div>
+      </header>
+      <main class="contentGrid">
+        <section class="graphCard" aria-labelledby="divisionTitle">
+          <div class="graphCardHeader">
+            <div>
+              <p class="sectionEyebrow">DIVISION EXPLORER</p>
+              <h2 id="divisionTitle">Lightweight</h2>
             </div>
-        </header>
-
-        <main class="contentGrid">
-            <section class="graphCard">
-                <div class="graphCardHeader">
-                    <div>
-                        <p class="sectionEyebrow">Network View</p>
-                        <h2 class="sectionTitle">Opponent web by division</h2>
-                    </div>
-                    <div class="graphHint">Drag nodes, hover fighters or matchups for detail, hold Command and scroll to zoom.</div>
-                </div>
-
-                <div id="fightGraph" class="graphStage">
-                    <svg id="graph" width="1000" height="800" viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid meet"></svg>
-                </div>
-
-                <div id="fightsFDL" class="graphMeta">
-                    <div class="metaCard">
-                        <span class="metaLabel">Active filter</span>
-                        <p id="filterSummary" class="controlNote"></p>
-                    </div>
-                    <div class="metaCard">
-                        <span class="metaLabel">Source snapshot</span>
-                        <p id="sourceNote" class="controlNote"></p>
-                    </div>
-                </div>
-            </section>
-
-            <aside class="sidebar">
-                <section id="controlsPanel" class="panel">
-                    <div class="panelHeader">
-                        <p class="sectionEyebrow">Controls</p>
-                        <h2 class="sectionTitle sectionTitle-small">Shape the graph</h2>
-                    </div>
-
-                    <div class="controlGroup">
-                        <label for="weightSelect">Weight Class</label>
-                        <select id="weightSelect" onchange="onWeightChanged()">
-                            <option value="flw_fights.json">Flyweight</option>
-                            <option value="bw_fights.json">Bantamweight</option>
-                            <option value="fw_fights.json">Featherweight</option>
-                            <option selected value="lw_fights.json">Lightweight</option>
-                            <option value="ww_fights.json">Welterweight</option>
-                            <option value="mw_fights.json">Middleweight</option>
-                            <option value="lhw_fights.json">Light Heavyweight</option>
-                            <option value="hw_fights.json">Heavyweight</option>
-                            <option value="wsw_fights.json">Women's Strawweight</option>
-                            <option value="wflw_fights.json">Women's Flyweight</option>
-                            <option value="wbw_fights.json">Women's Bantamweight</option>
-                            <option value="wfw_fights.json">Women's Featherweight</option>
-                        </select>
-                    </div>
-                    <div class="controlGroup">
-                        <label for="rosterFilter">Roster Filter</label>
-                        <select id="rosterFilter" onchange="onFilterChanged()">
-                            <option value="all">All fighters</option>
-                            <option selected value="ranked">Current Top 15</option>
-                            <option value="legacy">Former champs + title challengers</option>
-                        </select>
-                    </div>
-                    <div class="controlGroup">
-                        <label for="minFightCount">Minimum UFC Fights In Division</label>
-                        <select id="minFightCount" onchange="onFilterChanged()">
-                            <option value="0">Any</option>
-                            <option value="5">5+ fights</option>
-                            <option value="10">10+ fights</option>
-                            <option value="15">15+ fights</option>
-                            <option value="20">20+ fights</option>
-                        </select>
-                    </div>
-                    <div class="controlGroup controlGroup-search">
-                        <label for="fighterSearch">Spotlight Fighter</label>
-                        <div class="searchField">
-                            <input
-                                id="fighterSearch"
-                                class="searchInput"
-                                type="search"
-                                autocomplete="off"
-                                placeholder="Search visible fighters"
-                                aria-describedby="fighterSearchNote"
-                            >
-                            <button id="fighterSearchClear" class="searchClear" type="button">Clear</button>
-                        </div>
-                        <div id="fighterSearchResults" class="searchResults" role="listbox" aria-label="Visible fighter search results"></div>
-                        <p id="fighterSearchNote" class="controlNote searchNote">Searches the fighters currently visible in this division view.</p>
-                    </div>
-                </section>
-
-                <section class="panel">
-                    <div class="panelHeader">
-                        <p class="sectionEyebrow">Legend</p>
-                        <h2 class="sectionTitle sectionTitle-small">Status markers</h2>
-                    </div>
-                    <div id="statusLegend">
-                        <div class="legendItem">
-                            <span class="legendSwatch legendSwatch-champion"></span>
-                            <span>Champion: gold double ring</span>
-                        </div>
-                        <div class="legendItem">
-                            <span class="legendSwatch legendSwatch-ranked"></span>
-                            <span>Top 15: silver ring</span>
-                        </div>
-                        <div class="legendItem">
-                            <span class="legendSwatch legendSwatch-former"></span>
-                            <span>Former champion: bronze dashed ring</span>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="caption" class="panel panel-muted">
-                    <div class="panelHeader">
-                        <p class="sectionEyebrow">About</p>
-                        <h2 class="sectionTitle sectionTitle-small">How to read it</h2>
-                    </div>
-                    <p id="captionText">
-                        Each node is a fighter. Each link is a matchup history inside the selected weight class. Flags come from UFC athlete data, while the ring treatment highlights current champions, ranked contenders, and former divisional champions.
-                    </p>
-                </section>
-            </aside>
-        </main>
+            <div class="graphCounts" aria-label="Visible network">
+              <span><strong id="visibleFighters">—</strong> fighters</span
+              ><span><strong id="visibleBouts">—</strong> bouts</span>
+            </div>
+          </div>
+          <div id="fightGraph" class="graphStage">
+            <div class="stageLabel" aria-hidden="true">
+              <span class="redLine"></span> OPPONENT MAP
+            </div>
+            <svg
+              id="graph"
+              width="1000"
+              height="760"
+              viewBox="0 0 1000 760"
+              preserveAspectRatio="xMidYMid meet"
+              aria-label="Interactive fighter matchup network"
+            ></svg>
+            <div id="loadStatus" class="loadStatus" role="status" hidden>
+              <p id="loadMessage"></p>
+              <button id="retryLoad" type="button" hidden>Try again</button>
+              <button id="showAllFighters" type="button" hidden>
+                Show all fighters
+              </button>
+            </div>
+            <div class="graphToolbar" aria-label="Map controls">
+              <button id="zoomOut" type="button" aria-label="Zoom out">−</button
+              ><button id="resetView" type="button">Fit view</button
+              ><button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+            </div>
+          </div>
+          <div class="graphFooter">
+            <span>Click a fighter to trace their opponents.</span
+            ><span class="desktopHint"
+              >Drag to rearrange · Ctrl / ⌘ + scroll to zoom</span
+            >
+          </div>
+          <div
+            id="statusLegend"
+            class="legend"
+            aria-label="Fighter status legend"
+          >
+            <span><i class="legendSwatch champion"></i>Champion</span
+            ><span><i class="legendSwatch ranked"></i>Ranked</span
+            ><span><i class="legendSwatch former"></i>Former champion</span
+            ><span><i class="legendLink"></i>Recorded matchup</span>
+          </div>
+        </section>
+        <aside class="sidebar" aria-label="Explore filters">
+          <section id="controlsPanel" class="panel">
+            <div class="panelHeader">
+              <h2>Explore the division</h2>
+              <span class="panelIndex">12 divisions</span>
+            </div>
+            <div class="filterFields">
+              <div class="controlGroup divisionControl">
+                <label for="weightSelect">Division</label
+                ><select id="weightSelect" onchange="onWeightChanged()">
+                  <option value="flw_fights.json">Flyweight</option>
+                  <option value="bw_fights.json">Bantamweight</option>
+                  <option value="fw_fights.json">Featherweight</option>
+                  <option selected value="lw_fights.json">Lightweight</option>
+                  <option value="ww_fights.json">Welterweight</option>
+                  <option value="mw_fights.json">Middleweight</option>
+                  <option value="lhw_fights.json">Light Heavyweight</option>
+                  <option value="hw_fights.json">Heavyweight</option>
+                  <option value="wsw_fights.json">Women's Strawweight</option>
+                  <option value="wflw_fights.json">Women's Flyweight</option>
+                  <option value="wbw_fights.json">Women's Bantamweight</option>
+                  <option value="wfw_fights.json">Women's Featherweight</option>
+                </select>
+              </div>
+              <div class="controlGroup">
+                <label for="rosterFilter">Fighter roster</label
+                ><select id="rosterFilter" onchange="onFilterChanged()">
+                  <option value="all">All fighters</option>
+                  <option selected value="ranked">Ranked + champion</option>
+                  <option value="legacy">Champions + challengers</option>
+                </select>
+              </div>
+              <div class="controlGroup">
+                <label for="minFightCount">Minimum division fights</label
+                ><select id="minFightCount" onchange="onFilterChanged()">
+                  <option value="0">Any</option>
+                  <option value="5">5+ fights</option>
+                  <option value="10">10+ fights</option>
+                  <option value="15">15+ fights</option>
+                  <option value="20">20+ fights</option>
+                </select>
+              </div>
+            </div>
+            <div class="controlGroup controlGroup-search">
+              <label for="fighterSearch">Find a fighter</label>
+              <div class="searchField">
+                <input
+                  id="fighterSearch"
+                  class="searchInput"
+                  type="search"
+                  autocomplete="off"
+                  placeholder="Search this roster…"
+                  aria-describedby="fighterSearchNote"
+                /><button
+                  id="fighterSearchClear"
+                  class="searchClear"
+                  type="button"
+                  aria-label="Clear fighter selection"
+                >
+                  ×
+                </button>
+              </div>
+              <div
+                id="fighterSearchResults"
+                class="searchResults"
+                role="listbox"
+                aria-label="Visible fighter search results"
+              ></div>
+              <p
+                id="fighterSearchNote"
+                class="controlNote searchNote"
+                aria-live="polite"
+              >
+                Search the fighters in this view.
+              </p>
+              <div
+                id="fighterDetails"
+                class="fighterDetails"
+                aria-live="polite"
+                hidden
+              ></div>
+            </div>
+          </section>
+          <section class="readingGuide">
+            <span class="guideIcon" aria-hidden="true">↳</span>
+            <div>
+              <h3>Follow the connections.</h3>
+              <p>
+                Flags represent fighters. Lines connect opponents. Select a
+                fighter to isolate their matchups, or hover a line for fight
+                results.
+              </p>
+            </div>
+          </section>
+          <section class="dataNotes">
+            <h3>IN THIS VIEW</h3>
+            <p id="filterSummary" class="controlNote"></p>
+            <h3>DATA &amp; COVERAGE</h3>
+            <p id="sourceNote" class="controlNote"></p>
+            <p class="dataCaveat">
+              Rankings and titles reflect the saved snapshot, not live
+              standings.
+            </p>
+          </section>
+        </aside>
+      </main>
+      <footer class="siteFooter">
+        <span>An independent exploration of UFC fight history.</span
+        ><a
+          href="https://github.com/kkahadze/ufc-stats"
+          target="_blank"
+          rel="noopener"
+          >Source &amp; methodology ↗</a
+        >
+      </footer>
     </div>
-</body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
-<script src="./d3-tip.js"></script>
-<script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+    <script src="./d3-tip.js"></script>
+    <script src="./main.js"></script>
+  </body>
 </html>

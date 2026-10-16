@@ -50,6 +50,9 @@ jobs:
           path: .cache/ufc-stats
           key: ${{ steps.scrape-cache-restore.outputs.cache-primary-key }}
 
+      - name: Validate Refreshed Archive
+        run: python scripts/validate_data.py --compare-ref HEAD
+
       - name: Detect Data Changes
         id: detect-changes
         run: |

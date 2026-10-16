@@ -1,6 +1,12 @@
 # UFC Fight Map
 A force-directed visualization of UFC fight history by division. The site can be viewed [here](https://kkahadze.github.io/ufc-stats).
 
+## Explore the map
+
+Choose a division, roster, and minimum fight count, then search the visible fighters to highlight their opponents. Fighters can also be selected with Enter or Space when focused. Drag fighters to rearrange the network or drag the background to pan. Use the zoom buttons, Ctrl/Command-scroll, or the **Fit view** button to adjust the map.
+
+The date above the map shows the fight-results snapshot; rankings are saved metadata, not live standings. Failed division downloads show a retry button, and switching divisions keeps the latest selection active even if earlier requests finish later.
+
 ## Data source
 
 Fight data is generated from the official UFC Stats site:
@@ -45,3 +51,27 @@ python3 scripts/update_fight_data.py --refresh-all
 ```
 
 If UFC.com temporarily rejects requests from an automated runner, the normal refresh path reuses the already-committed ranking and country metadata from `docs/data/` rather than failing the whole data refresh. `--refresh-all` still requires live source fetches and will fail instead of using committed fallback metadata.
+
+## Quality checks
+
+These checks use only Node.js 22+ and Python 3.9+ standard libraries:
+
+```bash
+node --check docs/main.js
+node --test tests/frontend.test.cjs
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_data.py
+```
+
+`Site QA` runs on pushes and pull requests. The refresh workflow additionally runs
+`python3 scripts/validate_data.py --compare-ref HEAD` before committing data. It rejects
+empty divisions, invalid graph references/counts, backwards coverage dates, and a
+loss of more than 10% of any division's historical bouts. Deliberate large corrections
+require review rather than automatic publication. These are structural safeguards;
+they do not establish the historical accuracy of ranking or title classifications.
+
+For UI changes, also check desktop and mobile views, keyboard fighter selection,
+search/clear, dragging, zoom/fit, empty filters, and division switching in a browser.
+Dataset requests time out after 15 seconds and offer a retry. Data older than 30 days
+is explicitly labeled historical; selected fighter details remain visible below
+search for touch and keyboard users.

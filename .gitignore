@@ -8,3 +8,6 @@ data/
 data/cleaning.ipynb
 test
 ideas.txt
+
+__pycache__/
+*.pyc

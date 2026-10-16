@@ -3,6 +3,9 @@ var width = +svg.attr('width');
 var height = +svg.attr('height');
 
 var activeDataset = null;
+var datasetRequestId = 0;
+var activeDatasetRequest = null;
+var DATASET_TIMEOUT_MS = 15000;
 var datasetCache = {};
 var NODE_RADIUS = 12;
 var currentNodeRadius = NODE_RADIUS;
@@ -105,7 +108,7 @@ function getSearchMeta(node) {
 	if (node.isCurrentChampion) {
 		parts.push('champion');
 	} else if (node.isCurrentlyRanked) {
-		parts.push('current #' + node.currentRank);
+		parts.push('snapshot #' + node.currentRank);
 	} else if (node.isFormerChampion) {
 		parts.push('former champion');
 	} else if (node.isFormerTitleChallenger) {
@@ -216,6 +219,9 @@ function renderSearchResults(matches, shouldShowMatches) {
 
 function updateSearchNote(query, selectedNode, matchCount) {
 	var searchNote = getSearchNote();
+	var details = document.getElementById('fighterDetails');
+	details.hidden = !selectedNode;
+	details.innerHTML = selectedNode ? buildTooltipHtml(selectedNode) : '';
 
 	if (selectedNode) {
 		searchNote.textContent = 'Highlighting ' + getNodeLabel(selectedNode) + ' and direct matchup links.';
@@ -465,7 +471,7 @@ function describeRosterFilter() {
 
 	switch (rosterFilter) {
 		case 'ranked':
-			return 'current Top 15 plus champion';
+			return 'ranked fighters plus champion (snapshot)';
 		case 'legacy':
 			return 'former champs and title challengers in this division';
 		default:
@@ -473,7 +479,18 @@ function describeRosterFilter() {
 	}
 }
 
+function snapshotStatus(dateValue, now) {
+	var date = parseDateValue(dateValue);
+	if (!date) return 'Snapshot date unavailable';
+	var days = Math.floor(((now || Date.now()) - date.getTime()) / 86400000);
+	return (days > 30 ? 'Historical data · ' : 'Results through ') + formatDate(dateValue);
+}
+
 function updateSourceNote(dataset, filteredNetwork) {
+	document.getElementById('divisionTitle').textContent = dataset.meta.division;
+	document.getElementById('visibleFighters').textContent = filteredNetwork.nodes.length;
+	document.getElementById('visibleBouts').textContent = filteredNetwork.links.reduce(function(total, link) { return total + link.value; }, 0);
+	document.getElementById('snapshotDate').textContent = snapshotStatus(dataset.meta.latest_resolved_event_date);
 	var sourceNote = document.getElementById('sourceNote');
 	var filterSummary = document.getElementById('filterSummary');
 	var filteredBoutCount = filteredNetwork.links.reduce(function(total, link) {
@@ -512,7 +529,7 @@ function updateSourceNote(dataset, filteredNetwork) {
 			')'
 		);
 	} else {
-		sourceParts.push('champion and ranking snapshot: ' + dataset.meta.ranking_source_name);
+		sourceParts.push('champion and ranking snapshot: ' + dataset.meta.ranking_source_name + ' (update date unavailable)');
 	}
 
 	sourceNote.textContent = sourceParts.join(' • ');
@@ -528,14 +545,20 @@ function renderEmptyState(message) {
 		.text(message);
 }
 
+function escapeHtml(value) {
+	return String(value == null ? '' : value).replace(/[&<>"']/g, function(char) {
+		return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char];
+	});
+}
+
 function buildTooltipHtml(node) {
-	var lines = ['<strong>' + (node.label || node.id) + '</strong>'];
+	var lines = ['<strong>' + escapeHtml(node.label || node.id) + '</strong>'];
 
 	if (node.isCurrentChampion) {
-		lines.push('Current champion');
+		lines.push('Champion in this snapshot');
 	}
 	if (node.isCurrentlyRanked) {
-		lines.push('Current UFC rank: #' + node.currentRank);
+		lines.push('Snapshot rank: #' + escapeHtml(node.currentRank));
 	}
 	if (node.isFormerChampion) {
 		lines.push('Former champion in this division');
@@ -544,13 +567,13 @@ function buildTooltipHtml(node) {
 	}
 
 	if (node.countryName) {
-		lines.push('Flag: ' + node.countryName);
+		lines.push('Flag: ' + escapeHtml(node.countryName));
 	} else {
 		lines.push('Flag: unavailable in UFC athlete data');
 	}
 
-	lines.push(node.fightCount + ' UFC fights in this division');
-	lines.push(node.uniqueOpponentCount + ' unique opponents');
+	lines.push(escapeHtml(node.fightCount) + ' UFC fights in this division');
+	lines.push(escapeHtml(node.uniqueOpponentCount) + ' unique opponents');
 	return lines.join('<br>');
 }
 
@@ -559,7 +582,7 @@ function buildLinkTooltipHtml(renderLink) {
 	var sourceLabel = link.source && link.source.label ? link.source.label : link.source.id;
 	var targetLabel = link.target && link.target.label ? link.target.label : link.target.id;
 	var bouts = Array.isArray(link.bouts) ? link.bouts : [];
-	var lines = ['<strong>' + sourceLabel + ' vs ' + targetLabel + '</strong>'];
+	var lines = ['<strong>' + escapeHtml(sourceLabel) + ' vs ' + escapeHtml(targetLabel) + '</strong>'];
 
 	lines.push(bouts.length + ' recorded bout' + (bouts.length === 1 ? '' : 's'));
 
@@ -589,7 +612,7 @@ function buildLinkTooltipHtml(renderLink) {
 			eventLine.push(formatDate(bout.eventDate));
 		}
 
-		lines.push(boutParts.concat(eventLine).join(' • '));
+		lines.push(escapeHtml(boutParts.concat(eventLine).join(' • ')));
 	});
 
 	return lines.join('<br>');
@@ -635,7 +658,7 @@ function getLayoutSettings(filteredNetwork) {
 		isolatedPullStrength: nodeCount <= 10 ? 0.08 : nodeCount <= 18 ? 0.1 : nodeCount <= 30 ? 0.14 : 0.12,
 		collisionPadding: nodeCount <= 10 ? 22 : nodeCount <= 18 ? 16 : nodeCount <= 30 ? 11 : 7,
 		alphaDecay: nodeCount <= 18 ? 0.078 : nodeCount <= 30 ? 0.07 : 0.05,
-		fitPadding: nodeCount <= 18 ? 130 : nodeCount <= 30 ? 110 : 90,
+		fitPadding: width < 1000 ? 65 : nodeCount <= 18 ? 100 : nodeCount <= 30 ? 90 : 70,
 		maxAutoScale: nodeCount <= 10 ? 2.2 : nodeCount <= 18 ? 2 : nodeCount <= 30 ? 1.8 : 1.3,
 		needsAutoFit: nodeCount <= 40
 	};
@@ -671,7 +694,7 @@ function getAutoFitTransform(nodes, layoutSettings) {
 		return d3.zoomIdentity
 			.translate(width / 2, height / 2)
 			.scale(Math.min(layoutSettings.maxAutoScale, 2.6))
-			translate(-nodes[0].x, -nodes[0].y);
+			.translate(-nodes[0].x, -nodes[0].y);
 	}
 
 	var minX = Infinity;
@@ -705,7 +728,7 @@ function getAutoFitTransform(nodes, layoutSettings) {
 	return d3.zoomIdentity
 		.translate(width / 2, height / 2)
 		.scale(scale)
-		translate(-centerX, -centerY);
+		.translate(-centerX, -centerY);
 }
 
 function normalizeNodePositions(nodes, layoutSettings) {
@@ -868,6 +891,7 @@ function applySpotlightClasses(nodeEnter, linkEnter, linkHitboxEnter, spotlightS
 	var hasSpotlight = !!spotlightState;
 
 	nodeEnter
+		.attr('aria-pressed', function(d) { return hasSpotlight && d.id === spotlightState.selectedId ? 'true' : 'false'; })
 		.classed('node-selected', function(d) {
 			return hasSpotlight && d.id === spotlightState.selectedId;
 		})
@@ -934,12 +958,18 @@ function getLinkCoordinates(renderLink) {
 
 function drawCurrentDataset() {
 	resetTooltips();
+	if (currentRenderedGraph) currentRenderedGraph.simulation.stop();
 	currentRenderedGraph = null;
+	setMapControlsEnabled(false);
 	svg.selectAll('*').remove();
 
 	if (!activeDataset) {
 		return;
 	}
+	document.getElementById('loadStatus').hidden = true;
+	document.getElementById('showAllFighters').hidden = true;
+	width = window.innerWidth <= 760 ? 640 : 1000;
+	svg.attr('viewBox', '0 0 ' + width + ' ' + height);
 
 	var filteredNetwork = applyFilters(activeDataset);
 	var renderLinks = buildRenderLinks(filteredNetwork.links);
@@ -948,7 +978,10 @@ function drawCurrentDataset() {
 	syncSearchUI(filteredNetwork);
 
 	if (filteredNetwork.nodes.length === 0) {
-		renderEmptyState('No fighters match the current filters.');
+		document.getElementById('loadStatus').hidden = false;
+		document.getElementById('loadMessage').textContent = 'No fighters match these filters. Explore the full division instead.';
+		document.getElementById('retryLoad').hidden = true;
+		document.getElementById('showAllFighters').hidden = false;
 		return;
 	}
 
@@ -1003,10 +1036,10 @@ function drawCurrentDataset() {
 			}
 
 			if (event.type === 'wheel') {
-				return !!event.metaKey;
+				return !!event.metaKey || !!event.ctrlKey;
 			}
 
-			return false;
+			return !event.button && !(event.target.closest && event.target.closest('.node-group'));
 		})
 		.on('zoom', zoomed);
 
@@ -1032,7 +1065,10 @@ function drawCurrentDataset() {
 		.data(filteredNetwork.nodes)
 		.enter()
 		.append('g')
-		.attr('class', 'node-group');
+		.attr('class', 'node-group')
+		.attr('tabindex', 0)
+		.attr('role', 'button')
+		.attr('aria-label', function(d) { return d.label + ', ' + d.fightCount + ' division fights. Select to highlight opponents.'; });
 
 	defs.selectAll('.node-clip')
 		.data(filteredNetwork.nodes)
@@ -1253,7 +1289,7 @@ function drawCurrentDataset() {
 	if (spotlightState && shouldAutoFocusSelection) {
 		currentZoomTransform = getSpotlightTransform(spotlightState, layoutSettings) || d3.zoomIdentity;
 	} else {
-		currentZoomTransform = d3.zoomIdentity;
+		currentZoomTransform = layoutSettings.needsAutoFit ? getAutoFitTransform(filteredNetwork.nodes, layoutSettings) : d3.zoomIdentity;
 	}
 	shouldAutoFocusSelection = false;
 
@@ -1342,6 +1378,14 @@ function drawCurrentDataset() {
 	});
 
 	nodeEnter
+		.on('keydown', function(d) {
+			if (d3.event.key === 'Enter' || d3.event.key === ' ') {
+				d3.event.preventDefault();
+				toggleSelectedFighter(d.id);
+			}
+		})
+		.on('focus', tip.show)
+		.on('blur', tip.hide)
 		.on('click', function(d) {
 			if (d3.event.defaultPrevented) {
 				return;
@@ -1369,6 +1413,7 @@ function drawCurrentDataset() {
 	}
 
 	function applyZoomTransform(transform, animate) {
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) animate = false;
 		if (animate) {
 			var startTransform = currentZoomTransform;
 			var interpolateX = d3.interpolateNumber(startTransform.x, transform.x);
@@ -1398,6 +1443,7 @@ function drawCurrentDataset() {
 	}
 
 	currentRenderedGraph = {
+		simulation: simulation,
 		filteredNetwork: filteredNetwork,
 		renderLinks: renderLinks,
 		layoutSettings: layoutSettings,
@@ -1406,24 +1452,106 @@ function drawCurrentDataset() {
 		linkHitboxEnter: linkHitboxEnter,
 		applyZoomTransform: applyZoomTransform
 	};
+	setMapControlsEnabled(true);
 }
 
 function loadDataset(filename) {
-	if (datasetCache[filename]) {
-		activeDataset = datasetCache[filename];
+	var requestId = ++datasetRequestId;
+	if (activeDatasetRequest) activeDatasetRequest.abort();
+	activeDatasetRequest = null;
+	if (currentRenderedGraph) currentRenderedGraph.simulation.stop();
+	activeDataset = null;
+	currentRenderedGraph = null;
+	currentFilteredNetwork = null;
+	selectedFighterId = null;
+	getSearchInput().value = '';
+	document.getElementById('fighterDetails').hidden = true;
+	renderSearchResults([], false);
+	resetTooltips();
+	setMapControlsEnabled(false);
+	getSearchInput().disabled = true;
+	getSearchClearButton().disabled = true;
+	getSearchNote().textContent = 'Loading fighters…';
+	document.getElementById('divisionTitle').textContent = document.getElementById('weightSelect').selectedOptions[0].textContent;
+	document.getElementById('visibleFighters').textContent = '—';
+	document.getElementById('visibleBouts').textContent = '—';
+	document.getElementById('filterSummary').textContent = '';
+	document.getElementById('sourceNote').textContent = '';
+	document.getElementById('snapshotDate').textContent = 'Loading data snapshot…';
+	var status = document.getElementById('loadStatus');
+	var message = document.getElementById('loadMessage');
+	var retry = document.getElementById('retryLoad');
+	status.hidden = false;
+	retry.hidden = true;
+	document.getElementById('showAllFighters').hidden = true;
+	message.textContent = 'Loading division data…';
+	svg.attr('aria-busy', 'true');
+	svg.selectAll('*').remove();
+
+	function showDataset(dataset) {
+		if (requestId !== datasetRequestId) return;
+		activeDataset = dataset;
+		status.hidden = true;
+		svg.attr('aria-busy', 'false');
+		getSearchInput().disabled = false;
 		drawCurrentDataset();
+	}
+	if (datasetCache[filename]) {
+		showDataset(datasetCache[filename]);
 		return;
 	}
 
-	svg.selectAll('*').remove();
-	renderEmptyState('Loading division data...');
-
-	d3.json('data/' + filename + '?v=' + DATASET_REQUEST_VERSION).then(function(dataset) {
+	var controller = new AbortController();
+	activeDatasetRequest = controller;
+	var timeout = setTimeout(function() { controller.abort(); }, DATASET_TIMEOUT_MS);
+	d3.json('data/' + filename + '?v=' + DATASET_REQUEST_VERSION, { signal: controller.signal }).then(function(dataset) {
+		if (!dataset || !dataset.meta || !Array.isArray(dataset.nodes) || !Array.isArray(dataset.links)) throw new Error('Invalid division data');
 		datasetCache[filename] = dataset;
-		activeDataset = dataset;
-		drawCurrentDataset();
+		showDataset(dataset);
+	}).catch(function() {
+		if (requestId !== datasetRequestId) return;
+		activeDataset = null;
+		status.hidden = false;
+		message.textContent = 'This division couldn’t be loaded. Please try again.';
+		document.getElementById('snapshotDate').textContent = 'Division data unavailable';
+		retry.hidden = false;
+		svg.attr('aria-busy', 'false');
+		getSearchNote().textContent = 'Fighter search will be available when the division loads.';
+	}).finally(function() {
+		clearTimeout(timeout);
+		if (activeDatasetRequest === controller) activeDatasetRequest = null;
 	});
 }
+
+function setMapControlsEnabled(enabled) {
+	['zoomIn', 'zoomOut', 'resetView'].forEach(function(id) { document.getElementById(id).disabled = !enabled; });
+}
+
+function zoomMap(factor) {
+	if (!currentRenderedGraph) return;
+	var scale = Math.max(ZOOM_SCALE_EXTENT[0], Math.min(ZOOM_SCALE_EXTENT[1], currentZoomTransform.k * factor));
+	var ratio = scale / currentZoomTransform.k;
+	currentRenderedGraph.applyZoomTransform(d3.zoomIdentity.translate(width / 2 - (width / 2 - currentZoomTransform.x) * ratio, height / 2 - (height / 2 - currentZoomTransform.y) * ratio).scale(scale), true);
+}
+
+document.getElementById('zoomIn').addEventListener('click', function() { zoomMap(1.3); });
+document.getElementById('zoomOut').addEventListener('click', function() { zoomMap(1 / 1.3); });
+document.getElementById('resetView').addEventListener('click', function() {
+	if (currentRenderedGraph) currentRenderedGraph.applyZoomTransform(getAutoFitTransform(currentRenderedGraph.filteredNetwork.nodes, currentRenderedGraph.layoutSettings), true);
+});
+document.getElementById('retryLoad').addEventListener('click', function() { loadDataset(getSelectedDataset()); });
+document.getElementById('showAllFighters').addEventListener('click', function() {
+	document.getElementById('rosterFilter').value = 'all';
+	document.getElementById('minFightCount').value = '0';
+	drawCurrentDataset();
+});
+var resizeTimer;
+window.addEventListener('resize', function() {
+	clearTimeout(resizeTimer);
+	resizeTimer = setTimeout(function() {
+		if (activeDataset && width !== (window.innerWidth <= 760 ? 640 : 1000)) drawCurrentDataset();
+	}, 120);
+});
 
 function onWeightChanged() {
 	loadDataset(getSelectedDataset());
