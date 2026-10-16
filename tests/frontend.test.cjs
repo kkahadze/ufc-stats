@@ -34,6 +34,14 @@ function harness() {
       textContent: "",
       innerHTML: "",
       selectedOptions: [{ textContent: "Test division" }],
+      attributes: {},
+      classList: { toggle() {} },
+      setAttribute(name, value) {
+        this.attributes[name] = value;
+      },
+      getAttribute(name) {
+        return this.attributes[name];
+      },
       addEventListener(name, fn) {
         this[name] = fn;
       },
@@ -208,4 +216,33 @@ test("switching divisions stops the prior force simulation", () => {
   };
   c.loadDataset("a");
   assert.ok(stopped);
+});
+
+test("touch map gestures are opt-in and can return to page scrolling", () => {
+  const { context: c, element: e } = harness();
+  assert.equal(
+    c.allowTouchMapGesture({ type: "touchstart", touches: [{}] }),
+    false,
+  );
+  assert.equal(c.allowTouchMapGesture({ type: "mousedown", button: 0 }), true);
+  e("touchMapToggle").click();
+  assert.equal(
+    c.allowTouchMapGesture({ type: "touchmove", touches: [{}, {}] }),
+    true,
+  );
+  assert.equal(e("touchMapToggle").getAttribute("aria-pressed"), "true");
+  e("touchMapToggle").click();
+  assert.equal(
+    c.allowTouchMapGesture({ type: "pointerdown", pointerType: "touch" }),
+    false,
+  );
+  assert.equal(e("touchMapToggle").getAttribute("aria-pressed"), "false");
+});
+
+test("advanced filters expose their expanded state", () => {
+  const { element: e } = harness();
+  e("filterToggle").click();
+  assert.equal(e("filterToggle").getAttribute("aria-expanded"), "true");
+  e("filterToggle").click();
+  assert.equal(e("filterToggle").getAttribute("aria-expanded"), "false");
 });

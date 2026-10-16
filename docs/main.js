@@ -21,6 +21,11 @@ var currentRenderedGraph = null;
 var currentSearchMatches = [];
 var currentSearchIndex = -1;
 var MAX_SEARCH_RESULTS = 8;
+var mapTouchEnabled = false;
+
+function allowTouchMapGesture(event) {
+	return !(event.touches || event.pointerType === 'touch' || event.type.indexOf('touch') === 0) || mapTouchEnabled;
+}
 var DISPLAY_COUNTRY_CODE_OVERRIDES = {
 	EN: 'gb',
 	SF: 'gb',
@@ -210,7 +215,8 @@ function renderSearchResults(matches, shouldShowMatches) {
 			event.preventDefault();
 		});
 		resultButton.addEventListener('click', function() {
-			selectSearchedFighter(node.id);
+			selectSearchedFighter(node.id, { autoFocus: window.innerWidth <= 900 });
+			if (window.innerWidth <= 900) getSearchInput().blur();
 		});
 
 		resultsContainer.appendChild(resultButton);
@@ -222,6 +228,8 @@ function updateSearchNote(query, selectedNode, matchCount) {
 	var details = document.getElementById('fighterDetails');
 	details.hidden = !selectedNode;
 	details.innerHTML = selectedNode ? buildTooltipHtml(selectedNode) : '';
+	document.getElementById('selectionPanel').hidden = !selectedNode;
+	if (selectedNode) document.getElementById('matchupPanel').hidden = true;
 
 	if (selectedNode) {
 		searchNote.textContent = 'Highlighting ' + getNodeLabel(selectedNode) + ' and direct matchup links.';
@@ -964,6 +972,7 @@ function getLinkCoordinates(renderLink) {
 
 function drawCurrentDataset() {
 	resetTooltips();
+	document.getElementById('matchupPanel').hidden = true;
 	if (currentRenderedGraph) currentRenderedGraph.simulation.stop();
 	currentRenderedGraph = null;
 	setMapControlsEnabled(false);
@@ -974,7 +983,7 @@ function drawCurrentDataset() {
 	}
 	document.getElementById('loadStatus').hidden = true;
 	document.getElementById('showAllFighters').hidden = true;
-	width = window.innerWidth <= 760 ? 640 : 1000;
+	width = window.innerWidth <= 900 ? 640 : 1000;
 	svg.attr('viewBox', '0 0 ' + width + ' ' + height);
 
 	var filteredNetwork = applyFilters(activeDataset);
@@ -1029,6 +1038,7 @@ function drawCurrentDataset() {
 		.force('center', d3.forceCenter(width / 2, height / 2));
 
 	var drag = d3.drag()
+		.filter(function() { return !d3.event.button && allowTouchMapGesture(d3.event); })
 		.on('start', dragstarted)
 		.on('drag', dragged)
 		.on('end', dragended);
@@ -1037,7 +1047,7 @@ function drawCurrentDataset() {
 		.scaleExtent(ZOOM_SCALE_EXTENT)
 		.filter(function() {
 			var event = d3.event;
-			if (!event) {
+			if (!event || !allowTouchMapGesture(event)) {
 				return false;
 			}
 
@@ -1075,6 +1085,11 @@ function drawCurrentDataset() {
 		.attr('tabindex', 0)
 		.attr('role', 'button')
 		.attr('aria-label', function(d) { return d.label + ', ' + d.fightCount + ' division fights. Select to highlight opponents.'; });
+	nodeEnter.append('circle')
+		.attr('class', 'node-tap-target')
+		.attr('aria-hidden', 'true')
+		.attr('r', window.innerWidth <= 900 ? 34 : 26)
+		.attr('fill', 'transparent');
 
 	defs.selectAll('.node-clip')
 		.data(filteredNetwork.nodes)
@@ -1403,7 +1418,30 @@ function drawCurrentDataset() {
 		.on('mouseover', tip.show)
 		.on('mouseout', tip.hide);
 
+	function showMatchupDetails(d) {
+		clearSearchSelection({ refocus: false });
+		document.getElementById('matchupDetails').innerHTML = buildLinkTooltipHtml(d);
+		document.getElementById('matchupPanel').hidden = false;
+		linkTip.hide.call(this, d);
+	}
 	linkHitboxEnter
+		.attr('role', 'button')
+		.attr('tabindex', 0)
+		.attr('aria-label', function(d) {
+			return 'Show bouts: ' + d.link.source.label + ' vs ' + d.link.target.label;
+		})
+		.on('click', function(d) {
+			if (d3.event.defaultPrevented) return;
+			d3.event.stopPropagation();
+			showMatchupDetails.call(this, d);
+		})
+		.on('keydown', function(d) {
+			if (d3.event.key === 'Enter' || d3.event.key === ' ') {
+				d3.event.preventDefault();
+				d3.event.stopPropagation();
+				showMatchupDetails.call(this, d);
+			}
+		})
 		.on('mouseover', function(d) {
 			linkG.select('.link[data-link-id="' + d.id + '"]').classed('link-hovered', true);
 			linkTip.show.call(this, d);
@@ -1472,6 +1510,8 @@ function loadDataset(filename) {
 	selectedFighterId = null;
 	getSearchInput().value = '';
 	document.getElementById('fighterDetails').hidden = true;
+	document.getElementById('selectionPanel').hidden = true;
+	document.getElementById('matchupPanel').hidden = true;
 	renderSearchResults([], false);
 	resetTooltips();
 	setMapControlsEnabled(false);
@@ -1530,8 +1570,24 @@ function loadDataset(filename) {
 }
 
 function setMapControlsEnabled(enabled) {
-	['zoomIn', 'zoomOut', 'resetView'].forEach(function(id) { document.getElementById(id).disabled = !enabled; });
+	['zoomIn', 'zoomOut', 'resetView', 'touchMapToggle'].forEach(function(id) { document.getElementById(id).disabled = !enabled; });
 }
+
+document.getElementById('filterToggle').addEventListener('click', function() {
+	var open = this.getAttribute('aria-expanded') !== 'true';
+	this.setAttribute('aria-expanded', String(open));
+	this.textContent = open ? 'Hide filters' : 'Filters';
+	document.getElementById('controlsPanel').classList.toggle('filters-open', open);
+});
+document.getElementById('touchMapToggle').addEventListener('click', function() {
+	mapTouchEnabled = !mapTouchEnabled;
+	this.setAttribute('aria-pressed', String(mapTouchEnabled));
+	this.textContent = mapTouchEnabled ? 'Done moving' : 'Move map';
+	document.getElementById('fightGraph').classList.toggle('mapInteractive', mapTouchEnabled);
+	document.getElementById('touchMapHint').textContent = mapTouchEnabled ? 'Drag or pinch the map. Tap Done moving to scroll.' : 'Swipe to scroll · Tap a fighter or a line.';
+});
+document.getElementById('clearMapSelection').addEventListener('click', function() { clearSearchSelection({ refocus: false }); });
+document.getElementById('closeMatchup').addEventListener('click', function() { document.getElementById('matchupPanel').hidden = true; });
 
 function zoomMap(factor) {
 	if (!currentRenderedGraph) return;
@@ -1555,7 +1611,7 @@ var resizeTimer;
 window.addEventListener('resize', function() {
 	clearTimeout(resizeTimer);
 	resizeTimer = setTimeout(function() {
-		if (activeDataset && width !== (window.innerWidth <= 760 ? 640 : 1000)) drawCurrentDataset();
+		if (activeDataset && width !== (window.innerWidth <= 900 ? 640 : 1000)) drawCurrentDataset();
 	}, 120);
 });
 

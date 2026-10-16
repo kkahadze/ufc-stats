@@ -549,7 +549,7 @@ input:hover {
     font-size: 10px;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .topbar {
     height: 62px;
     padding: 0 18px;
@@ -844,4 +844,253 @@ input:hover {
 .fighterDetails strong {
   display: block;
   font-size: 14px;
+}
+
+/* Keep primary controls and the map within reach on narrow screens. */
+.filterToggle,
+.touchMapToggle,
+.touchHint {
+  display: none;
+}
+.advancedFilters {
+  min-width: 0;
+}
+.selectionPanel {
+  position: relative;
+  border-top: 1px solid var(--line);
+}
+.selectionPanel[hidden] {
+  display: none;
+}
+.selectionPanel .fighterDetails {
+  margin: 0;
+  padding: 16px 58px 16px 18px;
+  font-size: 14px;
+}
+.selectionPanel > button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+  font-size: 24px;
+  color: var(--ink);
+}
+@media (max-width: 900px), (pointer: coarse) {
+  .graphToolbar button {
+    min-width: 46px;
+    height: 46px;
+  }
+  .graphToolbar #resetView {
+    font-size: 13px;
+  }
+  .touchMapToggle {
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    min-height: 46px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: white;
+    color: var(--ink);
+    font-size: 13px;
+  }
+  .touchMapToggle[aria-pressed="true"] {
+    background: var(--ink);
+    color: white;
+  }
+  #graph,
+  #graph .node-group {
+    touch-action: pan-y pinch-zoom !important;
+  }
+  .mapInteractive #graph,
+  .mapInteractive #graph .node-group {
+    touch-action: none !important;
+  }
+  .desktopHint {
+    display: none;
+  }
+  .touchHint {
+    display: inline;
+  }
+  .searchClear {
+    width: 46px;
+    height: 46px;
+  }
+}
+@media (hover: none) {
+  .d3-tip {
+    display: none !important;
+  }
+}
+@media (max-width: 900px) {
+  .topbar {
+    height: 56px;
+    padding-inline: 14px;
+  }
+  .pageShell {
+    width: calc(100% - 24px);
+  }
+  .intro {
+    padding: 18px 0 16px;
+  }
+  .eyebrow {
+    font-size: 9px;
+    margin-bottom: 7px;
+  }
+  h1 {
+    font-size: 27px;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+  }
+  .introText {
+    font-size: 13px;
+  }
+  .snapshotBadge {
+    margin-top: 10px;
+    font-size: 11px;
+    padding: 7px 10px;
+  }
+  .panel {
+    padding: 12px;
+  }
+  .panelHeader {
+    border: 0;
+    padding: 0;
+    min-height: 44px;
+  }
+  .panelIndex {
+    display: none;
+  }
+  .filterToggle {
+    display: block;
+    min-height: 44px;
+    padding: 0 14px;
+    background: #f4f5f4;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--ink);
+    font-size: 14px;
+  }
+  .filterToggle[aria-expanded="true"] {
+    border-color: var(--accent);
+  }
+  .filterFields {
+    display: block;
+  }
+  .advancedFilters {
+    display: none;
+  }
+  .filters-open .advancedFilters {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+  }
+  .controlGroup {
+    min-width: 0;
+    margin-top: 9px;
+  }
+  .controlGroup label {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  select,
+  .searchInput {
+    font-size: 16px;
+    height: 46px;
+  }
+  .controlGroup-search {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 12px;
+  }
+  .searchNote {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  .searchResult {
+    min-height: 48px;
+    padding: 12px;
+  }
+  .searchResultName {
+    font-size: 15px;
+  }
+  .searchResultMeta {
+    font-size: 12px;
+  }
+  .graphCardHeader {
+    padding: 14px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .graphCardHeader h2 {
+    font-size: 22px;
+  }
+  .graphCounts {
+    gap: 14px;
+  }
+  .graphCounts strong {
+    font-size: 20px;
+  }
+  .stageLabel {
+    top: 12px;
+    left: 14px;
+  }
+  #graph {
+    height: clamp(400px, 62svh, 560px);
+    max-height: none;
+  }
+  .node-label-text {
+    font-size: 16px;
+  }
+  .graphFooter {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .legend {
+    font-size: 11px;
+    padding: 14px;
+    gap: 14px 18px;
+  }
+  .readingGuide p,
+  .controlNote {
+    font-size: 13px;
+  }
+  .readingGuide h3 {
+    font-size: 15px;
+  }
+  .dataCaveat,
+  .dataNotes h3 {
+    font-size: 11px;
+  }
+  .siteFooter {
+    flex-wrap: wrap;
+    font-size: 11px;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+  .siteFooter a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}
+@media (max-width: 360px) {
+  .graphToolbar #resetView {
+    padding-inline: 8px;
+  }
+  .filters-open .advancedFilters {
+    grid-template-columns: 1fr;
+  }
+  .graphCardHeader h2 {
+    font-size: 20px;
+  }
+  .brand {
+    gap: 7px;
+  }
 }

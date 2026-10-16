@@ -5,6 +5,8 @@ A force-directed visualization of UFC fight history by division. The site can be
 
 Choose a division, roster, and minimum fight count, then search the visible fighters to highlight their opponents. Fighters can also be selected with Enter or Space when focused. Drag fighters to rearrange the network or drag the background to pan. Use the zoom buttons, Ctrl/Command-scroll, or the **Fit view** button to adjust the map.
 
+On phones and tablets, **Filters** reveals the roster and minimum-fight controls. Tap fighters or matchup lines for persistent details below the map. Swipe normally to scroll the page; enable **Move map** to drag fighters, pan, or pinch the network, then **Done moving** to resume scrolling.
+
 The date above the map shows the fight-results snapshot; rankings are saved metadata, not live standings. Failed division downloads show a retry button, and switching divisions keeps the latest selection active even if earlier requests finish later.
 
 ## Data source
