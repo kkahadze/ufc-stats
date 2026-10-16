@@ -9,7 +9,7 @@ The date above the map shows the fight-results snapshot; rankings are saved meta
 
 ## Data source
 
-Fight data is generated from the official UFC Stats site:
+The primary history source is UFC Stats. When it is unavailable, ESPN’s public UFC results feed supplements the preserved archive:
 
 - completed events index: `http://ufcstats.com/statistics/events/completed?page=all`
 - event result pages: `http://ufcstats.com/event-details/...`
@@ -17,7 +17,7 @@ Fight data is generated from the official UFC Stats site:
 - fighter flag metadata: recent official UFC event-card pages from `https://www.ufc.com/events`, using each fighter's most recent UFC card appearance as the primary flag source
 - fallback fighter country metadata: `https://www.ufc.com/athletes/all` plus cached UFC athlete profile pages when an event-card flag cannot be resolved
 
-The generated graph files now cover the current men's and women's UFC divisions and key fighters by stable UFC Stats fighter IDs so name formatting changes do not create duplicate nodes. Unresolved future bouts are skipped. Each node also includes:
+The generated graph files cover the current men's and women's UFC divisions. Existing UFC Stats fighter IDs are preserved. ESPN-only newcomers use namespaced ESPN athlete IDs; verified name aliases and stored ESPN IDs keep subsequent updates attached to the same fighters. Unresolved future bouts are skipped. Each node also includes:
 
 - fight count in that division
 - unique opponent count
@@ -32,7 +32,19 @@ python3 -m pip install -r requirements.txt
 python3 scripts/update_fight_data.py
 ```
 
-The scraper rewrites the JSON files in `docs/data/`.
+The scraper validates all 12 division payloads before writing `docs/data/`.
+
+When UFC Stats is blocked, the updater reads ESPN’s monthly UFC scoreboards and detailed completed-bout results. It preserves the original archive and rebuilds the supplemental period on every run, allowing missed cards and recent corrections to be recovered without duplicate bouts. Older result details are cached; the most recent 30 days are fetched again. Contender Series, future/unresolved bouts, and catchweight fights are excluded. ESPN event dates use the US Eastern event calendar. Missing previously published results or ambiguous identities fail the refresh instead of publishing partial data.
+
+ESPN results do **not** refresh UFC rankings or title classifications. Those remain the saved UFC snapshot, with the title-history cutoff shown separately on the site. New bouts have an unknown title-bout flag rather than an invented classification. Each supplemental bout records its ESPN source URL and IDs.
+
+### Daily publication
+
+`Update Fight Data` runs every day at **09:17 UTC** and supports **Run workflow** in GitHub Actions. It installs dependencies, refreshes the archive, runs the regression suite and validation, then commits changes to `master`. The successful-check date is saved daily so visitors can distinguish the last completed event from the last refresh attempt.
+
+The job calls `Deploy Site` explicitly after a successful refresh. This is necessary because pushes made with `GITHUB_TOKEN` do not trigger ordinary Pages builds. `Deploy Site` also runs for normal pushes to `master`; Pages must use **GitHub Actions** as its publishing source. No paid service, API key, or personal access token is needed. GitHub may delay scheduled jobs; this is a daily refresh, not a live feed.
+
+If both sources fail or validation fails, the job fails and leaves the published site intact. Inspect the `Update Fight Data` run logs to diagnose a failure, then rerun the workflow. The site’s last-check date advances only after a successful refresh.
 
 It also keeps a local cache in `.cache/ufc-stats/` so repeated runs do not re-download the full event archive. That cache now includes:
 
@@ -50,7 +62,7 @@ The first run after introducing the flag metadata is slower because it has to fi
 python3 scripts/update_fight_data.py --refresh-all
 ```
 
-If UFC.com temporarily rejects requests from an automated runner, the normal refresh path reuses the already-committed ranking and country metadata from `docs/data/` rather than failing the whole data refresh. `--refresh-all` still requires live source fetches and will fail instead of using committed fallback metadata.
+When the primary UFC Stats path is available but UFC.com rejects requests from an automated runner, the normal refresh path reuses the already-committed ranking and country metadata from `docs/data/` rather than failing the whole data refresh. `--refresh-all` still requires live source fetches and will fail instead of using committed fallback metadata.
 
 ## Quality checks
 

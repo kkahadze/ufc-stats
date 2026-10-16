@@ -519,6 +519,12 @@ function updateSourceNote(dataset, filteredNetwork) {
 		'Fight results: ' + dataset.meta.source_name,
 		'coverage through ' + formatDate(dataset.meta.latest_resolved_event_date)
 	];
+	if (dataset.meta.results_checked_on) {
+		sourceParts.push('results checked ' + formatDate(dataset.meta.results_checked_on));
+	}
+	if (dataset.meta.title_metadata_through) {
+		sourceParts.push('title history through ' + formatDate(dataset.meta.title_metadata_through));
+	}
 
 	if (dataset.meta.rankings_updated_text) {
 		sourceParts.push(

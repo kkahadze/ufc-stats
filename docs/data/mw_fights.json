@@ -2,15 +2,19 @@
   "meta": {
     "division": "Middleweight",
     "filename": "mw_fights.json",
-    "source_name": "UFC Stats",
+    "source_name": "UFC Stats archive + ESPN results",
     "source_url": "http://ufcstats.com/statistics/events/completed?page=all",
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-05-16",
-    "fighter_count": 471,
-    "matchup_count": 1133,
-    "bout_count": 1153
+    "latest_resolved_event_date": "2026-10-10",
+    "fighter_count": 475,
+    "matchup_count": 1161,
+    "bout_count": 1181,
+    "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
+    "ufcstats_coverage_through": "2026-05-16",
+    "results_checked_on": "2026-10-16",
+    "title_metadata_through": "2026-05-16"
   },
   "nodes": [
     {
@@ -65,8 +69,8 @@
       "id": "36b8f265bcd1b7a4",
       "label": "Abus Magomedov",
       "group": "Middleweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -75,7 +79,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "DE",
       "countryName": "Germany",
-      "flagEmoji": "\ud83c\udde9\ud83c\uddea"
+      "flagEmoji": "\ud83c\udde9\ud83c\uddea",
+      "espnId": "3077822"
     },
     {
       "id": "b27b8881d7444114",
@@ -529,8 +534,8 @@
       "id": "22e07d3da1aa3475",
       "label": "Andrey Pulyaev",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -539,7 +544,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "5211225"
     },
     {
       "id": "993d385f5a475375",
@@ -561,8 +567,8 @@
       "id": "093e1f5bb73850be",
       "label": "Anthony Hernandez",
       "group": "Middleweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -571,7 +577,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4290956"
     },
     {
       "id": "365fee2da473b177",
@@ -705,8 +712,8 @@
       "id": "2f815ed5f8278ba6",
       "label": "Ateba Gautier",
       "group": "Middleweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -715,7 +722,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CM",
       "countryName": "Cameroon",
-      "flagEmoji": "\ud83c\udde8\ud83c\uddf2"
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf2",
+      "espnId": "5218421"
     },
     {
       "id": "3bc3f60b21cddc6a",
@@ -801,8 +809,8 @@
       "id": "35673bf5204524ee",
       "label": "Bo Nickal",
       "group": "Middleweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -811,7 +819,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5061870"
     },
     {
       "id": "c96518b7f6881004",
@@ -881,8 +890,8 @@
       "id": "2f181c0467965b98",
       "label": "Brendan Allen",
       "group": "Middleweight",
-      "fightCount": 16,
-      "uniqueOpponentCount": 15,
+      "fightCount": 18,
+      "uniqueOpponentCount": 17,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -891,7 +900,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4025699"
     },
     {
       "id": "36fbaa49a09ff997",
@@ -961,8 +971,8 @@
       "id": "1e719d4b676dc19a",
       "label": "Brunno Ferreira",
       "group": "Middleweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 8,
+      "fightCount": 11,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -971,7 +981,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5077131"
     },
     {
       "id": "da1d8d76404bb6b5",
@@ -1185,8 +1196,8 @@
       "id": "64d47ef881a437a4",
       "label": "Cesar Almeida",
       "group": "Middleweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1195,7 +1206,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5144068"
     },
     {
       "id": "dbc17725b887860a",
@@ -1441,8 +1453,8 @@
       "id": "a93f94c923c3a9cb",
       "label": "Christian Leroy Duncan",
       "group": "Middleweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -1451,7 +1463,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "GB",
       "countryName": "England",
-      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+      "espnId": "4848674"
     },
     {
       "id": "a390eb8a9b2df298",
@@ -1681,8 +1694,8 @@
       "id": "fdd22e895a70e4a8",
       "label": "Damian Pinas",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1691,7 +1704,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AW",
       "countryName": "Aruba",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfc"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfc",
+      "espnId": "5292022"
     },
     {
       "id": "1ccf4e7caff270df",
@@ -2161,8 +2175,8 @@
       "id": "312f7d7b2b2f7de4",
       "label": "Djorden Santos",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2171,7 +2185,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5211247"
     },
     {
       "id": "68c11c27d4d56572",
@@ -2209,8 +2224,8 @@
       "id": "ad5cb64af10fc946",
       "label": "Donte Johnson",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2219,7 +2234,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5302831"
     },
     {
       "id": "1fd4fbdcc67de844",
@@ -2241,8 +2257,8 @@
       "id": "0d7b51c9d2649a6e",
       "label": "Dricus Du Plessis",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 9,
+      "fightCount": 11,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "2",
@@ -2251,14 +2267,15 @@
       "hasTitleFightInDivision": true,
       "countryCode": "ZA",
       "countryName": "South Africa",
-      "flagEmoji": "\ud83c\uddff\ud83c\udde6"
+      "flagEmoji": "\ud83c\uddff\ud83c\udde6",
+      "espnId": "3166126"
     },
     {
       "id": "866fd7b1a6c90e7f",
       "label": "Dusko Todorovic",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2267,7 +2284,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RS",
       "countryName": "Serbia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddf8",
+      "espnId": "4421517"
     },
     {
       "id": "e4277e87a789d687",
@@ -2289,8 +2307,8 @@
       "id": "71505842fb6455c3",
       "label": "Dustin Stoltzfus",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2299,7 +2317,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4685871"
     },
     {
       "id": "8be158ca1e5ea6a0",
@@ -2417,8 +2436,8 @@
       "id": "4144798612ef96e5",
       "label": "Edmen Shahbazyan",
       "group": "Middleweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 16,
+      "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2427,7 +2446,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4354318"
     },
     {
       "id": "75bbd2206a15319f",
@@ -2497,8 +2517,8 @@
       "id": "9508cc6184cb2450",
       "label": "Eric McConico",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2507,7 +2527,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "2478987"
     },
     {
       "id": "64b12fe31be7560c",
@@ -2849,8 +2870,8 @@
       "id": "b12fb759e02378de",
       "label": "Gilbert Urbina",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2859,7 +2880,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4375574"
     },
     {
       "id": "132f860d02953f4c",
@@ -2881,8 +2903,8 @@
       "id": "d1c65d2cf2925ddd",
       "label": "Gregory Rodrigues",
       "group": "Middleweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 12,
+      "fightCount": 14,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "12",
@@ -2891,7 +2913,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4690541"
     },
     {
       "id": "d6d5da3c209884bc",
@@ -3009,8 +3032,8 @@
       "id": "b07aed698fba8624",
       "label": "Ikram Aliskerov",
       "group": "Middleweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3019,7 +3042,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4684776"
     },
     {
       "id": "ce6065baef021cf3",
@@ -3073,8 +3097,8 @@
       "id": "6a96ad1bc34fb113",
       "label": "Ismail Naurdiev",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3083,7 +3107,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "MA",
       "countryName": "Morocco",
-      "flagEmoji": "\ud83c\uddf2\ud83c\udde6"
+      "flagEmoji": "\ud83c\uddf2\ud83c\udde6",
+      "espnId": "4412813"
     },
     {
       "id": "1338e2c7480bdf9e",
@@ -3169,8 +3194,8 @@
       "id": "3eeec2f53cebdf12",
       "label": "Jackson McVey",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3179,7 +3204,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5291733"
     },
     {
       "id": "d4270315cbcf2569",
@@ -3377,8 +3403,8 @@
       "id": "13a0275fa13c4d26",
       "label": "Jared Cannonier",
       "group": "Middleweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "11",
@@ -3387,7 +3413,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3154860"
     },
     {
       "id": "23459ee7e373b98f",
@@ -4225,8 +4252,8 @@
       "id": "f1b2aa7853d1ed6e",
       "label": "Kamaru Usman",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4235,7 +4262,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "NG",
       "countryName": "Nigeria",
-      "flagEmoji": "\ud83c\uddf3\ud83c\uddec"
+      "flagEmoji": "\ud83c\uddf3\ud83c\uddec",
+      "espnId": "3088812"
     },
     {
       "id": "37d5b176d438d2a5",
@@ -4497,8 +4525,8 @@
       "id": "d6c0cdd7e467c440",
       "label": "Kyle Daukaus",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4507,7 +4535,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4329444"
     },
     {
       "id": "7339d340aa2889cb",
@@ -4702,6 +4731,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:4693161",
+      "label": "Luis Felipe Dias",
+      "group": "Middleweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "4693161"
+    },
+    {
       "id": "24b033b3daf1c9df",
       "label": "Luiz Cane",
       "group": "Middleweight",
@@ -4849,8 +4895,8 @@
       "id": "841695e02c99a521",
       "label": "Mansur Abdul-Malik",
       "group": "Middleweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4859,7 +4905,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5211221"
     },
     {
       "id": "3cc506f115cbb9d5",
@@ -5057,8 +5104,8 @@
       "id": "7acbb0972e75281a",
       "label": "Marvin Vettori",
       "group": "Middleweight",
-      "fightCount": 17,
-      "uniqueOpponentCount": 15,
+      "fightCount": 18,
+      "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5067,7 +5114,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "IT",
       "countryName": "Italy",
-      "flagEmoji": "\ud83c\uddee\ud83c\uddf9"
+      "flagEmoji": "\ud83c\uddee\ud83c\uddf9",
+      "espnId": "4001851"
     },
     {
       "id": "a9bcf8717dd12532",
@@ -5134,6 +5182,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:5013686",
+      "label": "Matthieu Letho Duclos",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5013686"
+    },
+    {
       "id": "2b93ebd9f5417ad2",
       "label": "Michael Bisping",
       "group": "Middleweight",
@@ -5169,8 +5234,8 @@
       "id": "a67d071163962af8",
       "label": "Michael Page",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5179,14 +5244,15 @@
       "hasTitleFightInDivision": false,
       "countryCode": "GB",
       "countryName": "England",
-      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+      "espnId": "3022067"
     },
     {
       "id": "0d65c432720accb9",
       "label": "Michal Oleksiejczuk",
       "group": "Middleweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5195,7 +5261,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "PL",
       "countryName": "Poland",
-      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1"
+      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1",
+      "espnId": "4012999"
     },
     {
       "id": "ce175eaafe867d1f",
@@ -5217,8 +5284,8 @@
       "id": "595db60957de51d3",
       "label": "Michel Pereira",
       "group": "Middleweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5227,7 +5294,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4418962"
     },
     {
       "id": "564c2f5f9eb45d67",
@@ -5521,8 +5589,8 @@
       "id": "49d2a08964c5eb11",
       "label": "Nursulton Ruziboev",
       "group": "Middleweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5531,7 +5599,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "UZ",
       "countryName": "Uzbekistan",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddff"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddff",
+      "espnId": "4422103"
     },
     {
       "id": "04b39f4e8eb59d7c",
@@ -5585,8 +5654,8 @@
       "id": "6967153c7edb4d87",
       "label": "Ozzy Diaz",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5595,7 +5664,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4944080"
     },
     {
       "id": "c9f6385af6df66d7",
@@ -6049,8 +6119,8 @@
       "id": "f96856f9d69fd7e4",
       "label": "Robert Bryczek",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6059,7 +6129,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "PL",
       "countryName": "Poland",
-      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1"
+      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1",
+      "espnId": "4341572"
     },
     {
       "id": "5cafbc97dba2e797",
@@ -6081,8 +6152,8 @@
       "id": "0cd0456d6029cec2",
       "label": "Robert Valentin",
       "group": "Middleweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6091,7 +6162,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "CH",
       "countryName": "Switzerland",
-      "flagEmoji": "\ud83c\udde8\ud83c\udded"
+      "flagEmoji": "\ud83c\udde8\ud83c\udded",
+      "espnId": "4686237"
     },
     {
       "id": "e1147d3d2dabe1ce",
@@ -6113,8 +6185,8 @@
       "id": "260e9e0d4954aea6",
       "label": "Rodolfo Vieira",
       "group": "Middleweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6123,7 +6195,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4426250"
     },
     {
       "id": "94070f6544c4b2a5",
@@ -6193,8 +6266,8 @@
       "id": "9d83f6da776ff7d6",
       "label": "Roman Kopylov",
       "group": "Middleweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6203,7 +6276,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4300149"
     },
     {
       "id": "6dd758d34da8d254",
@@ -6305,8 +6379,8 @@
       "id": "e463ce0a2ca474f4",
       "label": "Ryan Gandra",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6315,7 +6389,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5291085"
     },
     {
       "id": "b59037262c8fe060",
@@ -6529,8 +6604,8 @@
       "id": "06734ca9d88dec3a",
       "label": "Shara Magomedov",
       "group": "Middleweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6539,7 +6614,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4421784"
     },
     {
       "id": "ec2d13a87d3d9541",
@@ -7089,8 +7165,8 @@
       "id": "147e70aa6cc48cfc",
       "label": "Tresean Gore",
       "group": "Middleweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7099,7 +7175,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4815999"
     },
     {
       "id": "b27a1fcb56a3035a",
@@ -7233,8 +7310,8 @@
       "id": "6d4b63c767106d3a",
       "label": "Vicente Luque",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7243,7 +7320,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "3045887"
     },
     {
       "id": "1e7483dbff40b84b",
@@ -7292,6 +7370,23 @@
       "countryCode": "BR",
       "countryName": "Brazil",
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "espn:5351430",
+      "label": "Vlasto \u010cepo",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5351430"
     },
     {
       "id": "fb79582c410d049e",
@@ -7361,8 +7456,8 @@
       "id": "b4443fae47e7eb9d",
       "label": "Wes Schultz",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7371,7 +7466,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5057023"
     },
     {
       "id": "af5b208e97f5d382",
@@ -7404,6 +7500,23 @@
       "countryCode": "FR",
       "countryName": "France",
       "flagEmoji": "\ud83c\uddeb\ud83c\uddf7"
+    },
+    {
+      "id": "espn:5341761",
+      "label": "Yi Sak Lee",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5341761"
     },
     {
       "id": "f77c68bb4be8516d",
@@ -7457,8 +7570,8 @@
       "id": "7674b836ce0698a0",
       "label": "Yousri Belgaroui",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7467,7 +7580,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "NL",
       "countryName": "Netherlands",
-      "flagEmoji": "\ud83c\uddf3\ud83c\uddf1"
+      "flagEmoji": "\ud83c\uddf3\ud83c\uddf1",
+      "espnId": "5149815"
     },
     {
       "id": "1fe7adb23b3eedfb",
@@ -7521,17 +7635,18 @@
       "id": "23dec7c47cb418f8",
       "label": "Zach Reese",
       "group": "Middleweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
       "isFormerChampion": false,
       "isFormerTitleChallenger": false,
       "hasTitleFightInDivision": false,
-      "countryCode": null,
-      "countryName": null,
-      "flagEmoji": null
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5143223"
     },
     {
       "id": "4ba8d454f762005d",
@@ -8933,6 +9048,26 @@
     },
     {
       "source": "22e07d3da1aa3475",
+      "target": "fdd22e895a70e4a8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 332: Silva vs. Wang",
+          "eventDate": "2026-10-03",
+          "resultSummary": "Damian Pinas def. Andrey Pulyaev",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "1:15",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061182",
+          "sourceBoutId": "401912277",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc/fightId/401912277"
+        }
+      ]
+    },
+    {
+      "source": "22e07d3da1aa3475",
       "target": "7eaa5e31c2dd86aa",
       "value": 1,
       "bouts": [
@@ -8944,6 +9079,26 @@
           "round": "2",
           "time": "1:31",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "22e07d3da1aa3475",
+      "target": "49d2a08964c5eb11",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fiziev vs. Torres",
+          "eventDate": "2026-06-27",
+          "resultSummary": "Nursulton Ruziboev def. Andrey Pulyaev",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "1",
+          "time": "3:58",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059254",
+          "sourceBoutId": "401872673",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059254/league/ufc/fightId/401872673"
         }
       ]
     },
@@ -8992,6 +9147,26 @@
           "round": "3",
           "time": "1:01",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "093e1f5bb73850be",
+      "target": "d1c65d2cf2925ddd",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hernandez vs. Rodrigues",
+          "eventDate": "2026-08-22",
+          "resultSummary": "Gregory Rodrigues def. Anthony Hernandez",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060493",
+          "sourceBoutId": "401881939",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc/fightId/401881939"
         }
       ]
     },
@@ -9493,6 +9668,26 @@
     },
     {
       "source": "2f815ed5f8278ba6",
+      "target": "9d83f6da776ff7d6",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 332: Silva vs. Wang",
+          "eventDate": "2026-10-03",
+          "resultSummary": "Roman Kopylov def. Ateba Gautier",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "3:12",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061182",
+          "sourceBoutId": "401907088",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc/fightId/401907088"
+        }
+      ]
+    },
+    {
+      "source": "2f815ed5f8278ba6",
       "target": "563a1d42bb0e3cef",
       "value": 1,
       "bouts": [
@@ -9632,6 +9827,26 @@
           "round": "1",
           "time": "2:54",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "35673bf5204524ee",
+      "target": "d6c0cdd7e467c440",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Freedom 250: Topuria vs. Gaethje",
+          "eventDate": "2026-06-14",
+          "resultSummary": "Bo Nickal def. Kyle Daukaus",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "4:34",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058854",
+          "sourceBoutId": "401863579",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058854/league/ufc/fightId/401863579"
         }
       ]
     },
@@ -10206,6 +10421,46 @@
     },
     {
       "source": "2f181c0467965b98",
+      "target": "a93f94c923c3a9cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Duncan",
+          "eventDate": "2026-10-10",
+          "resultSummary": "Brendan Allen def. Christian Leroy Duncan",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "5",
+          "time": "2:46",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061541",
+          "sourceBoutId": "401916276",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc/fightId/401916276"
+        }
+      ]
+    },
+    {
+      "source": "2f181c0467965b98",
+      "target": "4144798612ef96e5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Muhammad vs. Bonfim",
+          "eventDate": "2026-06-06",
+          "resultSummary": "Brendan Allen def. Edmen Shahbazyan",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058949",
+          "sourceBoutId": "401870062",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058949/league/ufc/fightId/401870062"
+        }
+      ]
+    },
+    {
+      "source": "2f181c0467965b98",
       "target": "d4270315cbcf2569",
       "value": 1,
       "bouts": [
@@ -10526,6 +10781,26 @@
     },
     {
       "source": "1e719d4b676dc19a",
+      "target": "4144798612ef96e5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 331: Van vs. Pantoja 2",
+          "eventDate": "2026-09-19",
+          "resultSummary": "Edmen Shahbazyan def. Brunno Ferreira",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060963",
+          "sourceBoutId": "401905381",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc/fightId/401905381"
+        }
+      ]
+    },
+    {
+      "source": "1e719d4b676dc19a",
       "target": "d1c65d2cf2925ddd",
       "value": 2,
       "bouts": [
@@ -10546,6 +10821,26 @@
           "round": "1",
           "time": "4:13",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1e719d4b676dc19a",
+      "target": "b07aed698fba8624",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fiziev vs. Torres",
+          "eventDate": "2026-06-27",
+          "resultSummary": "Ikram Aliskerov def. Brunno Ferreira",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059254",
+          "sourceBoutId": "401872625",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059254/league/ufc/fightId/401872625"
         }
       ]
     },
@@ -11202,6 +11497,26 @@
           "round": "1",
           "time": "4:16",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "64d47ef881a437a4",
+      "target": "fdd22e895a70e4a8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 329: McGregor vs. Holloway 2",
+          "eventDate": "2026-07-11",
+          "resultSummary": "Damian Pinas def. Cesar Almeida",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "4:44",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059148",
+          "sourceBoutId": "401873379",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059148/league/ufc/fightId/401873379"
         }
       ]
     },
@@ -13704,6 +14019,26 @@
       ]
     },
     {
+      "source": "312f7d7b2b2f7de4",
+      "target": "7674b836ce0698a0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "Noche UFC: Silva vs. Delgado",
+          "eventDate": "2026-09-12",
+          "resultSummary": "Yousri Belgaroui def. Djorden Santos",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "4:25",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060772",
+          "sourceBoutId": "401914463",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc/fightId/401914463"
+        }
+      ]
+    },
+    {
       "source": "ad5cb64af10fc946",
       "target": "f14f644d41ade29f",
       "value": 1,
@@ -13876,6 +14211,26 @@
           "round": "4",
           "time": "3:38",
           "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "0d7b51c9d2649a6e",
+      "target": "f1b2aa7853d1ed6e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Du Plessis vs. Usman",
+          "eventDate": "2026-07-18",
+          "resultSummary": "Dricus Du Plessis def. Kamaru Usman",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059599",
+          "sourceBoutId": "401872218",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059599/league/ufc/fightId/401872218"
         }
       ]
     },
@@ -14109,6 +14464,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "71505842fb6455c3",
+      "target": "841695e02c99a521",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 330: Makhachev vs. Machado Garry",
+          "eventDate": "2026-08-15",
+          "resultSummary": "Dustin Stoltzfus def. Mansur Abdul-Malik",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "2",
+          "time": "4:25",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059185",
+          "sourceBoutId": "401881928",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059185/league/ufc/fightId/401881928"
         }
       ]
     },
@@ -14929,6 +15304,26 @@
       ]
     },
     {
+      "source": "9508cc6184cb2450",
+      "target": "ad5cb64af10fc946",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 330: Makhachev vs. Machado Garry",
+          "eventDate": "2026-08-15",
+          "resultSummary": "Donte Johnson def. Eric McConico",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "1:38",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059185",
+          "sourceBoutId": "401902724",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059185/league/ufc/fightId/401902724"
+        }
+      ]
+    },
+    {
       "source": "64b12fe31be7560c",
       "target": "d1feea7a4bdcd503",
       "value": 1,
@@ -15658,6 +16053,26 @@
       ]
     },
     {
+      "source": "b12fb759e02378de",
+      "target": "espn:5351430",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+          "eventDate": "2026-08-01",
+          "resultSummary": "Gilbert Urbina def. Vlasto \u010cepo",
+          "method": "KO/TKO \u00b7 Elbows",
+          "round": "1",
+          "time": "1:01",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059339",
+          "sourceBoutId": "401874462",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059339/league/ufc/fightId/401874462"
+        }
+      ]
+    },
+    {
       "source": "132f860d02953f4c",
       "target": "5d7bdab5e03e3216",
       "value": 1,
@@ -15958,6 +16373,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6a96ad1bc34fb113",
+      "target": "7acbb0972e75281a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 332: Silva vs. Wang",
+          "eventDate": "2026-10-03",
+          "resultSummary": "Ismail Naurdiev def. Marvin Vettori",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061182",
+          "sourceBoutId": "401912275",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc/fightId/401912275"
         }
       ]
     },
@@ -16805,6 +17240,26 @@
       ]
     },
     {
+      "source": "3eeec2f53cebdf12",
+      "target": "b4443fae47e7eb9d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hernandez vs. Rodrigues",
+          "eventDate": "2026-08-22",
+          "resultSummary": "Jackson McVey def. Wes Schultz",
+          "method": "KO/TKO \u00b7 Knee",
+          "round": "1",
+          "time": "4:13",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060493",
+          "sourceBoutId": "401887542",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc/fightId/401887542"
+        }
+      ]
+    },
+    {
       "source": "d4270315cbcf2569",
       "target": "eae431e70064e046",
       "value": 1,
@@ -17073,6 +17528,26 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "13a0275fa13c4d26",
+      "target": "a93f94c923c3a9cb",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Du Plessis vs. Usman",
+          "eventDate": "2026-07-18",
+          "resultSummary": "Christian Leroy Duncan def. Jared Cannonier",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059599",
+          "sourceBoutId": "401874062",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059599/league/ufc/fightId/401874062"
         }
       ]
     },
@@ -19221,6 +19696,46 @@
       ]
     },
     {
+      "source": "espn:4693161",
+      "target": "espn:5013686",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hooker vs. Parnasse",
+          "eventDate": "2026-09-05",
+          "resultSummary": "Matthieu Letho Duclos def. Luis Felipe Dias",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "4:35",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059993",
+          "sourceBoutId": "401902948",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059993/league/ufc/fightId/401902948"
+        }
+      ]
+    },
+    {
+      "source": "espn:4693161",
+      "target": "espn:5341761",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Figueiredo",
+          "eventDate": "2026-05-30",
+          "resultSummary": "Luis Felipe Dias def. Yi Sak Lee",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "3:40",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058517",
+          "sourceBoutId": "401867171",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058517/league/ufc/fightId/401867171"
+        }
+      ]
+    },
+    {
       "source": "24b033b3daf1c9df",
       "target": "6c2030e0a143a94b",
       "value": 1,
@@ -20769,6 +21284,26 @@
     },
     {
       "source": "0d65c432720accb9",
+      "target": "36b8f265bcd1b7a4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fiziev vs. Torres",
+          "eventDate": "2026-06-27",
+          "resultSummary": "Abus Magomedov def. Michal Oleksiejczuk",
+          "method": "Submission \u00b7 Guillotine Choke",
+          "round": "1",
+          "time": "3:25",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059254",
+          "sourceBoutId": "401872675",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059254/league/ufc/fightId/401872675"
+        }
+      ]
+    },
+    {
+      "source": "0d65c432720accb9",
       "target": "4126a78111c0855a",
       "value": 1,
       "bouts": [
@@ -21521,6 +22056,26 @@
     },
     {
       "source": "49d2a08964c5eb11",
+      "target": "a67d071163962af8",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hooker vs. Parnasse",
+          "eventDate": "2026-09-05",
+          "resultSummary": "Michael Page def. Nursulton Ruziboev",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059993",
+          "sourceBoutId": "401898006",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059993/league/ufc/fightId/401898006"
+        }
+      ]
+    },
+    {
+      "source": "49d2a08964c5eb11",
       "target": "4e6738062d469256",
       "value": 1,
       "bouts": [
@@ -21804,6 +22359,26 @@
           "round": "1",
           "time": "1:54",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6967153c7edb4d87",
+      "target": "e463ce0a2ca474f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 331: Van vs. Pantoja 2",
+          "eventDate": "2026-09-19",
+          "resultSummary": "Ryan Gandra def. Ozzy Diaz",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "2:04",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060963",
+          "sourceBoutId": "401905385",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc/fightId/401905385"
         }
       ]
     },
@@ -22835,6 +23410,26 @@
     },
     {
       "source": "0cd0456d6029cec2",
+      "target": "866fd7b1a6c90e7f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+          "eventDate": "2026-08-01",
+          "resultSummary": "Robert Valentin def. Dusko Todorovic",
+          "method": "Submission \u00b7 Guillotine Choke",
+          "round": "1",
+          "time": "4:14",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059339",
+          "sourceBoutId": "401873866",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059339/league/ufc/fightId/401873866"
+        }
+      ]
+    },
+    {
+      "source": "0cd0456d6029cec2",
       "target": "cd0dfd9846bd03b9",
       "value": 1,
       "bouts": [
@@ -23015,6 +23610,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "260e9e0d4954aea6",
+      "target": "f96856f9d69fd7e4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+          "eventDate": "2026-09-26",
+          "resultSummary": "Rodolfo Vieira def. Robert Bryczek",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061266",
+          "sourceBoutId": "401911631",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc/fightId/401911631"
         }
       ]
     },
@@ -23972,6 +24587,26 @@
       ]
     },
     {
+      "source": "06734ca9d88dec3a",
+      "target": "595db60957de51d3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Fiziev vs. Torres",
+          "eventDate": "2026-06-27",
+          "resultSummary": "Shara Magomedov def. Michel Pereira",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059254",
+          "sourceBoutId": "401871791",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059254/league/ufc/fightId/401871791"
+        }
+      ]
+    },
+    {
       "source": "155bfc7ed36622df",
       "target": "9583662df31d943f",
       "value": 1,
@@ -24900,6 +25535,26 @@
       ]
     },
     {
+      "source": "147e70aa6cc48cfc",
+      "target": "6d4b63c767106d3a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 330: Makhachev vs. Machado Garry",
+          "eventDate": "2026-08-15",
+          "resultSummary": "Tresean Gore def. Vicente Luque",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059185",
+          "sourceBoutId": "401869338",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059185/league/ufc/fightId/401869338"
+        }
+      ]
+    },
+    {
       "source": "b27a1fcb56a3035a",
       "target": "fae67903c4fe636b",
       "value": 1,
@@ -25776,6 +26431,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "23dec7c47cb418f8",
+      "target": "e463ce0a2ca474f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 329: McGregor vs. Holloway 2",
+          "eventDate": "2026-07-11",
+          "resultSummary": "Ryan Gandra def. Zach Reese",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "1:15",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059148",
+          "sourceBoutId": "401874061",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059148/league/ufc/fightId/401874061"
         }
       ]
     },

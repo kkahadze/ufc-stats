@@ -2,23 +2,27 @@
   "meta": {
     "division": "Women's Flyweight",
     "filename": "wflw_fights.json",
-    "source_name": "UFC Stats",
+    "source_name": "UFC Stats archive + ESPN results",
     "source_url": "http://ufcstats.com/statistics/events/completed?page=all",
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-05-16",
-    "fighter_count": 114,
-    "matchup_count": 268,
-    "bout_count": 273
+    "latest_resolved_event_date": "2026-10-10",
+    "fighter_count": 118,
+    "matchup_count": 278,
+    "bout_count": 283,
+    "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
+    "ufcstats_coverage_through": "2026-05-16",
+    "results_checked_on": "2026-10-16",
+    "title_metadata_through": "2026-05-16"
   },
   "nodes": [
     {
       "id": "e8b731feff72294b",
       "label": "Alexa Grasso",
       "group": "Women's Flyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 6,
+      "fightCount": 10,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "3",
@@ -27,7 +31,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "MX",
       "countryName": "Mexico",
-      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd",
+      "espnId": "3136287"
     },
     {
       "id": "4c2d90e335e6df19",
@@ -76,6 +81,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5334916",
+      "label": "Anna Melisano",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5334916"
     },
     {
       "id": "d7338bcb141abd2c",
@@ -209,8 +231,8 @@
       "id": "f1ab6f37492c630a",
       "label": "Carli Judice",
       "group": "Women's Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -219,14 +241,15 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5172179"
     },
     {
       "id": "04835018f90b118c",
       "label": "Casey O'Neill",
       "group": "Women's Flyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "11",
@@ -235,7 +258,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AU",
       "countryName": "Australia",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+      "espnId": "4699589"
     },
     {
       "id": "c7be22a47a58365a",
@@ -321,8 +345,8 @@
       "id": "27b388f0aab49780",
       "label": "Dione Barbosa",
       "group": "Women's Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -331,14 +355,15 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4801725"
     },
     {
       "id": "de594b35c45c2e9a",
       "label": "Eduarda Moura",
       "group": "Women's Flyweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -347,7 +372,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5143888"
     },
     {
       "id": "ac7c765882f2c68c",
@@ -401,8 +427,8 @@
       "id": "e4faa79383c9f214",
       "label": "Ernesta Kareckaite",
       "group": "Women's Flyweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -411,7 +437,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "LT",
       "countryName": "Lithuania",
-      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9"
+      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9",
+      "espnId": "5149147"
     },
     {
       "id": "745fa7b605f8e2da",
@@ -590,6 +617,23 @@
       "flagEmoji": "\ud83c\udde8\ud83c\udde6"
     },
     {
+      "id": "espn:5308769",
+      "label": "Jeisla Chaves",
+      "group": "Women's Flyweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5308769"
+    },
+    {
       "id": "8e1f36476ef02a6a",
       "label": "Jennifer Maia",
       "group": "Women's Flyweight",
@@ -673,8 +717,8 @@
       "id": "6fd953151d981979",
       "label": "JJ Aldrich",
       "group": "Women's Flyweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -683,7 +727,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3136289"
     },
     {
       "id": "3d6749c4267da18f",
@@ -721,8 +766,8 @@
       "id": "aa0c573da7119292",
       "label": "Juliana Miller",
       "group": "Women's Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -731,7 +776,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4912582"
     },
     {
       "id": "a78a87d8c2bbb1cb",
@@ -1057,8 +1103,8 @@
       "id": "34ff304266360297",
       "label": "Manon Fiorot",
       "group": "Women's Flyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "2",
@@ -1067,7 +1113,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "FR",
       "countryName": "France",
-      "flagEmoji": "\ud83c\uddeb\ud83c\uddf7"
+      "flagEmoji": "\ud83c\uddeb\ud83c\uddf7",
+      "espnId": "4608674"
     },
     {
       "id": "82cbb809d5ee565c",
@@ -1185,8 +1232,8 @@
       "id": "a4a80dd7336ffd59",
       "label": "Melissa Gatto",
       "group": "Women's Flyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1195,7 +1242,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4420893"
     },
     {
       "id": "eb04b9d31e938edb",
@@ -1329,8 +1377,8 @@
       "id": "262d32ebda89efc4",
       "label": "Natalia Silva",
       "group": "Women's Flyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "1",
@@ -1339,7 +1387,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4054605"
     },
     {
       "id": "1de9ad94de18eeaf",
@@ -1468,6 +1517,40 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "4948e412fa6ab67d",
+      "label": "Ravena Oliveira",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5159959"
+    },
+    {
+      "id": "espn:5338118",
+      "label": "Regina Tarin",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5338118"
     },
     {
       "id": "47b63240018d5d86",
@@ -1665,8 +1748,8 @@
       "id": "68d4a891e5cf2029",
       "label": "Tracy Cortez",
       "group": "Women's Flyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -1675,7 +1758,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4243624"
     },
     {
       "id": "132deb59abae64b1",
@@ -1777,8 +1861,8 @@
       "id": "2997e7fe3c9d3d4a",
       "label": "Wang Cong",
       "group": "Women's Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "12",
@@ -1787,7 +1871,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CN",
       "countryName": "China",
-      "flagEmoji": "\ud83c\udde8\ud83c\uddf3"
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf3",
+      "espnId": "4215200"
     },
     {
       "id": "fdbefee0827e1567",
@@ -1809,8 +1894,8 @@
       "id": "c3d2b9bcb4cead6b",
       "label": "Yuneisy Duben",
       "group": "Women's Flyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1819,7 +1904,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "VE",
       "countryName": "Venezuela",
-      "flagEmoji": "\ud83c\uddfb\ud83c\uddea"
+      "flagEmoji": "\ud83c\uddfb\ud83c\uddea",
+      "espnId": "5211223"
     },
     {
       "id": "1ebe20ebbfa15e29",
@@ -2378,6 +2464,26 @@
     },
     {
       "source": "04835018f90b118c",
+      "target": "de594b35c45c2e9a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 331: Van vs. Pantoja 2",
+          "eventDate": "2026-09-19",
+          "resultSummary": "Casey O'Neill def. Eduarda Moura",
+          "method": "Submission \u00b7 Armbar",
+          "round": "1",
+          "time": "3:22",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060963",
+          "sourceBoutId": "401903511",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc/fightId/401903511"
+        }
+      ]
+    },
+    {
+      "source": "04835018f90b118c",
       "target": "a6eb54ae17a551be",
       "value": 1,
       "bouts": [
@@ -2613,6 +2719,26 @@
           "round": "1",
           "time": "2:43",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "27b388f0aab49780",
+      "target": "espn:5334916",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Du Plessis vs. Usman",
+          "eventDate": "2026-07-18",
+          "resultSummary": "Dione Barbosa def. Anna Melisano",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "1",
+          "time": "4:04",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059599",
+          "sourceBoutId": "401889642",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059599/league/ufc/fightId/401889642"
         }
       ]
     },
@@ -3289,6 +3415,26 @@
       ]
     },
     {
+      "source": "espn:5308769",
+      "target": "f1ab6f37492c630a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hernandez vs. Rodrigues",
+          "eventDate": "2026-08-22",
+          "resultSummary": "Carli Judice def. Jeisla Chaves",
+          "method": "KO/TKO \u00b7 Kick",
+          "round": "1",
+          "time": "1:39",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060493",
+          "sourceBoutId": "401881940",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc/fightId/401881940"
+        }
+      ]
+    },
+    {
       "source": "8e1f36476ef02a6a",
       "target": "f72465a784c1b084",
       "value": 1,
@@ -3534,6 +3680,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6fd953151d981979",
+      "target": "espn:5338118",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "Noche UFC: Silva vs. Delgado",
+          "eventDate": "2026-09-12",
+          "resultSummary": "Regina Tarin def. JJ Aldrich",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060772",
+          "sourceBoutId": "401897736",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc/fightId/401897736"
         }
       ]
     },
@@ -4211,6 +4377,26 @@
     },
     {
       "source": "34ff304266360297",
+      "target": "e8b731feff72294b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "Noche UFC: Silva vs. Delgado",
+          "eventDate": "2026-09-12",
+          "resultSummary": "Alexa Grasso def. Manon Fiorot",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060772",
+          "sourceBoutId": "401897734",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc/fightId/401897734"
+        }
+      ]
+    },
+    {
+      "source": "34ff304266360297",
       "target": "669970f7feba8ecd",
       "value": 1,
       "bouts": [
@@ -4587,6 +4773,26 @@
       ]
     },
     {
+      "source": "a4a80dd7336ffd59",
+      "target": "e4faa79383c9f214",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Duncan",
+          "eventDate": "2026-10-10",
+          "resultSummary": "Draw",
+          "method": "Draw",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061541",
+          "sourceBoutId": "401924511",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc/fightId/401924511"
+        }
+      ]
+    },
+    {
       "source": "43a59ce3bb40449e",
       "target": "fdbefee0827e1567",
       "value": 1,
@@ -4955,6 +5161,26 @@
       ]
     },
     {
+      "source": "262d32ebda89efc4",
+      "target": "2997e7fe3c9d3d4a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 332: Silva vs. Wang",
+          "eventDate": "2026-10-03",
+          "resultSummary": "Natalia Silva def. Wang Cong",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061182",
+          "sourceBoutId": "401912278",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061182/league/ufc/fightId/401912278"
+        }
+      ]
+    },
+    {
       "source": "1de9ad94de18eeaf",
       "target": "4498b382c65a7faa",
       "value": 1,
@@ -5095,6 +5321,26 @@
           "round": "2",
           "time": "1:50",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4948e412fa6ab67d",
+      "target": "aa0c573da7119292",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gamrot vs Salkilld",
+          "eventDate": "2026-08-08",
+          "resultSummary": "Juliana Miller def. Ravena Oliveira",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "2",
+          "time": "1:38",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060621",
+          "sourceBoutId": "401902680",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060621/league/ufc/fightId/401902680"
         }
       ]
     },
@@ -6142,6 +6388,26 @@
     },
     {
       "source": "2997e7fe3c9d3d4a",
+      "target": "68d4a891e5cf2029",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 329: McGregor vs. Holloway 2",
+          "eventDate": "2026-07-11",
+          "resultSummary": "Wang Cong def. Tracy Cortez",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059148",
+          "sourceBoutId": "401873381",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059148/league/ufc/fightId/401873381"
+        }
+      ]
+    },
+    {
+      "source": "2997e7fe3c9d3d4a",
       "target": "9dedfdd91070ddd8",
       "value": 1,
       "bouts": [
@@ -6169,6 +6435,26 @@
           "round": "1",
           "time": "1:40",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "c3d2b9bcb4cead6b",
+      "target": "espn:5308769",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Muhammad vs. Bonfim",
+          "eventDate": "2026-06-06",
+          "resultSummary": "Jeisla Chaves def. Yuneisy Duben",
+          "method": "Decision - Split",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058949",
+          "sourceBoutId": "401864366",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058949/league/ufc/fightId/401864366"
         }
       ]
     }

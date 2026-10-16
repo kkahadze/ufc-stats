@@ -2,15 +2,19 @@
   "meta": {
     "division": "Women's Strawweight",
     "filename": "wsw_fights.json",
-    "source_name": "UFC Stats",
+    "source_name": "UFC Stats archive + ESPN results",
     "source_url": "http://ufcstats.com/statistics/events/completed?page=all",
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-05-16",
-    "fighter_count": 121,
-    "matchup_count": 356,
-    "bout_count": 368
+    "latest_resolved_event_date": "2026-10-10",
+    "fighter_count": 129,
+    "matchup_count": 371,
+    "bout_count": 383,
+    "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
+    "ufcstats_coverage_through": "2026-05-16",
+    "results_checked_on": "2026-10-16",
+    "title_metadata_through": "2026-05-16"
   },
   "nodes": [
     {
@@ -81,8 +85,8 @@
       "id": "545092d13c67aa49",
       "label": "Alexia Thainara",
       "group": "Women's Strawweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -91,7 +95,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5075992"
     },
     {
       "id": "87f8699fdcc2c404",
@@ -129,8 +134,8 @@
       "id": "3df5493bb279226f",
       "label": "Amanda Lemos",
       "group": "Women's Strawweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "7",
@@ -139,7 +144,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4233196"
     },
     {
       "id": "beecb672a279223e",
@@ -161,8 +167,8 @@
       "id": "f0feeb2192937424",
       "label": "Angela Hill",
       "group": "Women's Strawweight",
-      "fightCount": 28,
-      "uniqueOpponentCount": 26,
+      "fightCount": 29,
+      "uniqueOpponentCount": 27,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -171,7 +177,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3115931"
     },
     {
       "id": "bd878a638e0e3be3",
@@ -209,8 +216,8 @@
       "id": "c0d5c0c95c59050b",
       "label": "Ariane Carnelossi",
       "group": "Women's Strawweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -219,7 +226,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4565903"
     },
     {
       "id": "b4c6c904a9ffc5e8",
@@ -300,6 +308,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5278269",
+      "label": "Carol Foro",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5278269"
     },
     {
       "id": "24174a3f44ce8e03",
@@ -430,11 +455,28 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:5345643",
+      "label": "Delphine Benouaich",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5345643"
+    },
+    {
       "id": "cffb87059e645bd1",
       "label": "Denise Gomes",
       "group": "Women's Strawweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "12",
@@ -443,7 +485,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4963343"
     },
     {
       "id": "d7e40dca3ae125be",
@@ -481,8 +524,8 @@
       "id": "ac7c765882f2c68c",
       "label": "Elise Reed",
       "group": "Women's Strawweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -491,7 +534,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4836482"
     },
     {
       "id": "02f8fedc18cbd26c",
@@ -561,8 +605,8 @@
       "id": "745fa7b605f8e2da",
       "label": "Fatima Kline",
       "group": "Women's Strawweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "11",
@@ -571,7 +615,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5028019"
     },
     {
       "id": "b6850671a008bf9a",
@@ -606,11 +651,28 @@
       "flagEmoji": "\ud83c\udde8\ud83c\uddf3"
     },
     {
+      "id": "espn:5097909",
+      "label": "Gigi Canuto",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5097909"
+    },
+    {
       "id": "38c7f72747f4f712",
       "label": "Gillian Robertson",
       "group": "Women's Strawweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "5",
@@ -619,7 +681,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4089026"
     },
     {
       "id": "5dd180c8b3196786",
@@ -753,8 +816,8 @@
       "id": "bc7d1ad49fcb2d08",
       "label": "Jaqueline Amorim",
       "group": "Women's Strawweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -763,7 +826,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4901883"
     },
     {
       "id": "8f382b3baa954d2a",
@@ -828,6 +892,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:3956295",
+      "label": "Jingnan Xiong",
+      "group": "Women's Strawweight",
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "3956295"
     },
     {
       "id": "d05cb1e8d1b885d8",
@@ -945,8 +1026,8 @@
       "id": "abb68e3c7ca128f2",
       "label": "Julia Polastri",
       "group": "Women's Strawweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -955,7 +1036,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4686723"
     },
     {
       "id": "75a6a390fd5dca46",
@@ -1057,8 +1139,8 @@
       "id": "8bd4200561c77a62",
       "label": "Ketlen Souza",
       "group": "Women's Strawweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1067,7 +1149,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4566308"
     },
     {
       "id": "ec0dcceace7d25a3",
@@ -1121,8 +1204,8 @@
       "id": "4e30e4250cb08b61",
       "label": "Loma Lookboonmee",
       "group": "Women's Strawweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1131,14 +1214,15 @@
       "hasTitleFightInDivision": false,
       "countryCode": "TH",
       "countryName": "Thailand",
-      "flagEmoji": "\ud83c\uddf9\ud83c\udded"
+      "flagEmoji": "\ud83c\uddf9\ud83c\udded",
+      "espnId": "4292347"
     },
     {
       "id": "8e5d953bdb9ae5e7",
       "label": "Loopy Godinez",
       "group": "Women's Strawweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -1147,7 +1231,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "MX",
       "countryName": "Mexico",
-      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd",
+      "espnId": "4700617"
     },
     {
       "id": "a3a542074109b347",
@@ -1169,8 +1254,8 @@
       "id": "7447e9f28508106a",
       "label": "Mackenzie Dern",
       "group": "Women's Strawweight",
-      "fightCount": 16,
-      "uniqueOpponentCount": 14,
+      "fightCount": 17,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": true,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1179,7 +1264,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4021217"
     },
     {
       "id": "2fee10d5cf86bfca",
@@ -1246,6 +1332,23 @@
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
     },
     {
+      "id": "espn:5364788",
+      "label": "Marina Spasi\u0107",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5364788"
+    },
+    {
       "id": "b6203e0492a9336c",
       "label": "Marnic Mann",
       "group": "Women's Strawweight",
@@ -1292,6 +1395,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5169699",
+      "label": "Melissa Amaya",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5169699"
     },
     {
       "id": "3f4c3bc822bea45d",
@@ -1649,8 +1769,8 @@
       "id": "cfbb3edab781dfd2",
       "label": "Shanelle Dyer",
       "group": "Women's Strawweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1659,7 +1779,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "GB",
       "countryName": "England",
-      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+      "espnId": "5157674"
     },
     {
       "id": "9c442aaf149ea982",
@@ -1710,11 +1831,28 @@
       "flagEmoji": "\ud83c\udde6\ud83c\uddf7"
     },
     {
+      "id": "espn:5308770",
+      "label": "Sofia Montenegro",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5308770"
+    },
+    {
       "id": "1b35af4d1529adf6",
       "label": "Stephanie Luciano",
       "group": "Women's Strawweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1723,7 +1861,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5145495"
     },
     {
       "id": "a851c35f58199231",
@@ -1745,8 +1884,8 @@
       "id": "d25240135aee03e5",
       "label": "Tabatha Ricci",
       "group": "Women's Strawweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -1755,7 +1894,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4868095"
     },
     {
       "id": "d35298b6df168456",
@@ -1806,6 +1946,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:4836549",
+      "label": "Tina Black",
+      "group": "Women's Strawweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "4836549"
+    },
+    {
       "id": "e5ca2bc2451a5956",
       "label": "Tina Lahdemaki",
       "group": "Women's Strawweight",
@@ -1841,8 +1998,8 @@
       "id": "2c483cf443f38ece",
       "label": "Vanessa Demopoulos",
       "group": "Women's Strawweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1851,7 +2008,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4683395"
     },
     {
       "id": "6c9b66b43663f2f7",
@@ -1905,8 +2063,8 @@
       "id": "c41d426cc7326d1b",
       "label": "Yan Xiaonan",
       "group": "Women's Strawweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -1915,14 +2073,15 @@
       "hasTitleFightInDivision": true,
       "countryCode": "CN",
       "countryName": "China",
-      "flagEmoji": "\ud83c\udde8\ud83c\uddf3"
+      "flagEmoji": "\ud83c\udde8\ud83c\uddf3",
+      "espnId": "4275487"
     },
     {
       "id": "40cb680ae1cd331f",
       "label": "Yazmin Jauregui",
       "group": "Women's Strawweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1931,7 +2090,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "MX",
       "countryName": "Mexico",
-      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
+      "flagEmoji": "\ud83c\uddf2\ud83c\uddfd",
+      "espnId": "5063403"
     },
     {
       "id": "1ebe20ebbfa15e29",
@@ -2060,6 +2220,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3df5493bb279226f",
+      "target": "545092d13c67aa49",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gamrot vs Salkilld",
+          "eventDate": "2026-08-08",
+          "resultSummary": "Alexia Thainara def. Amanda Lemos",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060621",
+          "sourceBoutId": "401887661",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060621/league/ufc/fightId/401887661"
         }
       ]
     },
@@ -3081,6 +3261,26 @@
       ]
     },
     {
+      "source": "ac7c765882f2c68c",
+      "target": "cfbb3edab781dfd2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hernandez vs. Rodrigues",
+          "eventDate": "2026-08-22",
+          "resultSummary": "Shanelle Dyer def. Elise Reed",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "3",
+          "time": "1:42",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060493",
+          "sourceBoutId": "401887543",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc/fightId/401887543"
+        }
+      ]
+    },
+    {
       "source": "02f8fedc18cbd26c",
       "target": "f0feeb2192937424",
       "value": 1,
@@ -3241,6 +3441,26 @@
       ]
     },
     {
+      "source": "745fa7b605f8e2da",
+      "target": "d25240135aee03e5",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Du Plessis vs. Usman",
+          "eventDate": "2026-07-18",
+          "resultSummary": "Fatima Kline def. Tabatha Ricci",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059599",
+          "sourceBoutId": "401881165",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059599/league/ufc/fightId/401881165"
+        }
+      ]
+    },
+    {
       "source": "b6850671a008bf9a",
       "target": "e8b731feff72294b",
       "value": 1,
@@ -3314,6 +3534,26 @@
       ]
     },
     {
+      "source": "espn:5097909",
+      "target": "espn:5278269",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Gamrot vs Salkilld",
+          "eventDate": "2026-08-08",
+          "resultSummary": "Carol Foro def. Gigi Canuto",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060621",
+          "sourceBoutId": "401905693",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060621/league/ufc/fightId/401905693"
+        }
+      ]
+    },
+    {
       "source": "38c7f72747f4f712",
       "target": "3df5493bb279226f",
       "value": 1,
@@ -3342,6 +3582,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "38c7f72747f4f712",
+      "target": "7447e9f28508106a",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 330: Makhachev vs. Machado Garry",
+          "eventDate": "2026-08-15",
+          "resultSummary": "Mackenzie Dern def. Gillian Robertson",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059185",
+          "sourceBoutId": "401878072",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059185/league/ufc/fightId/401878072"
         }
       ]
     },
@@ -3906,6 +4166,26 @@
       ]
     },
     {
+      "source": "espn:3956295",
+      "target": "f0feeb2192937424",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Figueiredo",
+          "eventDate": "2026-05-30",
+          "resultSummary": "Angela Hill def. Jingnan Xiong",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058517",
+          "sourceBoutId": "401869331",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058517/league/ufc/fightId/401869331"
+        }
+      ]
+    },
+    {
       "source": "6fd953151d981979",
       "target": "b76c6268dc1d3c05",
       "value": 1,
@@ -4341,6 +4621,26 @@
     },
     {
       "source": "abb68e3c7ca128f2",
+      "target": "espn:3956295",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Nurmagomedov vs. Song",
+          "eventDate": "2026-08-29",
+          "resultSummary": "Julia Polastri def. Jingnan Xiong",
+          "method": "KO/TKO \u00b7 Kick",
+          "round": "1",
+          "time": "3:06",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060620",
+          "sourceBoutId": "401905191",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060620/league/ufc/fightId/401905191"
+        }
+      ]
+    },
+    {
+      "source": "abb68e3c7ca128f2",
       "target": "d7c3816669784109",
       "value": 1,
       "bouts": [
@@ -4693,6 +4993,46 @@
     },
     {
       "source": "8bd4200561c77a62",
+      "target": "c0d5c0c95c59050b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Muhammad vs. Bonfim",
+          "eventDate": "2026-06-06",
+          "resultSummary": "Ketlen Souza def. Ariane Carnelossi",
+          "method": "KO/TKO \u00b7 Kick",
+          "round": "1",
+          "time": "1:34",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058949",
+          "sourceBoutId": "401870073",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058949/league/ufc/fightId/401870073"
+        }
+      ]
+    },
+    {
+      "source": "8bd4200561c77a62",
+      "target": "8e5d953bdb9ae5e7",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Duncan",
+          "eventDate": "2026-10-10",
+          "resultSummary": "Loopy Godinez def. Ketlen Souza",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061541",
+          "sourceBoutId": "401924510",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc/fightId/401924510"
+        }
+      ]
+    },
+    {
+      "source": "8bd4200561c77a62",
       "target": "b6203e0492a9336c",
       "value": 1,
       "bouts": [
@@ -4864,6 +5204,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4e30e4250cb08b61",
+      "target": "bc7d1ad49fcb2d08",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Song vs. Figueiredo",
+          "eventDate": "2026-05-30",
+          "resultSummary": "Jaqueline Amorim def. Loma Lookboonmee",
+          "method": "Submission \u00b7 Armbar",
+          "round": "1",
+          "time": "4:04",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058517",
+          "sourceBoutId": "401867169",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058517/league/ufc/fightId/401867169"
         }
       ]
     },
@@ -6561,6 +6921,46 @@
       ]
     },
     {
+      "source": "espn:5308770",
+      "target": "espn:5345643",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hooker vs. Parnasse",
+          "eventDate": "2026-09-05",
+          "resultSummary": "Delphine Benouaich def. Sofia Montenegro",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "2",
+          "time": "4:22",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059993",
+          "sourceBoutId": "401913130",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059993/league/ufc/fightId/401913130"
+        }
+      ]
+    },
+    {
+      "source": "1b35af4d1529adf6",
+      "target": "espn:5364788",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+          "eventDate": "2026-08-01",
+          "resultSummary": "Stephanie Luciano def. Marina Spasi\u0107",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "1",
+          "time": "3:20",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059339",
+          "sourceBoutId": "401902577",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059339/league/ufc/fightId/401902577"
+        }
+      ]
+    },
+    {
       "source": "1b35af4d1529adf6",
       "target": "4948e412fa6ab67d",
       "value": 1,
@@ -7002,6 +7402,26 @@
       ]
     },
     {
+      "source": "espn:4836549",
+      "target": "espn:5169699",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+          "eventDate": "2026-09-26",
+          "resultSummary": "Tina Black def. Melissa Amaya",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "2",
+          "time": "3:19",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061266",
+          "sourceBoutId": "401914464",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc/fightId/401914464"
+        }
+      ]
+    },
+    {
       "source": "e5ca2bc2451a5956",
       "target": "ec34349e7dffcde7",
       "value": 1,
@@ -7174,6 +7594,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c483cf443f38ece",
+      "target": "40cb680ae1cd331f",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+          "eventDate": "2026-09-26",
+          "resultSummary": "Yazmin Jauregui def. Vanessa Demopoulos",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "1:02",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061266",
+          "sourceBoutId": "401914472",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc/fightId/401914472"
         }
       ]
     },
@@ -7430,6 +7870,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "c41d426cc7326d1b",
+      "target": "cffb87059e645bd1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Nurmagomedov vs. Song",
+          "eventDate": "2026-08-29",
+          "resultSummary": "Denise Gomes def. Yan Xiaonan",
+          "method": "KO/TKO \u00b7 Elbow",
+          "round": "1",
+          "time": "4:49",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060620",
+          "sourceBoutId": "401887535",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060620/league/ufc/fightId/401887535"
         }
       ]
     },

@@ -26,9 +26,9 @@ There is no frontend build step, bundler, or framework. The site is plain HTML/C
 - `docs/flags/*.png`
   Local flag assets used by fighter nodes.
 - `scripts/update_fight_data.py`
-  Scrapes UFC Stats and UFC.com, resolves rankings and fighter flags, and writes `docs/data/`.
+  Scrapes UFC Stats and UFC.com, resolves rankings and fighter flags, and writes `docs/data/`. Calls `scripts/espn_results.py` to supplement the preserved archive when UFC Stats is unavailable.
 - `.github/workflows/update-fight-data.yml`
-  Weekly Monday refresh job plus manual dispatch.
+  Daily refresh job plus manual dispatch and explicit Pages deployment.
 - `README.md`
   User-facing setup and data-source notes.
 
@@ -116,9 +116,9 @@ Check that the expected `docs/data/*.json` files changed and that no cache direc
 
 ## Workflow Notes
 
-- The GitHub Action runs every Monday at `09:00 UTC` and can also be triggered manually.
-- It restores `.cache/ufc-stats`, runs `python scripts/update_fight_data.py`, and commits `docs/data` only if those generated files changed.
-- Avoid adding unstable fields to generated JSON that would create meaningless weekly diffs.
+- The GitHub Action runs every day at `09:17 UTC` and can also be triggered manually.
+- It restores `.cache/ufc-stats`, runs `python scripts/update_fight_data.py`, validates the results, and commits `docs/data` only if those generated files changed. It explicitly calls `deploy-site.yml` because bot pushes do not trigger Pages builds. Pages uses GitHub Actions as its source.
+- Avoid adding unstable fields to generated JSON that would create meaningless diffs. The daily successful-check date is intentionally recorded for freshness visibility.
 
 ## Known Project Conventions
 

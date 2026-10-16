@@ -2,23 +2,27 @@
   "meta": {
     "division": "Women's Bantamweight",
     "filename": "wbw_fights.json",
-    "source_name": "UFC Stats",
+    "source_name": "UFC Stats archive + ESPN results",
     "source_url": "http://ufcstats.com/statistics/events/completed?page=all",
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-05-16",
-    "fighter_count": 101,
-    "matchup_count": 240,
-    "bout_count": 246
+    "latest_resolved_event_date": "2026-10-10",
+    "fighter_count": 102,
+    "matchup_count": 247,
+    "bout_count": 253,
+    "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
+    "ufcstats_coverage_through": "2026-05-16",
+    "results_checked_on": "2026-10-16",
+    "title_metadata_through": "2026-05-16"
   },
   "nodes": [
     {
       "id": "06e4245d16fc5315",
       "label": "Ailin Perez",
       "group": "Women's Bantamweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -27,7 +31,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AR",
       "countryName": "Argentina",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddf7",
+      "espnId": "5075333"
     },
     {
       "id": "4c2d90e335e6df19",
@@ -65,8 +70,8 @@
       "id": "81d2c551886bd5a1",
       "label": "Alice Pereira",
       "group": "Women's Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -75,7 +80,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5261515"
     },
     {
       "id": "3df5493bb279226f",
@@ -209,8 +215,8 @@
       "id": "eff9074bc066f0f2",
       "label": "Bia Mesquita",
       "group": "Women's Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "15",
@@ -219,7 +225,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5310274"
     },
     {
       "id": "3ecd936bd8814108",
@@ -241,8 +248,8 @@
       "id": "af9efbfd63d39734",
       "label": "Chelsea Chandler",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -251,7 +258,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4319785"
     },
     {
       "id": "9eef6584fab21fbb",
@@ -273,8 +281,8 @@
       "id": "07047eb7d17fb0a2",
       "label": "Daria Zhelezniakova",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -283,7 +291,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4894780"
     },
     {
       "id": "d6ead04919a894b1",
@@ -353,8 +362,8 @@
       "id": "3c26c420584d912d",
       "label": "Hailey Cowan",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -363,7 +372,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4374742"
     },
     {
       "id": "634e2fb70bde3fd5",
@@ -657,8 +667,8 @@
       "id": "351c4ec637380ad5",
       "label": "Karol Rosa",
       "group": "Women's Bantamweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "10",
@@ -667,7 +677,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4292349"
     },
     {
       "id": "e872e9a9a902c045",
@@ -737,8 +748,8 @@
       "id": "9f5e3c20ce40b344",
       "label": "Klaudia Sygula",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -747,7 +758,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "PL",
       "countryName": "Poland",
-      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1"
+      "flagEmoji": "\ud83c\uddf5\ud83c\uddf1",
+      "espnId": "5122175"
     },
     {
       "id": "e99821959a840bb8",
@@ -881,8 +893,8 @@
       "id": "5078e1dacf9d25f4",
       "label": "Luana Santos",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -891,7 +903,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5110469"
     },
     {
       "id": "3cf66c62d9069f43",
@@ -993,8 +1006,8 @@
       "id": "bd532e9a2b93870c",
       "label": "Melissa Mullins",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1003,7 +1016,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "GB",
       "countryName": "England",
-      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+      "espnId": "5127984"
     },
     {
       "id": "ca80d72da81d7224",
@@ -1086,11 +1100,28 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:5361791",
+      "label": "Nina Milo\u0161evi\u0107",
+      "group": "Women's Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5361791"
+    },
+    {
       "id": "f2b3f4ef3f780168",
       "label": "Nora Cornolle",
       "group": "Women's Bantamweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 5,
+      "fightCount": 7,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -1099,14 +1130,15 @@
       "hasTitleFightInDivision": false,
       "countryCode": "FR",
       "countryName": "France",
-      "flagEmoji": "\ud83c\uddeb\ud83c\uddf7"
+      "flagEmoji": "\ud83c\uddeb\ud83c\uddf7",
+      "espnId": "4916974"
     },
     {
       "id": "d3f5d33d61cd00c9",
       "label": "Norma Dumont",
       "group": "Women's Bantamweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -1115,7 +1147,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4418784"
     },
     {
       "id": "91dac5e69e28d5b5",
@@ -1153,8 +1186,8 @@
       "id": "b1e5bcaad32a3cac",
       "label": "Priscila Cachoeira",
       "group": "Women's Bantamweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1163,7 +1196,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4277049"
     },
     {
       "id": "3eb4dc9a7d4ac906",
@@ -1728,6 +1762,26 @@
       ]
     },
     {
+      "source": "06e4245d16fc5315",
+      "target": "d3f5d33d61cd00c9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+          "eventDate": "2026-09-26",
+          "resultSummary": "Ailin Perez def. Norma Dumont",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061266",
+          "sourceBoutId": "401914471",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc/fightId/401914471"
+        }
+      ]
+    },
+    {
       "source": "4c2d90e335e6df19",
       "target": "9eef6584fab21fbb",
       "value": 1,
@@ -2272,6 +2326,46 @@
       ]
     },
     {
+      "source": "af9efbfd63d39734",
+      "target": "b1e5bcaad32a3cac",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Muhammad vs. Bonfim",
+          "eventDate": "2026-06-06",
+          "resultSummary": "Chelsea Chandler def. Priscila Cachoeira",
+          "method": "Submission \u00b7 Armbar",
+          "round": "1",
+          "time": "3:42",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600058949",
+          "sourceBoutId": "401870074",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058949/league/ufc/fightId/401870074"
+        }
+      ]
+    },
+    {
+      "source": "07047eb7d17fb0a2",
+      "target": "81d2c551886bd5a1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Allen vs. Duncan",
+          "eventDate": "2026-10-10",
+          "resultSummary": "Alice Pereira def. Daria Zhelezniakova",
+          "method": "KO/TKO \u00b7 Retirement",
+          "round": "1",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061541",
+          "sourceBoutId": "401924512",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061541/league/ufc/fightId/401924512"
+        }
+      ]
+    },
+    {
       "source": "07047eb7d17fb0a2",
       "target": "51e2f44a8dbf6984",
       "value": 1,
@@ -2549,6 +2643,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3c26c420584d912d",
+      "target": "espn:5361791",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+          "eventDate": "2026-08-01",
+          "resultSummary": "Nina Milo\u0161evi\u0107 def. Hailey Cowan",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "3:41",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059339",
+          "sourceBoutId": "401881924",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059339/league/ufc/fightId/401881924"
         }
       ]
     },
@@ -3397,6 +3511,26 @@
     },
     {
       "source": "351c4ec637380ad5",
+      "target": "5078e1dacf9d25f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Kape vs. Horiguchi 2",
+          "eventDate": "2026-06-20",
+          "resultSummary": "Luana Santos def. Karol Rosa",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059467",
+          "sourceBoutId": "401873605",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059467/league/ufc/fightId/401873605"
+        }
+      ]
+    },
+    {
+      "source": "351c4ec637380ad5",
       "target": "f2b3f4ef3f780168",
       "value": 1,
       "bouts": [
@@ -3600,6 +3734,26 @@
           "round": "2",
           "time": "1:20",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9f5e3c20ce40b344",
+      "target": "f2b3f4ef3f780168",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Hooker vs. Parnasse",
+          "eventDate": "2026-09-05",
+          "resultSummary": "Nora Cornolle def. Klaudia Sygula",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059993",
+          "sourceBoutId": "401911287",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059993/league/ufc/fightId/401911287"
         }
       ]
     },
@@ -4208,6 +4362,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "bd532e9a2b93870c",
+      "target": "eff9074bc066f0f2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Kape vs. Horiguchi 2",
+          "eventDate": "2026-06-20",
+          "resultSummary": "Bia Mesquita def. Melissa Mullins",
+          "method": "Submission \u00b7 Armbar",
+          "round": "1",
+          "time": "3:16",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600059467",
+          "sourceBoutId": "401871322",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600059467/league/ufc/fightId/401871322"
         }
       ]
     },

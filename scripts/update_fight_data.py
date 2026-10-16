@@ -15,6 +15,8 @@ from typing import Iterable
 from urllib.parse import urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
+from espn_results import refresh_archive
+from validate_data import validate_payload
 
 try:
     import pycountry
@@ -1338,6 +1340,7 @@ def build_graph_payload(
             "ranking_source_url": RANKINGS_URL,
             "rankings_updated_text": rankings_updated_text,
             "latest_resolved_event_date": latest_event_date.isoformat(),
+            "results_checked_on": TODAY.isoformat(),
             "fighter_count": len(nodes),
             "matchup_count": len(links),
             "bout_count": sum(matchup_counts.values()),
@@ -1360,6 +1363,7 @@ def write_payloads(
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    payloads = {}
     for division, filename in DIVISIONS:
         payload = build_graph_payload(
             division=division,
@@ -1370,6 +1374,17 @@ def write_payloads(
             rankings_updated_text=rankings_updated_text,
             fighter_countries=fighter_countries,
         )
+        payloads[division] = payload
+    save_validated_payloads(payloads)
+
+
+def save_validated_payloads(payloads: dict[str, dict]) -> None:
+    for division, filename in DIVISIONS:
+        destination = OUTPUT_DIR / filename
+        previous = json.loads(destination.read_text()) if destination.exists() else None
+        validate_payload(payloads[division], previous)
+    for division, filename in DIVISIONS:
+        payload = payloads[division]
         destination = OUTPUT_DIR / filename
         destination.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         print(
@@ -1382,8 +1397,30 @@ def write_payloads(
 
 def main() -> None:
     args = parse_args()
+    try:
+        fights, latest_event_date, _ = collect_fights(args.refresh_all)
+        previous_dates = [
+            json.loads((OUTPUT_DIR / filename).read_text())["meta"]["latest_resolved_event_date"]
+            for _, filename in DIVISIONS if (OUTPUT_DIR / filename).exists()
+        ]
+        if previous_dates and latest_event_date.isoformat() < max(previous_dates):
+            raise RuntimeError("UFC Stats coverage is older than the published archive")
+    except RuntimeError as exc:
+        if args.refresh_all:
+            raise
+        print(f"UFC Stats unavailable: {exc}. Trying ESPN results with the preserved archive.")
+        payloads = {division: json.loads((OUTPUT_DIR / filename).read_text()) for division, filename in DIVISIONS}
+
+        def espn_country(value):
+            country = pycountry.countries.get(alpha_3=value) if pycountry and value else None
+            if country:
+                return {"countryCode": country.alpha_2, "countryName": country.name,
+                        "flagEmoji": flag_emoji_from_country_code(country.alpha_2)}
+            return None
+
+        save_validated_payloads(refresh_archive(payloads, fetch_text, TODAY, espn_country))
+        return
     rankings_snapshot, rankings_updated_text = load_rankings_snapshot(args.refresh_all)
-    fights, latest_event_date, _ = collect_fights(args.refresh_all)
     fighter_countries = build_fighter_country_map(collect_fighter_names(fights), args.refresh_all)
     write_payloads(
         fights,
