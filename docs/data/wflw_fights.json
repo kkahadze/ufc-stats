@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
-    "fighter_count": 118,
-    "matchup_count": 278,
-    "bout_count": 283,
+    "latest_resolved_event_date": "2026-10-17",
+    "fighter_count": 119,
+    "matchup_count": 280,
+    "bout_count": 285,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -411,8 +411,8 @@
       "id": "669970f7feba8ecd",
       "label": "Erin Blanchfield",
       "group": "Women's Flyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -421,7 +421,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4350796"
     },
     {
       "id": "e4faa79383c9f214",
@@ -604,8 +605,8 @@
       "id": "a9e260472d321361",
       "label": "Jasmine Jasudavicius",
       "group": "Women's Flyweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "6",
@@ -614,7 +615,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4835135"
     },
     {
       "id": "espn:5308769",
@@ -863,8 +865,8 @@
       "id": "e872e9a9a902c045",
       "label": "Katlyn Cerminara",
       "group": "Women's Flyweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 13,
+      "fightCount": 15,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -873,7 +875,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4026490"
     },
     {
       "id": "4100c7a09497ad41",
@@ -1082,6 +1085,23 @@
       "countryCode": "CZ",
       "countryName": "Czechia",
       "flagEmoji": "\ud83c\udde8\ud83c\uddff"
+    },
+    {
+      "id": "espn:5130806",
+      "label": "Mackenzie Stiller",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5130806"
     },
     {
       "id": "297a2b35444c245b",
@@ -2824,6 +2844,26 @@
     },
     {
       "source": "669970f7feba8ecd",
+      "target": "a9e260472d321361",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Jasmine Jasudavicius def. Erin Blanchfield",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401897729",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401897729"
+        }
+      ]
+    },
+    {
+      "source": "669970f7feba8ecd",
       "target": "6a1901c62ab3870f",
       "value": 1,
       "bouts": [
@@ -4004,6 +4044,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "e872e9a9a902c045",
+      "target": "espn:5130806",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Katlyn Cerminara def. Mackenzie Stiller",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "4:46",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401929675",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401929675"
         }
       ]
     },

@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
-    "fighter_count": 349,
-    "matchup_count": 792,
-    "bout_count": 807,
+    "latest_resolved_event_date": "2026-10-17",
+    "fighter_count": 351,
+    "matchup_count": 795,
+    "bout_count": 810,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -863,8 +863,8 @@
       "id": "c7c39e2fb70248b3",
       "label": "Chad Anheliger",
       "group": "Bantamweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -873,7 +873,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4816062"
     },
     {
       "id": "117a06469813e4ef",
@@ -1035,6 +1036,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5282412",
+      "label": "Cody Chovancek",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5282412"
     },
     {
       "id": "7f6ed67d3ed3c036",
@@ -3294,6 +3312,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:4877916",
+      "label": "Louis Jourdain",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "4877916"
+    },
+    {
       "id": "d2bc285ead803db0",
       "label": "Louis Smolka",
       "group": "Bantamweight",
@@ -4931,8 +4966,8 @@
       "id": "84512339473dd300",
       "label": "Steven Koslow",
       "group": "Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4941,7 +4976,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5119740"
     },
     {
       "id": "1dd1a3aacde66f72",
@@ -4979,8 +5015,8 @@
       "id": "a474aade8eb3a8f0",
       "label": "SuYoung You",
       "group": "Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4989,7 +5025,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "KR",
       "countryName": "South Korea",
-      "flagEmoji": "\ud83c\uddf0\ud83c\uddf7"
+      "flagEmoji": "\ud83c\uddf0\ud83c\uddf7",
+      "espnId": "5044361"
     },
     {
       "id": "48e093ea1f43a053",
@@ -5139,8 +5176,8 @@
       "id": "0e46690e55a8df75",
       "label": "Timmy Cuamba",
       "group": "Bantamweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5149,7 +5186,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5123311"
     },
     {
       "id": "45e738622ea2c02c",
@@ -16674,6 +16712,26 @@
       ]
     },
     {
+      "source": "84512339473dd300",
+      "target": "c7c39e2fb70248b3",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Steven Koslow def. Chad Anheliger",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "3",
+          "time": "4:31",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401914039",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401914039"
+        }
+      ]
+    },
+    {
       "source": "1dd1a3aacde66f72",
       "target": "a1ad35b98a9136e5",
       "value": 1,
@@ -16750,6 +16808,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a474aade8eb3a8f0",
+      "target": "espn:5282412",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "SuYoung You def. Cody Chovancek",
+          "method": "Submission \u00b7 Kimura",
+          "round": "3",
+          "time": "4:19",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401919643",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401919643"
         }
       ]
     },
@@ -17262,6 +17340,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0e46690e55a8df75",
+      "target": "espn:4877916",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Timmy Cuamba def. Louis Jourdain",
+          "method": "Submission \u00b7 Neck Crank",
+          "round": "2",
+          "time": "2:48",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401909783",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401909783"
         }
       ]
     },

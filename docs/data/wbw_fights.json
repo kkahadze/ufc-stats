@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
+    "latest_resolved_event_date": "2026-10-17",
     "fighter_count": 102,
-    "matchup_count": 247,
-    "bout_count": 253,
+    "matchup_count": 248,
+    "bout_count": 254,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -248,8 +248,8 @@
       "id": "af9efbfd63d39734",
       "label": "Chelsea Chandler",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -974,8 +974,8 @@
       "id": "51e2f44a8dbf6984",
       "label": "Melissa Croden",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -984,7 +984,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4947922"
     },
     {
       "id": "a4a80dd7336ffd59",
@@ -4362,6 +4363,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "51e2f44a8dbf6984",
+      "target": "af9efbfd63d39734",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Chelsea Chandler def. Melissa Croden",
+          "method": "Submission \u00b7 Kimura",
+          "round": "1",
+          "time": "4:52",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401908373",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401908373"
         }
       ]
     },

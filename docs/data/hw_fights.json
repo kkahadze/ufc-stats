@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
-    "fighter_count": 327,
-    "matchup_count": 769,
-    "bout_count": 793,
+    "latest_resolved_event_date": "2026-10-17",
+    "fighter_count": 329,
+    "matchup_count": 771,
+    "bout_count": 795,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -2286,6 +2286,23 @@
       "flagEmoji": null
     },
     {
+      "id": "espn:5405986",
+      "label": "Javad Mahjoub",
+      "group": "Heavyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5405986"
+    },
+    {
       "id": "6a11e325aa60ad02",
       "label": "Jeff Hughes",
       "group": "Heavyweight",
@@ -2337,8 +2354,8 @@
       "id": "25f9a5f3e8a52618",
       "label": "Jhonata Diniz",
       "group": "Heavyweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2347,7 +2364,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5145497"
     },
     {
       "id": "1a49e0670dfaca31",
@@ -2396,6 +2414,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5454260",
+      "label": "Joel Faglier",
+      "group": "Heavyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5454260"
     },
     {
       "id": "46baf0f57edfa4df",
@@ -4710,8 +4745,8 @@
       "id": "04c8b08b16a5b99e",
       "label": "Tanner Boser",
       "group": "Heavyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4720,7 +4755,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4232775"
     },
     {
       "id": "b63e800c18e011b5",
@@ -11464,6 +11500,26 @@
       ]
     },
     {
+      "source": "espn:5405986",
+      "target": "espn:5454260",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Joel Faglier def. Javad Mahjoub",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "2",
+          "time": "2:11",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401929676",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401929676"
+        }
+      ]
+    },
+    {
       "source": "6a11e325aa60ad02",
       "target": "ccf5dc41417e9daf",
       "value": 1,
@@ -16382,6 +16438,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "04c8b08b16a5b99e",
+      "target": "25f9a5f3e8a52618",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Tanner Boser def. Jhonata Diniz",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "3",
+          "time": "4:26",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401908371",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401908371"
         }
       ]
     },

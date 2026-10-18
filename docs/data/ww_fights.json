@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
+    "latest_resolved_event_date": "2026-10-17",
     "fighter_count": 570,
-    "matchup_count": 1391,
-    "bout_count": 1418,
+    "matchup_count": 1392,
+    "bout_count": 1419,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -4220,8 +4220,8 @@
       "id": "b9437600497350f3",
       "label": "Joaquin Buckley",
       "group": "Welterweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "9",
@@ -4230,7 +4230,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4024714"
     },
     {
       "id": "e82d5f54daa85a7e",
@@ -6115,8 +6116,8 @@
       "id": "dd6103dd7127db1d",
       "label": "Mike Malott",
       "group": "Welterweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "12",
@@ -6125,7 +6126,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "3165120"
     },
     {
       "id": "f2b6fdb20675b11c",
@@ -18353,6 +18355,26 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "b9437600497350f3",
+      "target": "dd6103dd7127db1d",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Mike Malott def. Joaquin Buckley",
+          "method": "KO/TKO \u00b7 Knee",
+          "round": "2",
+          "time": "2:32",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401897388",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401897388"
         }
       ]
     },

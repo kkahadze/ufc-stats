@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
-    "fighter_count": 475,
-    "matchup_count": 1161,
-    "bout_count": 1181,
+    "latest_resolved_event_date": "2026-10-17",
+    "fighter_count": 476,
+    "matchup_count": 1163,
+    "bout_count": 1183,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -4172,8 +4172,8 @@
       "id": "cd0dfd9846bd03b9",
       "label": "Julien Leblanc",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4182,7 +4182,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4807973"
     },
     {
       "id": "285ae0b4a68221f4",
@@ -4525,8 +4526,8 @@
       "id": "d6c0cdd7e467c440",
       "label": "Kyle Daukaus",
       "group": "Middleweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4928,8 +4929,8 @@
       "id": "8e9eb3fc86db0f7d",
       "label": "Marc-Andre Barriault",
       "group": "Middleweight",
-      "fightCount": 16,
-      "uniqueOpponentCount": 16,
+      "fightCount": 17,
+      "uniqueOpponentCount": 17,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4938,7 +4939,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4415883"
     },
     {
       "id": "0c9c0a43d3f3f49d",
@@ -5488,6 +5490,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5296770",
+      "label": "Nick Galanti",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5296770"
     },
     {
       "id": "7eaa5e31c2dd86aa",
@@ -18528,6 +18547,26 @@
       ]
     },
     {
+      "source": "cd0dfd9846bd03b9",
+      "target": "espn:5296770",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Nick Galanti def. Julien Leblanc",
+          "method": "Submission \u00b7 Neck Crank",
+          "round": "1",
+          "time": "1:26",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401911807",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401911807"
+        }
+      ]
+    },
+    {
       "source": "285ae0b4a68221f4",
       "target": "6b7c7460855dbbb9",
       "value": 1,
@@ -20253,6 +20292,26 @@
           "round": "2",
           "time": "4:12",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8e9eb3fc86db0f7d",
+      "target": "d6c0cdd7e467c440",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Marc-Andre Barriault def. Kyle Daukaus",
+          "method": "KO/TKO \u00b7 Elbows",
+          "round": "1",
+          "time": "4:28",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401908372",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401908372"
         }
       ]
     },

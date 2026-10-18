@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-10",
-    "fighter_count": 591,
-    "matchup_count": 1465,
-    "bout_count": 1492,
+    "latest_resolved_event_date": "2026-10-17",
+    "fighter_count": 593,
+    "matchup_count": 1467,
+    "bout_count": 1494,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-17",
+    "results_checked_on": "2026-10-18",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1655,6 +1655,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5180489",
+      "label": "Cristian P\u00e9rez",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5180489"
     },
     {
       "id": "ff4c3ab594c7fac3",
@@ -5566,8 +5583,8 @@
       "id": "31f8081c7600da93",
       "label": "Kyle Nelson",
       "group": "Lightweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5576,7 +5593,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4408436"
     },
     {
       "id": "873626e5547b5235",
@@ -6033,8 +6051,8 @@
       "id": "8f4528c10bd34fab",
       "label": "Mandel Nallo",
       "group": "Lightweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6043,7 +6061,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "CA",
       "countryName": "Canada",
-      "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+      "flagEmoji": "\ud83c\udde8\ud83c\udde6",
+      "espnId": "4063786"
     },
     {
       "id": "5870c541798124ae",
@@ -7177,6 +7196,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "583ee11abddfc581",
+      "label": "Nate Landwehr",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3821549"
     },
     {
       "id": "04c15b52c3cc1cab",
@@ -23784,6 +23820,26 @@
     },
     {
       "source": "31f8081c7600da93",
+      "target": "espn:5180489",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Cristian P\u00e9rez def. Kyle Nelson",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "0:27",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401923630",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401923630"
+        }
+      ]
+    },
+    {
+      "source": "31f8081c7600da93",
       "target": "f53d4f21d1b5f2dc",
       "value": 1,
       "bouts": [
@@ -27204,6 +27260,26 @@
           "round": "2",
           "time": "2:13",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "583ee11abddfc581",
+      "target": "8f4528c10bd34fab",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Buckley vs. Malott",
+          "eventDate": "2026-10-17",
+          "resultSummary": "Mandel Nallo def. Nate Landwehr",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "2",
+          "time": "0:47",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600060773",
+          "sourceBoutId": "401905374",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600060773/league/ufc/fightId/401905374"
         }
       ]
     },
