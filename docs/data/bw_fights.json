@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
-    "fighter_count": 351,
-    "matchup_count": 795,
-    "bout_count": 810,
+    "latest_resolved_event_date": "2026-10-24",
+    "fighter_count": 352,
+    "matchup_count": 796,
+    "bout_count": 812,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -389,6 +389,23 @@
       "countryName": "China",
       "flagEmoji": "\ud83c\udde8\ud83c\uddf3",
       "espnId": "4389085"
+    },
+    {
+      "id": "espn:5454811",
+      "label": "Asaf Chopurov",
+      "group": "Bantamweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5454811"
     },
     {
       "id": "3d5b1ce6097dbb49",
@@ -1141,8 +1158,8 @@
       "id": "ed7d329d7c29428d",
       "label": "Colby Thicknesse",
       "group": "Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1151,7 +1168,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AU",
       "countryName": "Australia",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+      "espnId": "5264462"
     },
     {
       "id": "5df17b3620145578",
@@ -3803,7 +3821,7 @@
       "id": "c03520b5c88ed6b4",
       "label": "Merab Dvalishvili",
       "group": "Bantamweight",
-      "fightCount": 16,
+      "fightCount": 17,
       "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
@@ -3813,7 +3831,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "GE",
       "countryName": "Georgia",
-      "flagEmoji": "\ud83c\uddec\ud83c\uddea"
+      "flagEmoji": "\ud83c\uddec\ud83c\uddea",
+      "espnId": "3948572"
     },
     {
       "id": "d0314416a7f26527",
@@ -4254,7 +4273,7 @@
       "id": "d661ce4da776fc20",
       "label": "Petr Yan",
       "group": "Bantamweight",
-      "fightCount": 16,
+      "fightCount": 17,
       "uniqueOpponentCount": 14,
       "isCurrentChampion": true,
       "isCurrentlyRanked": false,
@@ -4264,7 +4283,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4293517"
     },
     {
       "id": "31bbd39c0a075d4e",
@@ -8331,6 +8351,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "ed7d329d7c29428d",
+      "target": "espn:5454811",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Colby Thicknesse def. Asaf Chopurov",
+          "method": "Decision - Split",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401928047",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401928047"
         }
       ]
     },
@@ -13197,7 +13237,7 @@
     {
       "source": "c03520b5c88ed6b4",
       "target": "d661ce4da776fc20",
-      "value": 2,
+      "value": 3,
       "bouts": [
         {
           "eventName": "UFC 323: Dvalishvili vs. Yan 2",
@@ -13216,6 +13256,19 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": false
+        },
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Petr Yan def. Merab Dvalishvili",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911633",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911633"
         }
       ]
     },

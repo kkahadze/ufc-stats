@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
+    "latest_resolved_event_date": "2026-10-24",
     "fighter_count": 305,
-    "matchup_count": 737,
-    "bout_count": 770,
+    "matchup_count": 739,
+    "bout_count": 772,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -37,8 +37,8 @@
       "id": "95aff2fd8d09a5f0",
       "label": "Abdul Rakhman Yakhyaev",
       "group": "Light Heavyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -439,8 +439,8 @@
       "id": "e90a2f22417af68e",
       "label": "Azamat Murzakanov",
       "group": "Light Heavyweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -449,7 +449,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "4227265"
     },
     {
       "id": "ae58685caf8e4a0d",
@@ -1196,8 +1197,8 @@
       "id": "2e19380f34871c6a",
       "label": "Dominick Reyes",
       "group": "Light Heavyweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 15,
+      "fightCount": 16,
+      "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "11",
@@ -1206,7 +1207,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4233039"
     },
     {
       "id": "1fd4fbdcc67de844",
@@ -3453,8 +3455,8 @@
       "id": "1091d4d957141094",
       "label": "Nikita Krylov",
       "group": "Light Heavyweight",
-      "fightCount": 19,
-      "uniqueOpponentCount": 18,
+      "fightCount": 20,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "13",
@@ -7265,6 +7267,26 @@
           "round": "2",
           "time": "4:46",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2e19380f34871c6a",
+      "target": "e90a2f22417af68e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Dominick Reyes def. Azamat Murzakanov",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "2:40",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911637",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911637"
         }
       ]
     },
@@ -13232,6 +13254,26 @@
           "round": "1",
           "time": "1:18",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "1091d4d957141094",
+      "target": "95aff2fd8d09a5f0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Abdul Rakhman Yakhyaev def. Nikita Krylov",
+          "method": "KO/TKO \u00b7 Knee",
+          "round": "1",
+          "time": "2:38",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911639",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911639"
         }
       ]
     },

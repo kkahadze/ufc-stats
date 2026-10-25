@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
+    "latest_resolved_event_date": "2026-10-24",
     "fighter_count": 329,
-    "matchup_count": 771,
-    "bout_count": 795,
+    "matchup_count": 772,
+    "bout_count": 796,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -200,8 +200,8 @@
       "id": "279566840aa55bf2",
       "label": "Alexander Volkov",
       "group": "Heavyweight",
-      "fightCount": 19,
-      "uniqueOpponentCount": 18,
+      "fightCount": 20,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "2",
@@ -210,7 +210,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "2993650"
     },
     {
       "id": "c0badf3243907e59",
@@ -4094,8 +4095,8 @@
       "id": "739fd4fbb5d862f4",
       "label": "Rizvan Kuniev",
       "group": "Heavyweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -5756,6 +5757,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "279566840aa55bf2",
+      "target": "739fd4fbb5d862f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Alexander Volkov def. Rizvan Kuniev",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911635",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911635"
         }
       ]
     },

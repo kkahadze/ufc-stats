@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
-    "fighter_count": 476,
-    "matchup_count": 1163,
-    "bout_count": 1183,
+    "latest_resolved_event_date": "2026-10-24",
+    "fighter_count": 477,
+    "matchup_count": 1165,
+    "bout_count": 1185,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -66,11 +66,28 @@
       "flagEmoji": "\ud83c\uddf2\ud83c\udde6"
     },
     {
+      "id": "espn:3960340",
+      "label": "Abubakar Vagaev",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "3960340"
+    },
+    {
       "id": "36b8f265bcd1b7a4",
       "label": "Abus Magomedov",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1132,8 +1149,8 @@
       "id": "8ebc3a8da015d70c",
       "label": "Cam Rowston",
       "group": "Middleweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1142,7 +1159,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AU",
       "countryName": "Australia",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+      "espnId": "4694832"
     },
     {
       "id": "952f6fa06f25a0ec",
@@ -3211,8 +3229,8 @@
       "id": "d4270315cbcf2569",
       "label": "Jacob Malkoun",
       "group": "Middleweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3221,7 +3239,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AU",
       "countryName": "Australia",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+      "espnId": "4687434"
     },
     {
       "id": "92fa1401b7927da3",
@@ -7794,6 +7813,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "36b8f265bcd1b7a4",
+      "target": "8ebc3a8da015d70c",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Abus Magomedov def. Cam Rowston",
+          "method": "Submission \u00b7 Guillotine Choke",
+          "round": "1",
+          "time": "1:44",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911638",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911638"
         }
       ]
     },
@@ -17291,6 +17330,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d4270315cbcf2569",
+      "target": "espn:3960340",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Abubakar Vagaev def. Jacob Malkoun",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401930357",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401930357"
         }
       ]
     },

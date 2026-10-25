@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
+    "latest_resolved_event_date": "2026-10-24",
     "fighter_count": 593,
-    "matchup_count": 1467,
-    "bout_count": 1494,
+    "matchup_count": 1469,
+    "bout_count": 1496,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -3399,8 +3399,8 @@
       "id": "99bd51917728c25d",
       "label": "Grant Dawson",
       "group": "Lightweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3409,7 +3409,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3931156"
     },
     {
       "id": "7d96bc577e5178b2",
@@ -5503,8 +5504,8 @@
       "id": "aebaa8cec15b083d",
       "label": "Kody Steele",
       "group": "Lightweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5513,7 +5514,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5212351"
     },
     {
       "id": "01daf32100ed7517",
@@ -7379,8 +7381,8 @@
       "id": "espn:5145777",
       "label": "Noah Gugnon",
       "group": "Lightweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7412,8 +7414,8 @@
       "id": "ca28cdf526d6b6e9",
       "label": "Nurullo Aliev",
       "group": "Lightweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -18600,6 +18602,26 @@
     },
     {
       "source": "99bd51917728c25d",
+      "target": "ca28cdf526d6b6e9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Grant Dawson def. Nurullo Aliev",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401911640",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401911640"
+        }
+      ]
+    },
+    {
+      "source": "99bd51917728c25d",
       "target": "e132d47bd9efbbe0",
       "value": 1,
       "bouts": [
@@ -23671,6 +23693,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "aebaa8cec15b083d",
+      "target": "espn:5145777",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Kody Steele def. Noah Gugnon",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "3:54",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401930916",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401930916"
         }
       ]
     },

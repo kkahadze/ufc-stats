@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-17",
+    "latest_resolved_event_date": "2026-10-24",
     "fighter_count": 129,
-    "matchup_count": 371,
-    "bout_count": 383,
+    "matchup_count": 372,
+    "bout_count": 384,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-24",
+    "results_checked_on": "2026-10-25",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -752,8 +752,8 @@
       "id": "abcf2cc6efc42031",
       "label": "Iasmin Lucindo",
       "group": "Women's Strawweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -762,7 +762,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5080935"
     },
     {
       "id": "efc67b07eed39794",
@@ -1529,8 +1530,8 @@
       "id": "fc0a4053eb8a3a59",
       "label": "Nicolle Caliari",
       "group": "Women's Strawweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1539,7 +1540,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4239113"
     },
     {
       "id": "d343df8ba11f4c4e",
@@ -3890,6 +3892,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "abcf2cc6efc42031",
+      "target": "fc0a4053eb8a3a59",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 333: Volkanovski vs. Evloev",
+          "eventDate": "2026-10-24",
+          "resultSummary": "Iasmin Lucindo def. Nicolle Caliari",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061267",
+          "sourceBoutId": "401930917",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061267/league/ufc/fightId/401930917"
         }
       ]
     },
