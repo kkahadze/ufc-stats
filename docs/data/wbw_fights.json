@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
+    "latest_resolved_event_date": "2026-10-31",
     "fighter_count": 102,
-    "matchup_count": 248,
-    "bout_count": 254,
+    "matchup_count": 249,
+    "bout_count": 255,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -893,8 +893,8 @@
       "id": "5078e1dacf9d25f4",
       "label": "Luana Santos",
       "group": "Women's Bantamweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -1652,8 +1652,8 @@
       "id": "3143bf892608139a",
       "label": "Yana Santos",
       "group": "Women's Bantamweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "7",
@@ -1662,7 +1662,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "RU",
       "countryName": "Russia",
-      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa"
+      "flagEmoji": "\ud83c\uddf7\ud83c\uddfa",
+      "espnId": "3154898"
     }
   ],
   "links": [
@@ -5669,6 +5670,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3143bf892608139a",
+      "target": "5078e1dacf9d25f4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Luana Santos def. Yana Santos",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401928104",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401928104"
         }
       ]
     },

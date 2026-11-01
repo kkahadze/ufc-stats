@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
-    "fighter_count": 119,
-    "matchup_count": 280,
-    "bout_count": 285,
+    "latest_resolved_event_date": "2026-10-31",
+    "fighter_count": 121,
+    "matchup_count": 281,
+    "bout_count": 286,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1071,6 +1071,23 @@
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
     },
     {
+      "id": "espn:5130185",
+      "label": "Lucia Szabov\u00e1",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5130185"
+    },
+    {
       "id": "3cf66c62d9069f43",
       "label": "Lucie Pudilova",
       "group": "Women's Flyweight",
@@ -1731,6 +1748,23 @@
       "countryCode": "BR",
       "countryName": "Brazil",
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "2c5f5749569eef66",
+      "label": "Tainara Lisboa",
+      "group": "Women's Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4418809"
     },
     {
       "id": "b08012bbe542592a",
@@ -5817,6 +5851,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "2c5f5749569eef66",
+      "target": "espn:5130185",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Lucia Szabov\u00e1 def. Tainara Lisboa",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "3",
+          "time": "3:20",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401914105",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401914105"
         }
       ]
     },

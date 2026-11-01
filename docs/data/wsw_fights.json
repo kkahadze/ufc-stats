@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
+    "latest_resolved_event_date": "2026-10-31",
     "fighter_count": 129,
-    "matchup_count": 372,
-    "bout_count": 384,
+    "matchup_count": 373,
+    "bout_count": 385,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1595,8 +1595,8 @@
       "id": "e375cb5caf4717b6",
       "label": "Piera Rodriguez",
       "group": "Women's Strawweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 6,
+      "fightCount": 8,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1605,7 +1605,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "VE",
       "countryName": "Venezuela",
-      "flagEmoji": "\ud83c\uddfb\ud83c\uddea"
+      "flagEmoji": "\ud83c\uddfb\ud83c\uddea",
+      "espnId": "4816066"
     },
     {
       "id": "5c126c6aac3ef364",
@@ -1903,8 +1904,8 @@
       "id": "d35298b6df168456",
       "label": "Talita Alencar",
       "group": "Women's Strawweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1913,7 +1914,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5139556"
     },
     {
       "id": "b08012bbe542592a",
@@ -7075,6 +7077,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d35298b6df168456",
+      "target": "e375cb5caf4717b6",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Piera Rodriguez def. Talita Alencar",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401928105",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401928105"
         }
       ]
     },

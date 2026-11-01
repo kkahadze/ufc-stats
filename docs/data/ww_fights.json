@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
+    "latest_resolved_event_date": "2026-10-31",
     "fighter_count": 570,
-    "matchup_count": 1392,
-    "bout_count": 1419,
+    "matchup_count": 1395,
+    "bout_count": 1422,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -2978,8 +2978,8 @@
       "id": "espn:5350562",
       "label": "Farman Hasanov",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3655,8 +3655,8 @@
       "id": "85497ffd934ecf7e",
       "label": "Jacobe Smith",
       "group": "Welterweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3993,8 +3993,8 @@
       "id": "a3dda21be645be93",
       "label": "Jean-Paul Lebosnoyani",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7100,8 +7100,8 @@
       "id": "c6aee362c7a7d482",
       "label": "Randy Brown",
       "group": "Welterweight",
-      "fightCount": 22,
-      "uniqueOpponentCount": 22,
+      "fightCount": 23,
+      "uniqueOpponentCount": 23,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7110,7 +7110,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "JM",
       "countryName": "Jamaica",
-      "flagEmoji": "\ud83c\uddef\ud83c\uddf2"
+      "flagEmoji": "\ud83c\uddef\ud83c\uddf2",
+      "espnId": "3960071"
     },
     {
       "id": "c24b1db4b809d41b",
@@ -7421,8 +7422,8 @@
       "id": "c06d6b18862f9a53",
       "label": "Rodrigo Sezinando",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7431,7 +7432,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "5289853"
     },
     {
       "id": "fe5ca7ef93c3f6a7",
@@ -8402,8 +8404,8 @@
       "id": "espn:5085010",
       "label": "Theodor Berggren",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -17543,6 +17545,26 @@
       ]
     },
     {
+      "source": "85497ffd934ecf7e",
+      "target": "c6aee362c7a7d482",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Jacobe Smith def. Randy Brown",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401931616",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401931616"
+        }
+      ]
+    },
+    {
       "source": "d81ac739417d7f53",
       "target": "f9f07bb5a43535ed",
       "value": 1,
@@ -18099,6 +18121,26 @@
           "round": "1",
           "time": "0:36",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a3dda21be645be93",
+      "target": "espn:5350562",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Jean-Paul Lebosnoyani def. Farman Hasanov",
+          "method": "TKO - Doctor's Stoppage",
+          "round": "3",
+          "time": "2:11",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401928107",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401928107"
         }
       ]
     },
@@ -26900,6 +26942,26 @@
           "round": "2",
           "time": "1:31",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "c06d6b18862f9a53",
+      "target": "espn:5085010",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Rodrigo Sezinando def. Theodor Berggren",
+          "method": "TKO - Doctor's Stoppage",
+          "round": "2",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401928106",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401928106"
         }
       ]
     },

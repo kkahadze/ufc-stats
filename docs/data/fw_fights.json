@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
-    "fighter_count": 408,
-    "matchup_count": 885,
-    "bout_count": 895,
+    "latest_resolved_event_date": "2026-10-31",
+    "fighter_count": 409,
+    "matchup_count": 887,
+    "bout_count": 897,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1131,6 +1131,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "6142edbd477d20c9",
+      "label": "Dakota Hope",
+      "group": "Featherweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4898914"
+    },
+    {
       "id": "42a7e90605df3c8a",
       "label": "Damian Stasiak",
       "group": "Featherweight",
@@ -1926,8 +1943,8 @@
       "id": "5d495dec23d7c68e",
       "label": "Francis Marshall",
       "group": "Featherweight",
-      "fightCount": 5,
-      "uniqueOpponentCount": 5,
+      "fightCount": 6,
+      "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1936,7 +1953,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5060394"
     },
     {
       "id": "f2688492b9a525a3",
@@ -2782,8 +2800,8 @@
       "id": "d008d785f6347dc2",
       "label": "JeongYeong Lee",
       "group": "Featherweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2792,7 +2810,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "KR",
       "countryName": "South Korea",
-      "flagEmoji": "\ud83c\uddf0\ud83c\uddf7"
+      "flagEmoji": "\ud83c\uddf0\ud83c\uddf7",
+      "espnId": "5068724"
     },
     {
       "id": "68f6e96c5fa6e044",
@@ -3299,8 +3318,8 @@
       "id": "902ec2cc48c8ae8a",
       "label": "Julian Erosa",
       "group": "Featherweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3309,7 +3328,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3955577"
     },
     {
       "id": "1291edf2d566a71a",
@@ -11633,6 +11653,26 @@
     },
     {
       "source": "5d495dec23d7c68e",
+      "target": "6142edbd477d20c9",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Dakota Hope def. Francis Marshall",
+          "method": "Decision - Split",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401931615",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401931615"
+        }
+      ]
+    },
+    {
+      "source": "5d495dec23d7c68e",
       "target": "a57cb948c4c70a47",
       "value": 1,
       "bouts": [
@@ -14074,6 +14114,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "902ec2cc48c8ae8a",
+      "target": "d008d785f6347dc2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Julian Erosa def. JeongYeong Lee",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "1:31",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401928109",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401928109"
         }
       ]
     },

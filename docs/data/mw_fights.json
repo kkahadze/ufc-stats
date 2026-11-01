@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
-    "fighter_count": 477,
-    "matchup_count": 1165,
-    "bout_count": 1185,
+    "latest_resolved_event_date": "2026-10-31",
+    "fighter_count": 479,
+    "matchup_count": 1167,
+    "bout_count": 1187,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -3740,6 +3740,23 @@
       "flagEmoji": "\ud83c\udde8\ud83c\udde6"
     },
     {
+      "id": "espn:4687604",
+      "label": "Joe Kropschot",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4687604"
+    },
+    {
       "id": "c1085e1701b13eca",
       "label": "Joe Pyfer",
       "group": "Middleweight",
@@ -5319,6 +5336,23 @@
       "espnId": "4418962"
     },
     {
+      "id": "9e50097a89442158",
+      "label": "Mickey Gall",
+      "group": "Middleweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3960470"
+    },
+    {
       "id": "564c2f5f9eb45d67",
       "label": "Mike King",
       "group": "Middleweight",
@@ -5531,8 +5565,8 @@
       "id": "7eaa5e31c2dd86aa",
       "label": "Nick Klein",
       "group": "Middleweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5541,7 +5575,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5134399"
     },
     {
       "id": "12585614e0ed2626",
@@ -7673,8 +7708,8 @@
       "id": "23dec7c47cb418f8",
       "label": "Zach Reese",
       "group": "Middleweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -22046,6 +22081,26 @@
     },
     {
       "source": "7eaa5e31c2dd86aa",
+      "target": "espn:4687604",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Joe Kropschot def. Nick Klein",
+          "method": "Submission \u00b7 Triangle Choke With Armbar",
+          "round": "2",
+          "time": "1:25",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401914106",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401914106"
+        }
+      ]
+    },
+    {
+      "source": "7eaa5e31c2dd86aa",
       "target": "841695e02c99a521",
       "value": 1,
       "bouts": [
@@ -26549,6 +26604,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "23dec7c47cb418f8",
+      "target": "9e50097a89442158",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Zach Reese def. Mickey Gall",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401931617",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401931617"
         }
       ]
     },

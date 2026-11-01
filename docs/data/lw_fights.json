@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-24",
+    "latest_resolved_event_date": "2026-10-31",
     "fighter_count": 593,
-    "matchup_count": 1469,
-    "bout_count": 1496,
+    "matchup_count": 1470,
+    "bout_count": 1497,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-10-31",
+    "results_checked_on": "2026-11-01",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -7852,8 +7852,8 @@
       "id": "b6452706b373eea1",
       "label": "Renato Moicano",
       "group": "Lightweight",
-      "fightCount": 11,
-      "uniqueOpponentCount": 11,
+      "fightCount": 12,
+      "uniqueOpponentCount": 12,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "9",
@@ -7862,7 +7862,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "3028863"
     },
     {
       "id": "44bc27bfa76dcd9e",
@@ -9010,8 +9011,8 @@
       "id": "6c3b2525436cf5d4",
       "label": "Tom Nolan",
       "group": "Lightweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -31874,6 +31875,26 @@
           "round": "1",
           "time": "4:08",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "6c3b2525436cf5d4",
+      "target": "b6452706b373eea1",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Moicano vs. Nolan",
+          "eventDate": "2026-10-31",
+          "resultSummary": "Tom Nolan def. Renato Moicano",
+          "method": "KO/TKO \u00b7 Elbows",
+          "round": "3",
+          "time": "1:28",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061420",
+          "sourceBoutId": "401921310",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061420/league/ufc/fightId/401921310"
         }
       ]
     },
