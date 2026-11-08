@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
+    "latest_resolved_event_date": "2026-11-07",
     "fighter_count": 479,
-    "matchup_count": 1167,
-    "bout_count": 1187,
+    "matchup_count": 1168,
+    "bout_count": 1188,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -471,8 +471,8 @@
       "id": "5f61780fe5e9b6d0",
       "label": "Andre Petroski",
       "group": "Middleweight",
-      "fightCount": 13,
-      "uniqueOpponentCount": 13,
+      "fightCount": 14,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -481,7 +481,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4697476"
     },
     {
       "id": "79325a3c1a5c3bf4",
@@ -4949,8 +4950,8 @@
       "id": "3cc506f115cbb9d5",
       "label": "Mantas Kondratavicius",
       "group": "Middleweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4959,7 +4960,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "LT",
       "countryName": "Lithuania",
-      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9"
+      "flagEmoji": "\ud83c\uddf1\ud83c\uddf9",
+      "espnId": "5264925"
     },
     {
       "id": "8e9eb3fc86db0f7d",
@@ -20274,6 +20276,26 @@
           "round": "1",
           "time": "2:44",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3cc506f115cbb9d5",
+      "target": "5f61780fe5e9b6d0",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Andre Petroski def. Mantas Kondratavicius",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "2",
+          "time": "4:39",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401932011",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401932011"
         }
       ]
     },

@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
+    "latest_resolved_event_date": "2026-11-07",
     "fighter_count": 305,
-    "matchup_count": 739,
-    "bout_count": 772,
+    "matchup_count": 740,
+    "bout_count": 773,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -472,8 +472,8 @@
       "id": "07a74004d964c7f4",
       "label": "Billy Elekana",
       "group": "Light Heavyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -482,7 +482,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5078114"
     },
     {
       "id": "aee8eecfc4bfb1e7",
@@ -2792,8 +2793,8 @@
       "id": "espn:5119021",
       "label": "Lucas Fernando",
       "group": "Light Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5884,6 +5885,26 @@
           "round": "1",
           "time": "3:33",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "07a74004d964c7f4",
+      "target": "espn:5119021",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Lucas Fernando def. Billy Elekana",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401928113",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401928113"
         }
       ]
     },

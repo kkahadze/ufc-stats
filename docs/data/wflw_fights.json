@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
+    "latest_resolved_event_date": "2026-11-07",
     "fighter_count": 121,
-    "matchup_count": 281,
-    "bout_count": 286,
+    "matchup_count": 282,
+    "bout_count": 287,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -461,8 +461,8 @@
       "id": "a6eb54ae17a551be",
       "label": "Gabriella Fernandes",
       "group": "Women's Flyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "15",
@@ -471,7 +471,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4871203"
     },
     {
       "id": "38c7f72747f4f712",
@@ -849,8 +850,8 @@
       "id": "9d62c2d8ee151f08",
       "label": "Karine Silva",
       "group": "Women's Flyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "10",
@@ -859,7 +860,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "3309918"
     },
     {
       "id": "e872e9a9a902c045",
@@ -4030,6 +4032,26 @@
           "round": "1",
           "time": "2:54",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9d62c2d8ee151f08",
+      "target": "a6eb54ae17a551be",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Karine Silva def. Gabriella Fernandes",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401928115",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401928115"
         }
       ]
     },

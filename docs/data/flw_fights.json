@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
-    "fighter_count": 165,
-    "matchup_count": 418,
-    "bout_count": 435,
+    "latest_resolved_event_date": "2026-11-07",
+    "fighter_count": 166,
+    "matchup_count": 419,
+    "bout_count": 436,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1736,6 +1736,23 @@
       "flagEmoji": "\ud83c\uddf2\ud83c\uddfd"
     },
     {
+      "id": "espn:5143890",
+      "label": "Marcos Degli",
+      "group": "Flyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5143890"
+    },
+    {
       "id": "e363b21261814830",
       "label": "Marcos Vinicius",
       "group": "Flyweight",
@@ -1836,8 +1853,8 @@
       "id": "0be6776db31d98ec",
       "label": "Mitch Raposo",
       "group": "Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7428,6 +7445,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "0be6776db31d98ec",
+      "target": "espn:5143890",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Mitch Raposo def. Marcos Degli",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401932012",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401932012"
         }
       ]
     },

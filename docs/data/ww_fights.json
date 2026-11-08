@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
+    "latest_resolved_event_date": "2026-11-07",
     "fighter_count": 570,
-    "matchup_count": 1395,
-    "bout_count": 1422,
+    "matchup_count": 1397,
+    "bout_count": 1424,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -4526,8 +4526,8 @@
       "id": "2975297f505e9447",
       "label": "Jonny Parsons",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4536,7 +4536,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4880114"
     },
     {
       "id": "2aa49b3766a59bcd",
@@ -4638,8 +4639,8 @@
       "id": "espn:5080485",
       "label": "Jose Henrique",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7954,8 +7955,8 @@
       "id": "4a07b1988477502c",
       "label": "Seokhyeon Ko",
       "group": "Welterweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8887,8 +8888,8 @@
       "id": "4dcfb28c011c11b2",
       "label": "Wellington Turman",
       "group": "Welterweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8897,7 +8898,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4426282"
     },
     {
       "id": "32c03df3c9760069",
@@ -19170,6 +19172,26 @@
       ]
     },
     {
+      "source": "2975297f505e9447",
+      "target": "espn:5080485",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Jose Henrique def. Jonny Parsons",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "1",
+          "time": "4:16",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401928118",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401928118"
+        }
+      ]
+    },
+    {
       "source": "2aa49b3766a59bcd",
       "target": "cdb96af67d096b1e",
       "value": 1,
@@ -28256,6 +28278,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4a07b1988477502c",
+      "target": "4dcfb28c011c11b2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Seokhyeon Ko def. Wellington Turman",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401928117",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401928117"
         }
       ]
     },

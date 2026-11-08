@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
-    "fighter_count": 329,
-    "matchup_count": 772,
-    "bout_count": 796,
+    "latest_resolved_event_date": "2026-11-07",
+    "fighter_count": 330,
+    "matchup_count": 774,
+    "bout_count": 798,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1710,6 +1710,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "espn:5215710",
+      "label": "Gabriel Loren\u00e7o",
+      "group": "Heavyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5215710"
+    },
+    {
       "id": "d90b630e0561818b",
       "label": "Gan McGee",
       "group": "Heavyweight",
@@ -2485,8 +2502,8 @@
       "id": "c21f26bbde777573",
       "label": "Johnny Walker",
       "group": "Heavyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4796,8 +4813,8 @@
       "id": "764d39074a352e33",
       "label": "Thomas Petersen",
       "group": "Heavyweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -5200,8 +5217,8 @@
       "id": "fc08099550072fe4",
       "label": "Waldo Cortes Acosta",
       "group": "Heavyweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -11749,6 +11766,26 @@
       ]
     },
     {
+      "source": "c21f26bbde777573",
+      "target": "fc08099550072fe4",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Johnny Walker def. Waldo Cortes Acosta",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "3",
+          "time": "2:27",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401932715",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401932715"
+        }
+      ]
+    },
+    {
       "source": "07f72a2a7591b409",
       "target": "787bb1f087ccff8a",
       "value": 1,
@@ -16543,6 +16580,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "764d39074a352e33",
+      "target": "espn:5215710",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Thomas Petersen def. Gabriel Loren\u00e7o",
+          "method": "KO/TKO \u00b7 Punches",
+          "round": "3",
+          "time": "4:47",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401932716",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401932716"
         }
       ]
     },

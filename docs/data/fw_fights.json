@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-10-31",
-    "fighter_count": 409,
-    "matchup_count": 887,
-    "bout_count": 897,
+    "latest_resolved_event_date": "2026-11-07",
+    "fighter_count": 410,
+    "matchup_count": 890,
+    "bout_count": 900,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-07",
+    "results_checked_on": "2026-11-08",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -426,8 +426,8 @@
       "id": "d3f89fa685bd8420",
       "label": "Austin Bashi",
       "group": "Featherweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -760,6 +760,23 @@
       "countryCode": "US",
       "countryName": "United States",
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "id": "espn:5125484",
+      "label": "Carlos Calderon",
+      "group": "Featherweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5125484"
     },
     {
       "id": "b5b684eac99ae0a3",
@@ -3205,8 +3222,8 @@
       "id": "d7c4956d61ae76a9",
       "label": "Jose Delano",
       "group": "Featherweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3215,7 +3232,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4969974"
     },
     {
       "id": "7d6ceff6747f2de2",
@@ -3481,8 +3499,8 @@
       "id": "3618e0632ecdba9c",
       "label": "Keiichiro Nakamura",
       "group": "Featherweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3491,7 +3509,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "JP",
       "countryName": "Japan",
-      "flagEmoji": "\ud83c\uddef\ud83c\uddf5"
+      "flagEmoji": "\ud83c\uddef\ud83c\uddf5",
+      "espnId": "5327937"
     },
     {
       "id": "cb139171ed1b69fe",
@@ -4710,8 +4729,8 @@
       "id": "espn:5308768",
       "label": "Murtazali Magomedov",
       "group": "Featherweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4920,8 +4939,8 @@
       "id": "b701f095e6ccb149",
       "label": "Ollie Schmid",
       "group": "Featherweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4930,7 +4949,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "NZ",
       "countryName": "New Zealand",
-      "flagEmoji": "\ud83c\uddf3\ud83c\uddff"
+      "flagEmoji": "\ud83c\uddf3\ud83c\uddff",
+      "espnId": "5346907"
     },
     {
       "id": "a0e6753c42698f13",
@@ -7634,6 +7654,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d3f89fa685bd8420",
+      "target": "espn:5125484",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Austin Bashi def. Carlos Calderon",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "1",
+          "time": "1:07",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401933235",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401933235"
         }
       ]
     },
@@ -13890,6 +13930,26 @@
       ]
     },
     {
+      "source": "d7c4956d61ae76a9",
+      "target": "espn:5308768",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Murtazali Magomedov def. Jose Delano",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401928120",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401928120"
+        }
+      ]
+    },
+    {
       "source": "7d6ceff6747f2de2",
       "target": "8fd808923cffff82",
       "value": 1,
@@ -14358,6 +14418,26 @@
           "round": "2",
           "time": "1:38",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "3618e0632ecdba9c",
+      "target": "b701f095e6ccb149",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+          "eventDate": "2026-11-07",
+          "resultSummary": "Ollie Schmid def. Keiichiro Nakamura",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061268",
+          "sourceBoutId": "401911642",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061268/league/ufc/fightId/401911642"
         }
       ]
     },
