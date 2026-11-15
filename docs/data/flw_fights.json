@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
+    "latest_resolved_event_date": "2026-11-14",
     "fighter_count": 166,
-    "matchup_count": 419,
-    "bout_count": 436,
+    "matchup_count": 420,
+    "bout_count": 437,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -316,8 +316,8 @@
       "id": "espn:5264405",
       "label": "Bilal Hasan",
       "group": "Flyweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1658,8 +1658,8 @@
       "id": "29162be25ebef5f0",
       "label": "Luis Gurule",
       "group": "Flyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1668,7 +1668,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5218137"
     },
     {
       "id": "87f19d19f4cb73f8",
@@ -6921,6 +6922,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "29162be25ebef5f0",
+      "target": "espn:5264405",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Luis Gurule def. Bilal Hasan",
+          "method": "Decision - Split",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922641",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922641"
         }
       ]
     },

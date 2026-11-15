@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
+    "latest_resolved_event_date": "2026-11-14",
     "fighter_count": 352,
-    "matchup_count": 797,
-    "bout_count": 813,
+    "matchup_count": 798,
+    "bout_count": 814,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -120,8 +120,8 @@
       "id": "1897b7b913736a7c",
       "label": "Alatengheili",
       "group": "Bantamweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3013,8 +3013,8 @@
       "id": "74939a16c7b56f33",
       "label": "Juan Diaz",
       "group": "Bantamweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3023,7 +3023,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": null,
       "countryName": null,
-      "flagEmoji": null
+      "flagEmoji": null,
+      "espnId": "5310574"
     },
     {
       "id": "1291edf2d566a71a",
@@ -6200,6 +6201,26 @@
           "sourceEventId": "600061266",
           "sourceBoutId": "401914469",
           "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061266/league/ufc/fightId/401914469"
+        }
+      ]
+    },
+    {
+      "source": "1897b7b913736a7c",
+      "target": "74939a16c7b56f33",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Juan Diaz def. Alatengheili",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401933936",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401933936"
         }
       ]
     },

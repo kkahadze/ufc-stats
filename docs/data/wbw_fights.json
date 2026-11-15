@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
+    "latest_resolved_event_date": "2026-11-14",
     "fighter_count": 102,
-    "matchup_count": 250,
-    "bout_count": 256,
+    "matchup_count": 252,
+    "bout_count": 258,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -103,8 +103,8 @@
       "id": "80fa8218c99f9c58",
       "label": "Amanda Nunes",
       "group": "Women's Bantamweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 12,
+      "fightCount": 16,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -113,7 +113,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "2516131"
     },
     {
       "id": "1536a25e16fc299b",
@@ -215,8 +216,8 @@
       "id": "eff9074bc066f0f2",
       "label": "Bia Mesquita",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "15",
@@ -700,8 +701,8 @@
       "id": "1af1170ed937cba7",
       "label": "Kayla Harrison",
       "group": "Women's Bantamweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": true,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -710,7 +711,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4332765"
     },
     {
       "id": "9c42a0de8e012870",
@@ -926,8 +928,8 @@
       "id": "9cdd2da1a9104a0b",
       "label": "Macy Chiasson",
       "group": "Women's Bantamweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 9,
+      "fightCount": 10,
+      "uniqueOpponentCount": 10,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "9",
@@ -936,7 +938,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4334306"
     },
     {
       "id": "c7d297714d9ab1a4",
@@ -3597,6 +3600,26 @@
     },
     {
       "source": "1af1170ed937cba7",
+      "target": "80fa8218c99f9c58",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Kayla Harrison def. Amanda Nunes",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "4",
+          "time": "1:29",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922638",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922638"
+        }
+      ]
+    },
+    {
+      "source": "1af1170ed937cba7",
       "target": "634e2fb70bde3fd5",
       "value": 1,
       "bouts": [
@@ -4252,6 +4275,26 @@
           "round": "2",
           "time": "4:04",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "9cdd2da1a9104a0b",
+      "target": "eff9074bc066f0f2",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Bia Mesquita def. Macy Chiasson",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "1",
+          "time": "3:23",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922645",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922645"
         }
       ]
     },

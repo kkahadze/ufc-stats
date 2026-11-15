@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
-    "fighter_count": 593,
-    "matchup_count": 1470,
-    "bout_count": 1497,
+    "latest_resolved_event_date": "2026-11-14",
+    "fighter_count": 594,
+    "matchup_count": 1474,
+    "bout_count": 1501,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1355,8 +1355,8 @@
       "id": "fd406a32a6fb3a29",
       "label": "Chris Duncan",
       "group": "Lightweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1365,7 +1365,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "GB",
       "countryName": "Scotland",
-      "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+      "flagEmoji": "\ud83c\uddec\ud83c\udde7",
+      "espnId": "4867356"
     },
     {
       "id": "feaf00f3373435d6",
@@ -2561,8 +2562,8 @@
       "id": "519e4fe37ce9ff75",
       "label": "Drew Dober",
       "group": "Lightweight",
-      "fightCount": 25,
-      "uniqueOpponentCount": 25,
+      "fightCount": 26,
+      "uniqueOpponentCount": 26,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2571,7 +2572,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "2951202"
     },
     {
       "id": "84ac950d4c1722dd",
@@ -2900,8 +2902,8 @@
       "id": "d9a56ecb6e94f02e",
       "label": "Evan Elder",
       "group": "Lightweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2910,7 +2912,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5037883"
     },
     {
       "id": "263ebd4a669e1e98",
@@ -3884,8 +3887,8 @@
       "id": "7026eca45f65377b",
       "label": "Jared Gordon",
       "group": "Lightweight",
-      "fightCount": 15,
-      "uniqueOpponentCount": 15,
+      "fightCount": 16,
+      "uniqueOpponentCount": 16,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3894,7 +3897,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3894823"
     },
     {
       "id": "b2f743746e8dcfa2",
@@ -4284,8 +4288,8 @@
       "id": "d1941565abf50b16",
       "label": "Jim Miller",
       "group": "Lightweight",
-      "fightCount": 44,
-      "uniqueOpponentCount": 42,
+      "fightCount": 45,
+      "uniqueOpponentCount": 43,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4294,7 +4298,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "2335718"
     },
     {
       "id": "9a967e8e43dcef63",
@@ -6654,8 +6659,8 @@
       "id": "20bccc9bb4ceb23e",
       "label": "Melquizael Costa",
       "group": "Lightweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -6664,7 +6669,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "BR",
       "countryName": "Brazil",
-      "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde7\ud83c\uddf7",
+      "espnId": "4425763"
     },
     {
       "id": "ccd1299e0345e0ce",
@@ -8397,6 +8403,23 @@
       "flagEmoji": "\ud83c\udde8\ud83c\udde6"
     },
     {
+      "id": "espn:5293557",
+      "label": "Samuel Sanches",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5293557"
+    },
+    {
       "id": "1208ffc5be6e31ad",
       "label": "Samy Schiavo",
       "group": "Lightweight",
@@ -8753,8 +8776,8 @@
       "id": "809bd1a871491508",
       "label": "Terrance McKinney",
       "group": "Lightweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -15686,6 +15709,26 @@
     },
     {
       "source": "519e4fe37ce9ff75",
+      "target": "fd406a32a6fb3a29",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Chris Duncan def. Drew Dober",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922642",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922642"
+        }
+      ]
+    },
+    {
+      "source": "519e4fe37ce9ff75",
       "target": "83fd97284f4bb4a4",
       "value": 1,
       "bouts": [
@@ -17098,6 +17141,26 @@
           "round": "3",
           "time": "0:38",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "d9a56ecb6e94f02e",
+      "target": "espn:5293557",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Evan Elder def. Samuel Sanches",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401932013",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401932013"
         }
       ]
     },
@@ -26116,6 +26179,26 @@
     },
     {
       "source": "20bccc9bb4ceb23e",
+      "target": "7026eca45f65377b",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Melquizael Costa def. Jared Gordon",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401931774",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401931774"
+        }
+      ]
+    },
+    {
+      "source": "20bccc9bb4ceb23e",
       "target": "97cf1a2c7c5e7889",
       "value": 1,
       "bouts": [
@@ -31215,6 +31298,26 @@
           "round": "2",
           "time": "2:17",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "809bd1a871491508",
+      "target": "d1941565abf50b16",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Terrance McKinney def. Jim Miller",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "1",
+          "time": "1:53",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922643",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922643"
         }
       ]
     },

@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
+    "latest_resolved_event_date": "2026-11-14",
     "fighter_count": 330,
-    "matchup_count": 774,
-    "bout_count": 798,
+    "matchup_count": 775,
+    "bout_count": 799,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1084,8 +1084,8 @@
       "id": "787bb1f087ccff8a",
       "label": "Ciryl Gane",
       "group": "Heavyweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 13,
+      "fightCount": 15,
+      "uniqueOpponentCount": 14,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "1",
@@ -2631,8 +2631,8 @@
       "id": "955da1675ad58a50",
       "label": "Josh Hokit",
       "group": "Heavyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "5",
@@ -8723,6 +8723,26 @@
           "round": "5",
           "time": "5:00",
           "isTitleBout": true
+        }
+      ]
+    },
+    {
+      "source": "787bb1f087ccff8a",
+      "target": "955da1675ad58a50",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Ciryl Gane def. Josh Hokit",
+          "method": "Decision - Unanimous",
+          "round": "5",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401913646",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401913646"
         }
       ]
     },

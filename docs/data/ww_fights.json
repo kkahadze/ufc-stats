@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-07",
+    "latest_resolved_event_date": "2026-11-14",
     "fighter_count": 570,
-    "matchup_count": 1397,
-    "bout_count": 1424,
+    "matchup_count": 1399,
+    "bout_count": 1426,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-14",
+    "results_checked_on": "2026-11-15",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -1579,8 +1579,8 @@
       "id": "feedf3053472fe56",
       "label": "Charles Radtke",
       "group": "Welterweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -1589,7 +1589,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "4416297"
     },
     {
       "id": "98f6da59d765ec94",
@@ -4960,8 +4961,8 @@
       "id": "3a46b268013afede",
       "label": "Kevin Holland",
       "group": "Welterweight",
-      "fightCount": 12,
-      "uniqueOpponentCount": 12,
+      "fightCount": 13,
+      "uniqueOpponentCount": 13,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4970,7 +4971,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3943695"
     },
     {
       "id": "dda15dbfafb792df",
@@ -8180,8 +8182,8 @@
       "id": "4a28cb716c19157a",
       "label": "Stephen Thompson",
       "group": "Welterweight",
-      "fightCount": 22,
-      "uniqueOpponentCount": 21,
+      "fightCount": 23,
+      "uniqueOpponentCount": 22,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8190,7 +8192,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "2615077"
     },
     {
       "id": "21b1132949f2a9b0",
@@ -8727,8 +8730,8 @@
       "id": "681399317dbf4701",
       "label": "Uros Medic",
       "group": "Welterweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "14",
@@ -20580,6 +20583,26 @@
     },
     {
       "source": "3a46b268013afede",
+      "target": "681399317dbf4701",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Draw",
+          "method": "Draw",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401922640",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401922640"
+        }
+      ]
+    },
+    {
+      "source": "3a46b268013afede",
       "target": "6d4b63c767106d3a",
       "value": 1,
       "bouts": [
@@ -29018,6 +29041,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "4a28cb716c19157a",
+      "target": "feedf3053472fe56",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC 334: Gane vs. Hokit",
+          "eventDate": "2026-11-14",
+          "resultSummary": "Stephen Thompson def. Charles Radtke",
+          "method": "KO/TKO \u00b7 Kick",
+          "round": "3",
+          "time": "2:54",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061400",
+          "sourceBoutId": "401913647",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061400/league/ufc/fightId/401913647"
         }
       ]
     },
