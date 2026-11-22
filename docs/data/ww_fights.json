@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
+    "latest_resolved_event_date": "2026-11-21",
     "fighter_count": 570,
-    "matchup_count": 1399,
-    "bout_count": 1426,
+    "matchup_count": 1400,
+    "bout_count": 1427,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -3705,8 +3705,8 @@
       "id": "a845f0735bc67405",
       "label": "Jake Matthews",
       "group": "Welterweight",
-      "fightCount": 17,
-      "uniqueOpponentCount": 17,
+      "fightCount": 18,
+      "uniqueOpponentCount": 18,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -8295,8 +8295,8 @@
       "id": "espn:4394753",
       "label": "Tahir Abdullayev",
       "group": "Welterweight",
-      "fightCount": 1,
-      "uniqueOpponentCount": 1,
+      "fightCount": 2,
+      "uniqueOpponentCount": 2,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -17742,6 +17742,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "a845f0735bc67405",
+      "target": "espn:4394753",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Tahir Abdullayev def. Jake Matthews",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927853",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927853"
         }
       ]
     },

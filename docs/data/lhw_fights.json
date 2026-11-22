@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
-    "fighter_count": 305,
-    "matchup_count": 740,
-    "bout_count": 773,
+    "latest_resolved_event_date": "2026-11-21",
+    "fighter_count": 306,
+    "matchup_count": 742,
+    "bout_count": 775,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -209,6 +209,23 @@
       "countryCode": "BR",
       "countryName": "Brazil",
       "flagEmoji": "\ud83c\udde7\ud83c\uddf7"
+    },
+    {
+      "id": "espn:5220971",
+      "label": "Alik Lorenz",
+      "group": "Light Heavyweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "5220971"
     },
     {
       "id": "a495f599e787614f",
@@ -1181,8 +1198,8 @@
       "id": "709fadb644ee3f51",
       "label": "Diyar Nurgozhay",
       "group": "Light Heavyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2261,8 +2278,8 @@
       "id": "009341ed974bad72",
       "label": "Jiri Prochazka",
       "group": "Light Heavyweight",
-      "fightCount": 9,
-      "uniqueOpponentCount": 8,
+      "fightCount": 10,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "3",
@@ -2271,7 +2288,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "CZ",
       "countryName": "Czechia",
-      "flagEmoji": "\ud83c\udde8\ud83c\uddff"
+      "flagEmoji": "\ud83c\udde8\ud83c\uddff",
+      "espnId": "3156612"
     },
     {
       "id": "2d447cc91bdaa545",
@@ -3391,8 +3409,8 @@
       "id": "b4b496ec2197ee3e",
       "label": "Navajo Stirling",
       "group": "Light Heavyweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7261,6 +7279,26 @@
     },
     {
       "source": "709fadb644ee3f51",
+      "target": "espn:5220971",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Diyar Nurgozhay def. Alik Lorenz",
+          "method": "KO/TKO \u00b7 Kick",
+          "round": "2",
+          "time": "0:24",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401934356",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401934356"
+        }
+      ]
+    },
+    {
+      "source": "709fadb644ee3f51",
       "target": "d6a8edb7410223a0",
       "value": 1,
       "bouts": [
@@ -10152,6 +10190,26 @@
           "round": "3",
           "time": "3:04",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "009341ed974bad72",
+      "target": "b4b496ec2197ee3e",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Navajo Stirling def. Jiri Prochazka",
+          "method": "KO/TKO \u00b7 Punch",
+          "round": "2",
+          "time": "4:58",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401922277",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401922277"
         }
       ]
     },

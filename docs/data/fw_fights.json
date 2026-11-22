@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
+    "latest_resolved_event_date": "2026-11-21",
     "fighter_count": 410,
-    "matchup_count": 890,
-    "bout_count": 900,
+    "matchup_count": 891,
+    "bout_count": 901,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -232,8 +232,8 @@
       "id": "cb696ebfb6598724",
       "label": "Aljamain Sterling",
       "group": "Featherweight",
-      "fightCount": 3,
-      "uniqueOpponentCount": 3,
+      "fightCount": 4,
+      "uniqueOpponentCount": 4,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "4",
@@ -242,7 +242,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3031559"
     },
     {
       "id": "bbc9ab95fa766493",
@@ -3564,8 +3565,8 @@
       "id": "239d8e5359022f3b",
       "label": "Kevin Vallejos",
       "group": "Featherweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "10",
@@ -3574,7 +3575,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "AR",
       "countryName": "Argentina",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddf7"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddf7",
+      "espnId": "5145681"
     },
     {
       "id": "b4537562f88ac582",
@@ -14502,6 +14504,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "239d8e5359022f3b",
+      "target": "cb696ebfb6598724",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Kevin Vallejos def. Aljamain Sterling",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927850",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927850"
         }
       ]
     },

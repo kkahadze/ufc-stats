@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
-    "fighter_count": 594,
-    "matchup_count": 1474,
-    "bout_count": 1501,
+    "latest_resolved_event_date": "2026-11-21",
+    "fighter_count": 597,
+    "matchup_count": 1477,
+    "bout_count": 1504,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -999,6 +999,23 @@
       "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
     },
     {
+      "id": "def8166ff24bd237",
+      "label": "Brian Ortega",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": "US",
+      "countryName": "United States",
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3045737"
+    },
+    {
       "id": "7c9f96f9a6a5cd50",
       "label": "Brok Weaver",
       "group": "Lightweight",
@@ -1839,8 +1856,8 @@
       "id": "193b9d1858bc4df3",
       "label": "Dan Hooker",
       "group": "Lightweight",
-      "fightCount": 18,
-      "uniqueOpponentCount": 18,
+      "fightCount": 19,
+      "uniqueOpponentCount": 19,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -2449,8 +2466,8 @@
       "id": "530af2900b5a1693",
       "label": "Dom Mar Fan",
       "group": "Lightweight",
-      "fightCount": 2,
-      "uniqueOpponentCount": 2,
+      "fightCount": 3,
+      "uniqueOpponentCount": 3,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -2459,7 +2476,8 @@
       "hasTitleFightInDivision": true,
       "countryCode": "AU",
       "countryName": "Australia",
-      "flagEmoji": "\ud83c\udde6\ud83c\uddfa"
+      "flagEmoji": "\ud83c\udde6\ud83c\uddfa",
+      "espnId": "5157806"
     },
     {
       "id": "68c7ad953455c73f",
@@ -4684,6 +4702,23 @@
       "countryCode": "CA",
       "countryName": "Canada",
       "flagEmoji": "\ud83c\udde8\ud83c\udde6"
+    },
+    {
+      "id": "espn:5080723",
+      "label": "John Mitchell",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "5080723"
     },
     {
       "id": "b18fb36a4aa00093",
@@ -7371,8 +7406,8 @@
       "id": "37f560436d745c18",
       "label": "Nikolas Motta",
       "group": "Lightweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -7381,7 +7416,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "US",
       "countryName": "United States",
-      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8"
+      "flagEmoji": "\ud83c\uddfa\ud83c\uddf8",
+      "espnId": "3897242"
     },
     {
       "id": "espn:5145777",
@@ -8594,6 +8630,23 @@
       "countryCode": "GB",
       "countryName": "England",
       "flagEmoji": "\ud83c\uddec\ud83c\udde7"
+    },
+    {
+      "id": "espn:4712356",
+      "label": "Shoaib Yousaf",
+      "group": "Lightweight",
+      "fightCount": 1,
+      "uniqueOpponentCount": 1,
+      "isCurrentChampion": false,
+      "isCurrentlyRanked": false,
+      "currentRank": null,
+      "isFormerChampion": false,
+      "isFormerTitleChallenger": false,
+      "hasTitleFightInDivision": false,
+      "countryCode": null,
+      "countryName": null,
+      "flagEmoji": null,
+      "espnId": "4712356"
     },
     {
       "id": "7b6e40a73b567072",
@@ -13671,6 +13724,26 @@
           "round": "2",
           "time": "4:45",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "193b9d1858bc4df3",
+      "target": "def8166ff24bd237",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Dan Hooker def. Brian Ortega",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401922278",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401922278"
         }
       ]
     },
@@ -27827,6 +27900,26 @@
     },
     {
       "source": "37f560436d745c18",
+      "target": "530af2900b5a1693",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Dom Mar Fan def. Nikolas Motta",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401934355",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401934355"
+        }
+      ]
+    },
+    {
+      "source": "37f560436d745c18",
       "target": "d1941565abf50b16",
       "value": 1,
       "bouts": [
@@ -30866,6 +30959,26 @@
           "round": "3",
           "time": "5:00",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "espn:4712356",
+      "target": "espn:5080723",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "John Mitchell def. Shoaib Yousaf",
+          "method": "KO/TKO \u00b7 Knee",
+          "round": "1",
+          "time": "3:50",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401935762",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401935762"
         }
       ]
     },

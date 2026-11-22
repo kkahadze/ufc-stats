@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
+    "latest_resolved_event_date": "2026-11-21",
     "fighter_count": 166,
-    "matchup_count": 420,
-    "bout_count": 437,
+    "matchup_count": 421,
+    "bout_count": 439,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -38,7 +38,7 @@
       "id": "3fa97913cfd205d3",
       "label": "Alessandro Costa",
       "group": "Flyweight",
-      "fightCount": 7,
+      "fightCount": 8,
       "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
@@ -154,7 +154,7 @@
       "id": "6d35bf94f7d30241",
       "label": "Amir Albazi",
       "group": "Flyweight",
-      "fightCount": 6,
+      "fightCount": 7,
       "uniqueOpponentCount": 6,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
@@ -164,7 +164,8 @@
       "hasTitleFightInDivision": false,
       "countryCode": "IQ",
       "countryName": "Iraq",
-      "flagEmoji": "\ud83c\uddee\ud83c\uddf6"
+      "flagEmoji": "\ud83c\uddee\ud83c\uddf6",
+      "espnId": "4684848"
     },
     {
       "id": "b1f21ce050035d58",
@@ -235,8 +236,8 @@
       "id": "8d3273573b85be09",
       "label": "Asu Almabayev",
       "group": "Flyweight",
-      "fightCount": 8,
-      "uniqueOpponentCount": 8,
+      "fightCount": 9,
+      "uniqueOpponentCount": 9,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "8",
@@ -1576,8 +1577,8 @@
       "id": "98aa60cf58071fd6",
       "label": "Kyoji Horiguchi",
       "group": "Flyweight",
-      "fightCount": 10,
-      "uniqueOpponentCount": 10,
+      "fightCount": 11,
+      "uniqueOpponentCount": 11,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "5",
@@ -2748,7 +2749,7 @@
     {
       "source": "3fa97913cfd205d3",
       "target": "6d35bf94f7d30241",
-      "value": 1,
+      "value": 2,
       "bouts": [
         {
           "eventName": "UFC Fight Night: Cannonier vs. Strickland",
@@ -2758,6 +2759,19 @@
           "round": "3",
           "time": "2:13",
           "isTitleBout": false
+        },
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Amir Albazi def. Alessandro Costa",
+          "method": "Submission \u00b7 Rear Naked Choke",
+          "round": "3",
+          "time": "4:34",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927856",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927856"
         }
       ]
     },
@@ -3230,6 +3244,26 @@
           "round": "3",
           "time": "0:22",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "8d3273573b85be09",
+      "target": "98aa60cf58071fd6",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Kyoji Horiguchi def. Asu Almabayev",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927855",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927855"
         }
       ]
     },

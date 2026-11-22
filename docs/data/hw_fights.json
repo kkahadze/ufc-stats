@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
+    "latest_resolved_event_date": "2026-11-21",
     "fighter_count": 330,
-    "matchup_count": 775,
-    "bout_count": 799,
+    "matchup_count": 776,
+    "bout_count": 800,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -4535,8 +4535,8 @@
       "id": "6747ccd6d1acd266",
       "label": "Shamil Gaziev",
       "group": "Heavyweight",
-      "fightCount": 7,
-      "uniqueOpponentCount": 7,
+      "fightCount": 8,
+      "uniqueOpponentCount": 8,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -4746,8 +4746,8 @@
       "id": "17923f676f100e16",
       "label": "Tallison Teixeira",
       "group": "Heavyweight",
-      "fightCount": 4,
-      "uniqueOpponentCount": 4,
+      "fightCount": 5,
+      "uniqueOpponentCount": 5,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "15",
@@ -16420,6 +16420,26 @@
           "sourceEventId": "600058517",
           "sourceBoutId": "401864363",
           "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600058517/league/ufc/fightId/401864363"
+        }
+      ]
+    },
+    {
+      "source": "17923f676f100e16",
+      "target": "6747ccd6d1acd266",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Tallison Teixeira def. Shamil Gaziev",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927852",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927852"
         }
       ]
     },

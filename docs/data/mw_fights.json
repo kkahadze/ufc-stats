@@ -7,13 +7,13 @@
     "ranking_source_name": "UFC.com Rankings",
     "ranking_source_url": "https://www.ufc.com/rankings",
     "rankings_updated_text": null,
-    "latest_resolved_event_date": "2026-11-14",
+    "latest_resolved_event_date": "2026-11-21",
     "fighter_count": 479,
-    "matchup_count": 1169,
-    "bout_count": 1189,
+    "matchup_count": 1170,
+    "bout_count": 1190,
     "supplement_source_url": "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard",
     "ufcstats_coverage_through": "2026-05-16",
-    "results_checked_on": "2026-11-21",
+    "results_checked_on": "2026-11-22",
     "title_metadata_through": "2026-05-16"
   },
   "nodes": [
@@ -3052,8 +3052,8 @@
       "id": "b07aed698fba8624",
       "label": "Ikram Aliskerov",
       "group": "Middleweight",
-      "fightCount": 6,
-      "uniqueOpponentCount": 6,
+      "fightCount": 7,
+      "uniqueOpponentCount": 7,
       "isCurrentChampion": false,
       "isCurrentlyRanked": false,
       "currentRank": null,
@@ -3424,8 +3424,8 @@
       "id": "13a0275fa13c4d26",
       "label": "Jared Cannonier",
       "group": "Middleweight",
-      "fightCount": 14,
-      "uniqueOpponentCount": 14,
+      "fightCount": 15,
+      "uniqueOpponentCount": 15,
       "isCurrentChampion": false,
       "isCurrentlyRanked": true,
       "currentRank": "11",
@@ -17732,6 +17732,26 @@
           "round": "4",
           "time": "0:21",
           "isTitleBout": false
+        }
+      ]
+    },
+    {
+      "source": "13a0275fa13c4d26",
+      "target": "b07aed698fba8624",
+      "value": 1,
+      "bouts": [
+        {
+          "eventName": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
+          "eventDate": "2026-11-21",
+          "resultSummary": "Ikram Aliskerov def. Jared Cannonier",
+          "method": "Decision - Unanimous",
+          "round": "3",
+          "time": "5:00",
+          "isTitleBout": null,
+          "source": "ESPN",
+          "sourceEventId": "600061665",
+          "sourceBoutId": "401927851",
+          "sourceUrl": "https://www.espn.com/mma/fightcenter/_/id/600061665/league/ufc/fightId/401927851"
         }
       ]
     },
